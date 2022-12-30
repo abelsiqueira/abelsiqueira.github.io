@@ -1,0 +1,38 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <a href=".." class="link black dim">back to Resume</a>
+      <header>
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        {{ .Content }}
+        <ul>
+          {{ range (index $.Site.Data.resume .File.TranslationBaseName) }}
+          <p class="f4 b dark-blue">
+            {{ if .link }}
+              <a href="{{ .link }}" class="link">
+                {{ .name }}
+              </a>
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+          </p>
+
+          {{ range .topics }}
+            <p class="f5 b">{{ .name }}</p>
+            <ul>
+              {{ range .points }}
+              <li class="f5 list pv1">{{ . }}</li>
+              {{ end }}
+            </ul>
+          {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </article>
+  </div>
+{{ end }}

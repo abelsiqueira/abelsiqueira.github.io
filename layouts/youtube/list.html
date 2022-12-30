@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<article class="pa3 pa4-ns nested-copy-line-height">
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range $.Site.Data.youtube }}
+      <div class="relative w-100 w-30-l mb3 bg-white">
+        <div class="relative w-100 mb0 bg-white nested-copy-line-height">
+          <div class="bg-white mb0 pa4 gray overflow-hidden">
+            <h1 class="f3 near-black">
+              <a href="{{ .url }}" class="link black dim">
+                {{ .title }}
+              </a>
+            </h1>
+            <p>
+              {{ .note }}
+            </p>
+          </div>
+        </div>
+        <div class="pr0-ns mb4 mb0-ns w-100">
+          <a href="{{ .url }}" class="db grow">
+            <img src="/images/youtube/{{ .img }}" class="img" alt="image from {{ .Title }}">
+          </a>
+        </div>
+      </div>
+    {{ end }}
+  </aside>
+</article>
+{{ end }}

@@ -1,0 +1,14 @@
+- name: Udemy
+  topics:
+    - name: Machine Learning A-Z, 2019
+      points:
+        - https://ude.my/UC-BZ056X6A
+- name: State University of Campinas
+  topics:
+    - name: PhD in Applied Mathematics, 2009-2013
+      points:
+        - 'Title: Dynamic Control of Infeasibility for Nonlinear Programming'
+        - 'Advisor: Francisco de Assis Magalhães Gomes Neto'
+    - name: Bachelor's degree in Computational and Applied Mathematics, 2005-2008
+      points:
+        - Scientific initiation project on quadratic optimization. Wrote a C++ code.

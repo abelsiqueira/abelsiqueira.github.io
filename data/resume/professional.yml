@@ -1,0 +1,28 @@
+- name: Netherlands eScience Center | Sep/2021 - Current
+  topics:
+    - name: Senior Research Software Engineer
+      points:
+        - Helped maintain, developed and consulted on research software, focusing on best practices, such as licensing, testing, automated documentation, testing, CI, and other workflows.
+        - Worked on and maintained cffinit, a web application for creating CITATION.cff files. I learned Typescript, Vue and Quasar for this project.
+        - Co-organized and talked at a Julia for High-Performance Computing webinar with external speakers and over 50 attendants.
+- name: Federal University of Paraná | Nov/2014 - Aug/2021
+  topics:
+    - name: Professor Adjunto (equivalent to Assistant Professor)
+      points:
+        - Taught around 5 courses a year.
+        - Advised over 15 students.
+        - 10 talks, 5 at international conferences.
+        - Industrial Mathematics curriculum planning committee.
+    - name: Data Science specialization program
+      points:
+        - Taught optimization and machine learning.
+        - Advised students in various topics.
+    - name: Researcher in optimization
+      points:
+        - Co-creator of several packages related to nonlinear optimization and
+          numerical linear algebra inside the JuliaSmoothOptimizers organization.
+        - Advised students in nonlinear optimization, operations research, and
+          machine learning.
+        - Co-creator of the CiDAMO study and research group.
+        - 3 published papers.
+        - Referee in various journals.

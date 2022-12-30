@@ -1,0 +1,57 @@
+- name: cffinit - Citation File Format initializer
+  link: https://citation-file-format.github.io/cff-initializer-javascript/
+  topics:
+    - name: https://citation-file-format.github.io/cff-initializer-javascript/
+      points:
+        - Web application to generate valid CITATION.cff files.
+        - I joined the project during the implementation of v2.
+        - Uses Typescript, Vue 3, and Quasar, which I learned on the job.
+- name: CiDAMO
+  link: https://cidamo.com.br
+  topics:
+    - name: https://cidamo.com.br
+      points:
+        - Study and research group on data science, machine learning, and optimization.
+        - Co-creator of the group and supervisor of several students.
+        - Organized a week-long data science event with over 300 participants
+          and 8 companies, named CiDWeek.
+- name: JuliaSmoothOptimizers
+  link: https://JuliaSmoothOptimizers.github.io
+  topics:
+    - name: https://JuliaSmoothOptimizers.github.io
+      points:
+        - GitHub organization with over 60 packages related to Linear Algebra
+          and Nonlinear Optimization in Julia.
+        - Co-creator of around 20 of those packages. My contributions span over
+          700 commits and tens of thousands of lines of code.
+        - My involvement included software programming, reviewing, planning,
+          theoretical research, advising, and publicizing the work through papers,
+          talks, posts, and videos.
+- name: Jill
+  link: https://github.com/abelsiqueira/jill
+  topics:
+    - name: https://github.com/abelsiqueira/jill
+      points:
+        - Bash script to install various versions of Julia on Linux and MacOS
+- name: Intro a Julia BR (Think Julia book translation)
+  link: https://juliaintro.github.io/JuliaIntroBR.jl
+  topics:
+    - name: https://juliaintro.github.io/JuliaIntroBR.jl
+      points:
+        - Open source translation of Think Julia
+        - I managed the translation team and reviewed each chapter
+- name: perprof-py
+  link: https://github.com/ufpr-opt/perprof-py
+  topics:
+    - name: https://github.com/ufpr-opt/perprof-py
+      points:
+        - Python package for producing performance profiles.
+        - One paper was published with occasional citations.
+- name: DCICPP
+  link: https://github.com/abelsiqueira/dcicpp
+  topics:
+    - name: https://github.com/abelsiqueira/dcicpp
+      points:
+        - C++ implementation of a Trust Cylinder method for equality-constrained
+          optimization
+        - Main part of the code produced in my doctorate

@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{/*
+This template is the same as the default and is here to demonstrate that if you have a content directory called "post"
+you can create a layouts directory, just for that section.
+*/}}
+<article class="pa3 pa4-ns nested-copy-line-height">
+  <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" |
+    default "mid-gray" }}">
+    {{ .Content }}
+  </section>
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Pages }}
+    <div class="relative w-100 w-30-l mb4 bg-white">
+      {{/* Copy of summary.html, so we can add tags, eventually */}}
+      <div class="mb0 pa4 pb3 {{ $.Param " text_color" | default "mid-gray" }} overflow-hidden">
+        {{ if .Date }}
+        <div class="f6">
+          {{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
+        </div>
+        {{ end }}
+        <h1 class="f3 near-black">
+          <a href="{{ .RelPermalink }}" class="link black dim">
+            {{ .Title }}
+          </a>
+        </h1>
+        <div class="nested-links f5 lh-copy nested-copy-line-height">
+          {{ .Summary }}
+        </div>
+        {{- partial "tags.html" . -}}
+        {{/*  {{ if .Params.tags }}
+          <div class="mt4 mb0">
+            {{ range .Params.tags }}
+              <span class="pa1 br3 bg-dark-green white">{{ . }}</span>
+            {{ end }}
+          </div>
+        {{ end }}  */}}
+      </div>
+
+    </div>
+    {{ end }}
+  </aside>
+  {{ template "_internal/pagination.html" . }}
+</article>
+{{ end }}

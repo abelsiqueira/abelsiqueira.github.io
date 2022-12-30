@@ -1,0 +1,119 @@
+- link: 'https://cidamo.com.br/II-CiDWeek/'
+  name: 'II CiDWeek - Semana de Ciência de dados'
+  topics:
+    - name: '24 a 30 de Abril de 2021, Online, Brazil'
+      points:
+        - 'Organização'
+- link: 'https://cidamo.com.br/CiDWeek/'
+  name: 'I CiDWeek - Semana de Ciência de dados'
+  topics:
+    - name: '3 a 7 de Fevereiro de 2020, Curitiba/PR, Brazil'
+      points:
+        - 'Organização'
+- link: 'https://docs.google.com/presentation/d/e/2PACX-1vTExSw03IXqsEOOjWeFvvC0FLodFUw5RpIQJLNUALql9jWPjS6GG4fyVeRn3BqehrT5AmfpWYvR4Tpo/pub?start=true&loop=false&delayms=5000&slide=id.g5c57578bdc_0_1264'
+  name: 'Congresso Internacional de Biomassa - 4° Expo Biomassa'
+  topics:
+    - name: '26 de Junho de 2019, Curitiba/PR, Brazil.'
+      points:
+        - 'Título: Otimização na Linguagem Julia'
+- link: '/static/2019-05-31-PPGM.ipynb'
+  name: 'Talk at PPGM - UFPR'
+  topics:
+    - name: 'May 31st, 2019, Curitiba/PR, Brazil.'
+      points:
+        - 'Title: JuliaSmoothOptimizers'
+- link: '/static/2019-02-07-GERAD.tar.gz'
+  name: 'Invited talk at Université de Sherbrooke'
+  topics:
+    - name: 'February 15th, 2019, Sherbrooke/QC, Canada.'
+      points:
+        - 'Title: Developing optimization software with JuliaSmoothOptimizers'
+- link: '/static/2019-02-07-GERAD.tar.gz'
+  name: 'Modeling and optimization tools in Julia - An introduction to JuMP and JSO.'
+  topics:
+    - name: 'February 7th, 2019, Montreal, Canada.'
+      points:
+        - 'Title: JuliaSmoothOptimizers'
+- link: '/static/2018-07-23-xiibrazopt.pdf'
+  name: 'XII Brazilian Workshop on Continuous Optimization.'
+  topics:
+    - name: 'July 23rd, 2018, Foz do Iguaçu/PR, Brasil.'
+      points:
+        - 'Title: A Regularized Interior-Point Method for Constrained Nonlinear Least Squares'
+- link: '/static/2018-06-28-jump-dev.pdf'
+  name: 'Second Annual JuMP-dev Workshop'
+  topics:
+    - name: 'June 28th, 2018, Université de Bordeaux, Bordeaux, France.'
+      points:
+        - 'Title: Developing new optimization methods with packages from the JuliaSmoothOptimzers organization'
+- name: 'CODATA-RDA School of Research Data Science.'
+  topics:
+    - name: 'December 4th, 2017, ICPT-SAIFR/NCC-UNESP, São Paulo/SP, Brasil.'
+      points:
+        - 'Tutorial: The Unix Shell'
+- link: '/static/2017-12-01-ufsc.pdf'
+  name: 'Seminars on Convex Analysis and Optimization.'
+  topics:
+    - name: 'December 1st, 2017, UFSC, Florianópolis/SC, Brazil.'
+      points:
+        - 'Title: Otimização Não-Linear na Linguagem Julia'
+- link: '/static/2017-07-12-europt2017.pdf'
+  name: '15th EUROPT Workshop on Advances in Continuous Optimization'
+  topics:
+    - name: 'July 12th, 2017, Montréal, Canada.'
+      points:
+        - 'Title: Parameter Optimization in the Nonlinear Stepsize Control Framework for Trust-Region Methods'
+- link: 'github.com/abelsiqueira/julia-simposio2017'
+  name: 'IX Simpósio de Análise Numérica e Otimização'
+  topics:
+    - name: 'February 20th to 22nd, 2017, UFPR, Curitiba, Brazil.'
+      points:
+        - 'Tutorial: Introdução à linguagem Julia'
+- link: 'github.com/abelsiqueira/smne-2016-julia'
+  name: 'I Simpósio de Métodos Numéricos em Engenharia'
+  topics:
+    - name: 'November 30th to December 1st, 2016, UFPR, Curitiba, Brazil.'
+      points:
+        - 'Tutorial: Introdução à linguagem Julia'
+- link: '/static/brazopt-2016.pdf'
+  name: 'XI Brazilian Workshop on Continuous Optimization.'
+  topics:
+    - name: 'May 23rd, 2016, UFAM, Manaus, Brazil'
+      points:
+        - 'Title: Numerical Experience with a Class of Trust-Region Algorithms for Unconstrained Smooth Optimization'
+- link: '/static/jopt-2016.pdf'
+  name: '2016 Optimization Days.'
+  topics:
+    - name: 'May 4th, 2016, HEC Montréal, Montreal, Canada.'
+      points:
+        - 'Title: A Workflow for Designing Optimization Methods in the Julia Language'
+- name: 'VIII Simpósio de Análise Numérica e Otimização'
+  topics:
+    - name: '2016, UFPR, Curitiba, PR, Brazil, '
+      points:
+        - 'Tutorial: Otimização Não-Linear na Linguagem Julia'
+- name: 'Oficina de Ferramentas Computacionais'
+  topics:
+    - name: 'Maio de 2015, UFPR, Curitiba, PR, Brazil'
+      points:
+        - 'Member of the organization'
+- name: 'VII Simpósio de Análise Numérica e Otimização'
+  topics:
+    - name: '2015, UFPR, Curitiba, PR, Brazil'
+      points:
+        - 'Title: Ferramentas computacionais para pesquisadores'
+- name: 'X Brazilian Workshop on Continuous Optimization.'
+  topics:
+    - name: '2014, Florianópolis, SC, Brazil'
+      points:
+        - 'Title: Dynamic Control of Infeasibility for Nonlinear Programming'
+- name: '26th European Conference on Operational Research.'
+  topics:
+    - name: '2013, Rome, Italy'
+      points:
+        - 'Title: Dynamic Control of Infeasibility for Nonlinear Programming'
+- name: '11th EUROPT Workshop on Advances in Continuous Optimization'
+  topics:
+    - name: '2013, Florence, Italy'
+      points:
+        - 'Participation'

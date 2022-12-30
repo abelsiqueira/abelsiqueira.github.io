@@ -1,0 +1,29 @@
+- name: Technical
+  topics:
+    - name: ''
+      points:
+        - Programming since 2005, having used multiple programming languages, including C, C++, Python, MatLab, Fortran, Javascript, Typescript, and Bash.
+        - 8 years experience with the Julia language for research software.
+        - My PhD and scientific initiation projects were in C++, accruing 5 years of experience.
+        - I have supervised students on machine learning topics, using Python's scikit-learn stack.
+        - I have consulted and supervised on optimization modeling topics, include Julia's JuMP modeling language.
+        - I manage several GitHub repositories, setting continuous integration for automated testing, building documentation, code coverage, and various other workflows. I have used GitHub Actions, Travis, Codecov, and Coveralls.
+        - I have experience building a Single Page Application in Typescript, Vue 3 and Quasar.
+- name: Social and community
+  topics:
+    - name: ''
+      points:
+        - I am a native Portuguese speaker and a fluent English speaker.
+        - I have basic knowledge of Spanish and French, and I know a few words of Dutch and Russian.
+        - I have solid written and verbal skills.
+        - I am organized, proactive, and I am a team worker.
+        - I can produce documentation in various formats, such as written tutorials and APIA reference documents, as well as videos and live coding on specific topics.
+        - I managed a team translating the Think Julia book.
+- name: Open science and research software
+  topics:
+    - name: ''
+      points:
+        - I taught Shell, Git, LaTeX, and Julia in many workshops.
+        - I helped organize 2 workshops related to Software Carpentry, 1 related to Hacktoberfest, and other local tutorial sessions.
+        - I taught at the 2017 CODATA-RDA School of Research Data Science.
+        - I have reviewed for the Journal of Open Source Software and the Journal of Open Research Software.

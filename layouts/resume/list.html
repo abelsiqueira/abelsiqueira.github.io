@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article class="pa3 pa4-ns nested-copy-line-height">
+  <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Paginator.Pages }}
+      <div class="relative w-100 w-30-l mb4 bg-white">
+        <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+          <div class="bg-white mb3 pa4 gray overflow-hidden">
+            <h1 class="f3 near-black">
+              <a href="{{ .RelPermalink }}" class="link black dim">
+                {{ .Title }}
+              </a>
+            </h1>
+            <ul>
+              {{ with (index $.Site.Data.resume .File.TranslationBaseName) }}
+                {{ range first 5 . }}
+                  <li class="list pv1">{{ .name }}</li>
+                {{ end }}
+                {{ if gt (len .) 5 }}
+                  ...
+                {{ end }}
+              {{ else }}
+                ...
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </aside>
+</article>
+{{ end }}
