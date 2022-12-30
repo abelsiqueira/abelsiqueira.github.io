@@ -4,6 +4,8 @@ date: '2021-06-28'
 tags: ['julia', 'franklin', 'site']
 ---
 
+_Update 2022-12-30: Já não uso mais Franklin.jl_.
+
 Há algum tempo o Jekyll tem me dado trabalho.
 Como não sou usuário de Ruby, volta e meia falta alguma coisa na minha instalação e eu passo horas tentando corrigir o problema pra fazer meu site rodar localmente.
 Para o CiDAMO, eu considerei o Hugo, já que tem mais suporte e eu não seria a única pessoa a cuidar do site.

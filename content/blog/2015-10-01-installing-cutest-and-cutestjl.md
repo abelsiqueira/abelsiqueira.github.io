@@ -10,7 +10,7 @@ This post will tell you how to install CUTEst using a different tool that makes
 it much easier. Also, I'll install CUTEst.jl, the CUTEst interface for Julia.
 
 **Edit:** _Now, CUTEst.jl install CUTEst by itself. Check [this
-post](https://abelsiqueira.github.io{{local_prefix}}nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/).
+post](https://abelsiqueira.com/blog/nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/).
 Also, for Linux, I've created [this CUTEst
 installer](https://github.com/abelsiqueira/linux-cutest), which should be
 easier to use. February, 11, 2017_.
