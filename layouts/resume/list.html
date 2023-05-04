@@ -1,6 +1,69 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      Sections:
+      <ul>
+        {{ range .Paginator.Pages }}
+        <li><a class="link" href="#{{ .Title | urlize }}">
+          {{ .Title }}
+        </a></li>
+        {{ end }}
+      </ul>
+
+      {{ range .Paginator.Pages }}
+      <header>
+        <h1 class="f1" id="{{ .Title | urlize }}">
+          {{ .Title }}
+        </h1>
+      </header>
+      <div class="nested-copy-line-height lh-copy f4 nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+        {{ .Content }}
+
+        {{ if eq .Title "Publications" }}
+        {{ partial "publications.html" . }}
+        {{ else }}
+        <ul>
+          {{ range (index $.Site.Data.resume .File.TranslationBaseName) }}
+          <p class="f4 b dark-blue">
+            {{ if .link }}
+              <a href="{{ .link }}" class="link">
+                {{ .name }}
+              </a>
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+          </p>
+
+          {{ range .topics }}
+            <p class="f5 b">{{ .name }}</p>
+            <ul>
+              {{ range .points }}
+              <li class="f5 list pv1">{{ . }}</li>
+              {{ end }}
+            </ul>
+          {{ end }}
+          {{ end }}
+        </ul>
+        {{ end }}
+
+      </div>
+      {{ end }}
+    </article>
+  </div>
+{{ end }}
+
+{{/*  {{ define "main" }}
 <article class="pa3 pa4-ns nested-copy-line-height">
   <aside class="flex-ns flex-wrap justify-around mt5">
+    {{ range .Paginator.Pages }}
+      <h1 class="f3 near-black">
+        <a href="{{ .RelPermalink }}" class="link black dim">
+          {{ .Title }}
+        </a>
+      </h1>
+    {{ end }}
+
     {{ range .Paginator.Pages }}
       <div class="relative w-100 w-30-l mb4 bg-white">
         <div class="relative w-100 mb4 bg-white nested-copy-line-height">
@@ -28,4 +91,4 @@
     {{ end }}
   </aside>
 </article>
-{{ end }}
+{{ end }}  */}}
