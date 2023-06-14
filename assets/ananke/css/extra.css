@@ -9,3 +9,7 @@
 ul, p {
   text-align: justify;
 }
+
+.tag {
+  height: 32px;
+}

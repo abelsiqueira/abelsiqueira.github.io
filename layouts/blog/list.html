@@ -10,8 +10,7 @@ you can create a layouts directory, just for that section.
   </section>
   <aside class="flex-ns flex-wrap justify-around mt5">
     {{ range .Pages }}
-    <div class="relative w-100 mb0">
-      {{/* Copy of summary.html, so we can add tags, eventually */}}
+    <div class="relative w-100 mb0 mh0 mh6-l">
       <div class="mb0 pa4 pb3 {{ $.Param " text_color" | default "mid-gray" }} overflow-hidden">
         {{ if .Date }}
         <div class="f6">

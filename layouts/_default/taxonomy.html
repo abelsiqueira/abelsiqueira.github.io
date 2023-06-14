@@ -1,0 +1,32 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <article class="cf pa3 pa4-m pa4-l">
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+      <p>{{ i18n "taxonomyPageList" . }}</p>
+    </div>
+  </article>
+  <div class="mw8 center">
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ range  .Pages }}
+        <div class="relative w-100  mb4">
+          <div class="mb0 pa4 pb3 {{ $.Param " text_color" | default "mid-gray" }} overflow-hidden">
+            {{ if .Date }}
+            <div class="f6">
+              {{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
+            </div>
+            {{ end }}
+            <h1 class="f3 near-black">
+              <a href="{{ .RelPermalink }}" class="link black dim">
+                {{ .Title }}
+              </a>
+            </h1>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+              {{ .Summary }}
+            </div>
+            {{- partial "tags.html" . -}}
+          </div>
+        </div>
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
