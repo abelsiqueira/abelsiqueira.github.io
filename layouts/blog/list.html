@@ -10,7 +10,7 @@ you can create a layouts directory, just for that section.
   </section>
   <aside class="flex-ns flex-wrap justify-around mt5">
     {{ range .Pages }}
-    <div class="relative w-100 w-30-l mb4 bg-white">
+    <div class="relative w-100 mb0">
       {{/* Copy of summary.html, so we can add tags, eventually */}}
       <div class="mb0 pa4 pb3 {{ $.Param " text_color" | default "mid-gray" }} overflow-hidden">
         {{ if .Date }}
@@ -27,13 +27,6 @@ you can create a layouts directory, just for that section.
           {{ .Summary }}
         </div>
         {{- partial "tags.html" . -}}
-        {{/*  {{ if .Params.tags }}
-          <div class="mt4 mb0">
-            {{ range .Params.tags }}
-              <span class="pa1 br3 bg-dark-green white">{{ . }}</span>
-            {{ end }}
-          </div>
-        {{ end }}  */}}
       </div>
 
     </div>
