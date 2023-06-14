@@ -14,7 +14,7 @@ I just released a video about using mathematical modeling to solve a production 
 
 [![Banner for youtube video](/blog/2023-06-14/banner.jpg)](https://youtu.be/IOUi1juD5HQ)
 
-You can check the pluto notebook html [here](/blog/2023-06-14/selling-art-on-the-beach.html) or download the notebook [here](https://github.com/abelsiqueira/youtube/blob/main/rpg-puzzle.jl).
+You can check the pluto notebook html [here](/blog/2023-06-14/selling-art-on-the-beach.html) or download the notebook [here](https://github.com/abelsiqueira/youtube/blob/main/selling-art-on-the-beach.jl).
 
 I have an excert down here, but for more details, check the video.
 
