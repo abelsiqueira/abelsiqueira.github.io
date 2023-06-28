@@ -8,6 +8,8 @@ tags:
   - 'optimization'
   - 'modeling'
   - 'planning'
+  - 'microeconomics'
+  - 'orms'
 ---
 
 I just released a video about using mathematical modeling to solve a production planning with the thematic of selling your art on the beach.

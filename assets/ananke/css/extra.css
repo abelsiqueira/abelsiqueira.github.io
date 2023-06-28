@@ -13,3 +13,22 @@ ul, p {
 .tag {
   height: 32px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid black;
+  background-color: #090932;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #e9e9f2;
+}
+
+th, td {
+  padding: 2px 5px;
+}
