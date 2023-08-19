@@ -13,7 +13,7 @@ Ferramentas Computacionais na UFPR. Essa oficina seguiu os moldes das oficinas
 do [Software Carpentry](http://software-carpentry.org/) e
 [Data Carpentry](http://datacarpentry.org/).
 Esta foi a segunda oficina neste padrão que organizei, a
-[primeira](http://localhost:4000{{local_prefix}}resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/)
+[primeira](/blog/2015-05-30-resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/)
 foi há um pouco mais de um ano, e foi apenas um dia.
 Nesta tivemos 3 dias de atividades, e vários participantes.
 

@@ -9,6 +9,7 @@ tags:
 ---
 
 I worked on this blog post working for the Netherlands eScience Center.
+This is the second part of a three-part series.
 Co-authored by Faruk Diblen.
 
 Check the blog post [here](https://blog.esciencecenter.nl/speed-up-your-python-code-using-julia-f97a6c155630).

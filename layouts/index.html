@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+<article class="cf ph2 ph4-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param " text_color" | default "mid-gray"
+  }}">
+  {{ .Content }}
+</article>
+{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of
+pages. */}}
+
+{{ $section := where .Site.RegularPages "Section" "in" "blog" }}
+{{ $section_name := index "blog" }}
+
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+  <section class="w-100 mw9 center">
+    <h2 class="flex-none">
+      Latest blog post
+    </h2>
+
+    {{ range (first 1 $section) }}
+    <div class="relative w-100 mb4">
+      {{ .Render "summary-with-image" }}
+    </div>
+    {{ end }}
+  </section>
+</div>
+
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+  <section class="w-100 mw9 center">
+    <h2>
+      Optimization in the Julia Programming Language
+    </h2>
+
+    <article class="bb b--black-10">
+      <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+        <div class="flex flex-column flex-row-ns">
+          <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+            <a href="/projects/jso/" class="db grow">
+              <img src="/images/banners/jso.jpg" class="img" alt="JSO Logo">
+            </a>
+          </div>
+          <div class="w-100 w-60-ns pl3-ns">
+            <h2 class="f3 fw1 athelas mt0 lh-title">
+              <a href="/projects/jso/" class="color-inherit dim link">
+                Julia Smooth Optimizers (JSO)
+              </a>
+            </h2>
+            <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+              JSO is one of the largest Julia organizations on GitHub. It contains over 50 packages for Linear Algebra,
+              and Optimization.
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+  <section class="w-100 mw9 center">
+    <h2>
+      Social media selected updates
+    </h2>
+
+    <article class="bb b--black-10">
+      {{ range .Site.Params.linkedin_posts }}
+      <iframe class="pa1" src="https://www.linkedin.com/embed/feed/update/urn:li:share:{{ . }}" height="500"
+        frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+      {{ end }}
+    </article>
+</div>
+
+<div class="github pa3 pa4-ns w-100 w-70-ns center">
+  <section class="w-100 mw9 center">
+    <h2>GitHub chart</h2>
+    <a href="https://github.com/abelsiqueira">
+      <img src="https://ghchart.rshah.org/abelsiqueira" alt="abelsiqueira's Github chart" />
+    </a>
+  </section>
+</div>
+
+{{ end }}

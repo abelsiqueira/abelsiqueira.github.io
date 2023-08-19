@@ -6,7 +6,7 @@ resourceDir = "resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 15 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 10000 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -30,9 +30,14 @@ enableRobotsTXT = true
   description = "Personal and professional information"
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-near-black"
-  recent_posts_number = 3
+  recent_posts_number = 1
   custom_css = ["extra.css"]
+  mainSections = ['blog', 'jso']
+  linkedin_posts = ['7077558398749155328', '7061614020100812800']
 
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://youtube.com/@abelsiqueira"
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/abel_siqueira"
@@ -46,9 +51,3 @@ url = "https://linkedin.com/in/abel-siqueira"
 name = "mastodon"
 url = "https://mathstodon.xyz/@abelsiqueira"
 rel = "me noopener"
-[[params.ananke_socials]]
-name = "instagram"
-url = "https://instagram.com/siqueiraabel"
-[[params.ananke_socials]]
-name = "youtube"
-url = "https://youtube.com/@abelsiqueira"

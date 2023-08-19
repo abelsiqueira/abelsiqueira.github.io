@@ -72,7 +72,8 @@ with $\alpha = 1$.
 And to close off, here's a traditional triangle, repeated, with alternating colors.
 ![](/blog/koch/koch.png)
 
-[Here a larger scale version](/blog/koch/koch-large.png)
+Here's a larger scale version:
+
 ![](/blog/koch/koch-large.png)
 
 Happy holidays!

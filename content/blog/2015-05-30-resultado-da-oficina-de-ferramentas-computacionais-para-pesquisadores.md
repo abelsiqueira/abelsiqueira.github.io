@@ -17,7 +17,7 @@ almoço, e a oficina acabou com 15 participantes.
 Veja também o [post do Raniere](http://blog.rgaiacs.com/2015/05/31/ufpr.html)
 sobre a oficina.
 
-# Material
+## Material
 
 Eu utilizei os materiais
 
@@ -26,7 +26,7 @@ Eu utilizei os materiais
 - [Slides de Git](/blog/2015-05-30-slides-git.pdf) -
 [Código](http://github.com/abelsiqueira/workshop).
 
-# Dificuldades
+## Dificuldades
 
 Como é natural nesse tipo de evento, tivemos algumas dificuldades com
 compatibilidade. Algumas pessoas não conseguiram instalar as ferramentas, outras
@@ -46,7 +46,7 @@ para evento.
 Também tivemos o problema de tempo, mas isso não pode ser resolvido _no tempo
 disponível_.
 
-# Planos futuros
+## Planos futuros
 
 Considero essa oficina um sucesso. Tivemos vários interessados, e conseguimos
 passar uma boa quantidade de conteúdo. Todos saíram com alguma coisa
@@ -56,13 +56,13 @@ Idealmente, faremos outras oficinas, e agora que temos mais pessoas
 capacitando-se, podemos ter outras pessoas apresentando. E fazer algumas
 apresentações mais avançadas.
 
-# Agradecimentos
+## Agradecimentos
 
 Agradeço o Raniere, por ter aceitado participar do evento, e também
 à Kally Chung e ao [Fernando Mayer](https://fernandomayer.github.io/) que
 toparam ficar de monitores.
 
-# Certificados
+## Certificados
 
 Alguns certificados serão emitidos, e serão disponibilizados aqui, ou enviados
 por e-mail, em breve.

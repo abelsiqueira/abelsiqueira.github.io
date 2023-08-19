@@ -122,7 +122,7 @@ jekyll serve -w
 ```
 
 Your site will be built and available at
-[localhost:4000](http://localhost:4000).
+`localhost:4000`.
 To get the site to look good, however, you'll need to edit a few things, like
 the layouts for your liking, the css, and so on.
 To avoid doing that, you can use my own site as a starting point. I show you how

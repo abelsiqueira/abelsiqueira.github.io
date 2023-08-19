@@ -105,12 +105,12 @@ recomendamos buscar pelo pacote `language-julia`.
 **Certifique-se de ter essas ferramentas instaladas ANTES do evento**. Entre em
 contato em caso de dúvidas.
 
-# Inscrições
+## Inscrições
 
 As inscrições estão fechadas. Caso tenha interesse em participar, me mande um
 e-mail para confirmar se ainda temos vagas.
 
-# Cronograma
+## Cronograma
 
 O evento acontecerá no dia 30 de Maio de 2015, seguindo o cronograma abaixo:
 (_Nota: Mudamos o horário de Julia para melhor acomodar o cronograma_).
@@ -124,7 +124,7 @@ O evento acontecerá no dia 30 de Maio de 2015, seguindo o cronograma abaixo:
 - **15:00** : _Coffee Break_
 - **15:30** : Git Remoto (com Raniere)
 
-# Local
+## Local
 
 Utilizaremos o Laboratório de Matemática e Desenho (LAMADE) no bloco PC, sala
 PC12.

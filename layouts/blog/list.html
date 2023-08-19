@@ -17,11 +17,11 @@ you can create a layouts directory, just for that section.
           {{ .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) }}
         </div>
         {{ end }}
-        <h1 class="f3 near-black">
+        <h2 class="f3 near-black">
           <a href="{{ .RelPermalink }}" class="link black dim">
             {{ .Title }}
           </a>
-        </h1>
+        </h2>
         <div class="nested-links f5 lh-copy nested-copy-line-height">
           {{ .Summary }}
         </div>
@@ -31,6 +31,5 @@ you can create a layouts directory, just for that section.
     </div>
     {{ end }}
   </aside>
-  {{ template "_internal/pagination.html" . }}
 </article>
 {{ end }}

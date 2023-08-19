@@ -18,11 +18,11 @@ One simplification of that model was the assumption that everything that we buil
 
 [![Banner for youtube video](/blog/2023-06-28/banner.jpg)](https://youtu.be/0HRAYGYrkIc)
 
-You can check the pluto notebook html [here](/blog/2023-06-28/demand-of-your-art.html) or download the notebook [here](https://github.com/abelsiqueira/youtube/blob/main/demand-of-your-art.jl).
+You can check the [pluto notebook html](/blog/2023-06-28/demand-of-your-art.html) or [download the notebook](https://github.com/abelsiqueira/youtube/blob/main/demand-of-your-art.jl).
 
 I have an excert down here, but for more details, check the video.
 
-**If you just want to skip to questions, click [here](#questions).**
+**If you just want, you can just skip to [questions](#questions).**
 
 ---
 
@@ -272,4 +272,5 @@ The plot below shows the situation if you worked more than 40 hours:
 
 1. In strategy 1, what if you had extra levels of price? For instance, for new products, you produce few with a high price. After selling those, you have a secondary price for a larger amount of products. After that, you have a sale for the remaining products. How do you model that?
 2. In strategy 2, the profit stabilizes after working about 60 hours. If, for instance, Javier gets a partner, it wouldn't make sense to work more than 30 hours each to satisfy the demand. What would you do in this situation?
+
 ---

@@ -6,7 +6,6 @@ tags:
   - 'julia'
   - 'c'
   - 'cpp'
-  - 'c++'
   - 'embedding'
   - 'nlesc'
 ---

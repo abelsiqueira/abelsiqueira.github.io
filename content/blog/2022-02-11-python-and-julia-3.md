@@ -9,6 +9,7 @@ tags:
 ---
 
 I worked on this blog post working for eScience Center.
+This is the third and last part of a three-part series.
 Co-authored by Faruk Diblen.
 
 Check the blog post [here](https://blog.esciencecenter.nl/can-python-with-julia-be-faster-than-low-level-code-cd71a72fbcf4).
