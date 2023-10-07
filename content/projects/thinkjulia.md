@@ -2,6 +2,7 @@
 title: ThinkJulia
 description: 'Translation to Portuguese'
 featured_image: '/images/banners/introajulia.jpg'
+order: 4
 ---
 
 I helped with the translation of the ThinkJulia book to Portuguese.
