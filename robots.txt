@@ -1,3 +1,1 @@
 User-agent: *
-Allow: /
-Sitemap: https://abelsiqueira.com/sitemap.xml
