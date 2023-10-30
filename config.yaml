@@ -1,0 +1,485 @@
+baseURL: "https://abelsiqueira.com"
+languageCode: "en-us"
+title: "Abel Soares Siqueira"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 9
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+googleAnalytics: G-WS6K0SDB05
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+    - identifier: cv
+      name: Curriculum
+      title: Curriculum
+      url: /cv
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Abel Soares Siqueira"
+  description: "Optimizer"
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/icon.png"
+
+  customCSS: true
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  
+  mathjax: true
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    # searchPlaceholder: "Search"
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Abel Soares Siqueira."
+    subtitle: "Optimizer and Software Developer"
+    content: "Research Software Engineer, Julia Smooth Optimizers maintainer, YouTuber"
+    image: /images/me.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-youtube
+          url: https://youtube.com/AbelSiqueira
+        - icon: fab fa-github
+          url: https://github.com/abelsiqueira
+        - icon: fab fa-twitter
+          url: https://twitter.com/abel_siqueira
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/abel-siqueira
+        - icon: fab fa-mastodon
+          url: https://mathstodon.xyz/@abelsiqueira
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am a software developer. I am a research software engineer since 2021
+      at the Netherlands eScience Center (NLeSC). I joined the NLeSC with the
+      goals of honing my coding skills, working with smart people, and for the
+      opportunity of learning more about what I don't know.
+      I had a chance to work with Typescript/Vue for frontend, a bit of
+      C++ tooling, Graph neural networks in Python, Kubernetes, and modeling
+      electricity markets with Julia/JuMP.
+
+      I am an optimizer and applied mathematician. I have PhD in nonlinear
+      optimization and was a professor from 2015 to 2021 at the Federal
+      University of Paraná (Brazil). I taught multivariate calculus, numerical
+      methods, optimization, and data science. I was involved in the Data
+      Science & Big Data specialization. I was co-creator of
+      [CiDAMO](https://cidamo.com.br), a Data Science, Machine Learning, and
+      Optimization group. My research revolved mainly around numerical
+      optimization in the Julia language. I am co-creator of the [Julia Smooth
+      Optimizers](https://jso.dev) organization, which holds more than 50 Julia
+      packages related to optimization and Linear Algebra.
+
+      I am a YouTuber and streamer. Since 2020, I talk about software
+      development, mostly using the Julia programming language.
+      Some of my videos are purely about teaching Julia, but some are related
+      to some mathematical field, usually optimization. 
+
+      I am a Brazilian living in the Netherlands. I was born in 1986, in
+      Medeiros Neto/BA, and lived for many years in Carnaíba/PE,
+      with a tour on Arraial d'Ajuda/BA and São Paulo/SP.
+      I lived for a while in Santa Bárbara d'Oeste/SP, right before going to
+      Campinas/SP to study at UNICAMP.
+      Met my wife there and moved to Curitiba/PR, before finally moving to the
+      Netherlands.
+      
+      <details>
+        <summary>Summary of my skills</summary>
+
+        **Technical**
+
+        - Programming since 2005, having used multiple programming languages, including C, C++, Python, MatLab, Fortran, Javascript, Typescript, and Bash.
+        - 8 years experience with the Julia language for research software.
+        - My PhD and scientific initiation projects were in C++, accruing 5 years of experience.
+        - I have supervised students on machine learning topics, using Python's scikit-learn stack.
+        - I have consulted and supervised on optimization modeling topics, include Julia's JuMP modeling language.
+        - I manage several GitHub repositories, setting continuous integration for automated testing, building documentation, code coverage, and various other workflows. I have used GitHub Actions, Travis, Codecov, and Coveralls.
+        - I have experience building a Single Page Application in Typescript, Vue 3 and Quasar.
+
+        **Social and community**
+
+        - I am a native Portuguese speaker and a fluent English speaker.
+        - I have basic knowledge of Spanish and French, and I know a few words of Dutch and Russian.
+        - I have solid written and verbal skills.
+        - I am organized, proactive, and I am a team worker.
+        - I can produce documentation in various formats, such as written tutorials and APIA reference documents, as well as videos and live coding on specific topics.
+        - I managed a team translating the Think Julia book.
+
+        **Open science and research software**
+
+        - I taught Shell, Git, LaTeX, and Julia in many workshops.
+        - I helped organize 2 workshops related to Software Carpentry, 1 related to Hacktoberfest, and other local tutorial sessions.
+        - I taught at the 2017 CODATA-RDA School of Research Data Science.
+        - I have reviewed for the Journal of Open Source Software and the Journal of Open Research Software.
+      </details>
+
+    skills:
+      enable: false
+      title: "Summary of my skills:"
+      items:
+        - "Programming since 2005 in multiple languages, including"
+        - "Python"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Senior Research Software Engineer"
+        company: "Netherlands eScience Center"
+        companyUrl: "https://esciencecenter.nl"
+        date: "Sep 2021 - present"
+        content: |
+          I am currently working as an RSE at the NLeSC. My job is to
+          help researchers accross the Netherlands with their software app. My
+          projects involve different technologies and stakeholders, and the most
+          important aspect of it is the ability to adapt and learn new things.
+
+          Some of the projects that I have been involved:
+
+          - [bird-cloud-gnn](https://github.com/point-cloud-radar/bird-cloud-gnn): A graph neural network to identify flocks of birds from radar's point cloud data.
+          - [Tulipa](https://github.com/TulipaEnergy/TulipaEnergyModel.jl): An electricity & Sector-coupling optimization model in Julia/JuMP.
+          - [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/#/): A web app to generate CITATION.cff files.
+
+          I have also co-organized and given a talk at a Julia for
+          High-Performance Computing webinar with external speakers and over 50
+          attendants.
+
+      - job: "Professor Adjunto"
+        company: "Federal University of Paraná"
+        companyUrl: "https://www.mat.ufpr.br"
+        date: "Nov 2014 - Aug 2021"
+        content: |
+          I was a professor at the Mathematics Department, mostly working in
+          the Industrial Mathematics program.
+          I mainly taught multivariate calculus, numerical methods, optimization, and data science.
+
+          Here are more details on my involvement:
+
+          **Professor Adjunto**
+
+          - Taught around 5 courses a year.
+          - Advised over 15 students.
+          - 10 talks, 5 at international conferences.
+          - Industrial Mathematics curriculum planning committee.
+
+          **Data Science specialization program (2019-2020)**
+
+          - Taught optimization and machine learning.
+          - Advised students in various topics.
+
+          **Researcher in optimization**
+
+          - Co-creator of several packages related to nonlinear optimization and numerical linear algebra inside the JuliaSmoothOptimizers organization.
+          - Advised students in nonlinear optimization, operations research, and machine learning.
+          - Co-creator of the [CiDAMO](https://cidamo.com.br) study and research group.
+          - 3 published papers.
+          - Referee in various journals.
+
+      - job: "Postdoc"
+        company: "State University of Campinas"
+        companyUrl: "https://www.ime.unicamp.br"
+        date: "2013 - 2014"
+        content: |
+          I continued the topics on my PhD, finishing a submission to a journal, which eventually did not work out.
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "PhD in Applied Mathematics"
+        school:
+          name: "State University of Campinas"
+          url: "https://www.ime.unicamp.br"
+        date: "2009 - 2013"
+        content: |-
+          I worked on a method called Dynamic Control of Infeasibility, proposing an extension to handle inequalities. 
+          The method was implemented in C++.
+
+      - title: "Bachelor of Science in Applied Mathematics"
+        school:
+          name: "State University of Campinas"
+          url: "https://www.ime.unicamp.br"
+        date: "2005 - 2008"
+        content: |-
+          I focused on numerical methods and optimization.
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievment.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievment.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Julia Smooth Optimizers
+        content: |
+          JSO is an organization that I co-created with Dominique Orban around
+          2015 to host our optimization and linear algebra packages.
+          The main idea of our packages is to enable high-quality development
+          of optimization solvers. It contains over 50 registered
+          packages.
+        image: /banners/jso.jpg
+        badges:
+          - "Julia"
+          - "Optimization"
+          - "Linear Algebra"
+        featured:
+          name: Website
+          link: https://jso.dev
+        links:
+          - icon: fab fa-github
+            url: https://github.com/JuliaSmoothOptimizers
+
+      - title: Jill - Julia Installer for Linux Light
+        content: |
+          Command line installer for the Julia programming languague.
+
+          The objectives of Jill are
+
+          - One line installation of any Julia version;
+          - Easy to maintain/update when a new Julia version is released;
+          - Lightweight.
+        image: /banners/jill.jpg
+        badges:
+          - "Bash"
+          - "Julia"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/abelsiqueira/jill
+
+      - title: COPIERTemplate.jl
+        content: |
+          Template for Julia packages using the copier package.
+          It is an opinionated template, using various configuration files that I find useful.
+          It includes a GitHub workflow to automatically check for updates in
+          the template, so I can easily distribute new ideas, fixes, and
+          updates to the template.
+        image: /banners/copiertemplate.jpg
+        badges:
+          - "Julia"
+          - "Template"
+        featured:
+          name: Blog post
+          link: /blog/2023-10-07-copiertemplate
+        links:
+          - icon: fab fa-github
+            url: https://github.com/abelsiqueira/COPIERTemplate.jl
+
+      - title: perprof-py
+        content: |
+          Python Package to generate mathematical Performance Profiles.
+        image: /banners/perprof-py.jpg
+        badges:
+          - "Python"
+          - "Optimization"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/abelsiqueira/perprof-py
+
+
+      - title: CiDAMO group
+        content: |
+          Data Science, Machine Learning, and Optimization group that I
+          co-created around 2017/2018 with Professor Lucas Pedroso.
+          We created the group to attend to the increasing interest from students and from ourselves.
+
+          We organized a few events and meetups, including an in-person
+          week-long event called CiDWeek with over 300 participants, with
+          presentation from companies, professors, and students.
+        image: /banners/cidamo.jpg
+        featured:
+          name: Website
+          link: https://cidamo.com.br
+        badges:
+          - "Data Science"
+          - "Machine Learning"
+          - "Optimization"
+
+      - title: Think Julia Portuguese Translation
+        content: |
+          I helped with the translation of the open source ThinkJulia book to
+          Portuguese. I helped manage the translation team and reviewed the
+          submitted chapters.
+        image: /banners/thinkjulia.jpg
+        featured:
+          name: Website
+          link: https://juliaintro.github.io/JuliaIntroBR.jl
+        badges:
+          - "Python"
+          - "Book"
+          - "Translation"
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: Feel free to send me an e-mail. I will try to get back to you as soon as possible.
+    email: abel.s.siqueira@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blog"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

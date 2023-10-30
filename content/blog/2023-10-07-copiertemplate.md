@@ -1,7 +1,7 @@
 ---
 title: "COPIERTemplate.jl: A new template for Julia using copier"
 date: '2023-10-07'
-featured_image: '/images/banners/copiertemplate.jpg'
+image: '/blog/2023-10-07/banner.jpg'
 tags:
   - 'julia'
   - 'template'

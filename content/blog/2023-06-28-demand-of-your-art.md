@@ -1,7 +1,7 @@
 ---
 title: 'Demand of your art'
 date: '2023-06-28'
-featured_image: 'blog/2023-06-28/banner.jpg'
+image: '/blog/2023-06-28/banner.jpg'
 tags:
   - 'julia'
   - 'mathematical-programming'

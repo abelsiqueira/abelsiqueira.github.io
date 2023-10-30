@@ -1,7 +1,7 @@
 ---
 title: '10 examples of embedding Julia in C/C++'
 date: '2022-11-03'
-featured_image: 'https://miro.medium.com/max/1400/1*B3Ij2uByzm7qAj9GWbJ6Nw.webp'
+image: 'https://miro.medium.com/max/1400/1*B3Ij2uByzm7qAj9GWbJ6Nw.webp'
 tags:
   - 'julia'
   - 'c'

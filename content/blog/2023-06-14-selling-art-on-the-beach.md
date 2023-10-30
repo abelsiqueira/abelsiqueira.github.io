@@ -1,7 +1,7 @@
 ---
 title: 'Selling art on the beach'
 date: '2023-06-14'
-featured_image: 'blog/2023-06-14/banner.jpg'
+image: '/blog/2023-06-14/banner.jpg'
 tags:
   - 'julia'
   - 'mathematical-programming'

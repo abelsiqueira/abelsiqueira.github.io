@@ -1,7 +1,7 @@
 ---
 title: "Best Frenemies: Julia and Python"
 date: '2023-09-05'
-featured_image: 'blog/2023-09-05/banner.gif'
+image: '/blog/2023-09-05/banner.gif'
 tags:
   - 'julia'
   - 'floating-point'

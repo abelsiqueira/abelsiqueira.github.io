@@ -1,7 +1,7 @@
 ---
 title: 'Speed up your Python code using Julia'
 date: '2022-01-26'
-featured_image: 'https://miro.medium.com/max/720/1*4pbcALDvrchxB1s72pD-mA.jpeg'
+image: 'https://miro.medium.com/max/720/1*4pbcALDvrchxB1s72pD-mA.jpeg'
 tags:
   - 'julia'
   - 'python'

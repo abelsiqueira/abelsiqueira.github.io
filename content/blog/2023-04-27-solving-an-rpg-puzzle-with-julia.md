@@ -1,7 +1,7 @@
 ---
 title: 'Solving an RPG puzzle with Julia'
 date: '2023-04-27'
-featured_image: 'blog/2023-04-27/rpg-puzzle-5dial.gif'
+image: '/blog/2023-04-27/banner.gif'
 tags:
   - 'julia'
   - 'rpg'

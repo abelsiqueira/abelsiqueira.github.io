@@ -1,7 +1,7 @@
 ---
 title: 'Can Python with Julia be faster than low-level code?'
 date: '2022-02-11'
-featured_image: 'https://miro.medium.com/max/720/1*Bta22zk1Dv3nsfacxEyK0A.jpeg'
+image: 'https://miro.medium.com/max/720/1*Bta22zk1Dv3nsfacxEyK0A.jpeg'
 tags:
   - 'julia'
   - 'python'

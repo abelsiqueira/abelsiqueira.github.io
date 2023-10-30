@@ -1,7 +1,7 @@
 ---
 title: "Julia Language Can't Even Handle Simple Math"
 date: '2023-08-30'
-featured_image: 'blog/2023-08-30/banner.gif'
+image: '/blog/2023-08-30/banner.gif'
 tags:
   - 'julia'
   - 'floating-point'
