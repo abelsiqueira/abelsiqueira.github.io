@@ -140,6 +140,22 @@ Bachelor's degree in Computational and Applied Mathematics, 2005-2008
 
 ## Events
 
+**Colombia Data Summit 2023.**
+November 10th, 2023, Colombia/Online.
+Title: Optimization vs AI and the Julia Programming Language.
+
+**Julia Optimization Days Paris 2023.**
+October 6th, 2023, Paris.
+Title: Julia Smooth Optimizers: JSO-compliant solvers, news, and current challenges.
+
+**JuliaLang Eindhoven Meetup.**
+January 19th, 2023, Eindhoven.
+Title: Maintaining large ecosystems of packages. Tips and challenges.
+
+**Julia for High-Performance Computing Webinar**
+June 23rd, 2022, Online.
+Organization.
+
 **II CiDWeek - Semana de Ciência de dados**.
 24 a 30 de Abril de 2021, Online, Brazil.
 Organização
