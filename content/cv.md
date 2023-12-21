@@ -140,6 +140,10 @@ Bachelor's degree in Computational and Applied Mathematics, 2005-2008
 
 ## Events
 
+**JuliaCon Local Eindhoven 2023**.
+December 1st, 2023, Eindhoven/Netherlands.
+Title: Nonlinear Optimization with the Julia Smooth Optimizers packages.
+
 **Colombia Data Summit 2023.**
 November 10th, 2023, Colombia/Online.
 Title: Optimization vs AI and the Julia Programming Language.
