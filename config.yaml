@@ -86,7 +86,7 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
+  color:
   #   textColor:
   #   secondaryTextColor:
   #   backgroundColor:
@@ -94,12 +94,12 @@ params:
   #   primaryColor:
   #   secondaryColor:
 
-  #   darkmode:
+    darkmode:
   #     textColor:
   #     secondaryTextColor:
   #     backgroundColor:
   #     secondaryBackgroundColor:
-  #     primaryColor:
+      primaryColor: "#abe18a"
   #     secondaryColor:
 
   # If you want to customize the menu, you can change it here

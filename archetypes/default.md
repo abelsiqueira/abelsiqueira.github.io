@@ -1,5 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+image: '/blog/{{ .Date }}/banner.FIX'
+tags:
+  - 
 ---

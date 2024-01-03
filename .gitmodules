@@ -3,4 +3,4 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
 [submodule "themes/hugo-profile"]
 	path = themes/hugo-profile
-	url = https://github.com/abelsiqueira/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile
