@@ -1,0 +1,7 @@
+#about ul {
+  display: block !important;
+}
+
+no-min-height {
+  min-height: 0px !important;
+}

@@ -1,3 +1,11 @@
 #about ul {
   display: block !important;
 }
+
+#hero {
+  min-height: 10px !important;
+}
+
+.black-shade {
+    background-color: #000b;
+}

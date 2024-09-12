@@ -1,4 +1,4 @@
-baseURL: "https://abelsiqueira.com"
+basefalURL: "https://abelsiqueira.com"
 languageCode: "en-us"
 title: "Abel Soares Siqueira"
 theme: hugo-profile
@@ -29,11 +29,11 @@ Menus:
       title: Blog posts
       url: /blog
       weight: 1
-    - identifier: cv
-      name: Curriculum
-      title: Curriculum
-      url: /cv
-      weight: 2
+    # - identifier: cv
+    #   name: Curriculum
+    #   title: Curriculum
+    #   url: /cv
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -55,7 +55,7 @@ Menus:
 params:
   title: "Abel Soares Siqueira"
   description: "Optimizer"
-  # staticPath: ""  # The path to serve the static files from
+  # saticPath: ""  # The path to serve the static files from
   favicon: "/images/icon.png"
 
   customCSS: true
@@ -95,12 +95,12 @@ params:
   #   secondaryColor:
 
     darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-      primaryColor: "#abe18a"
-  #     secondaryColor:
+      textColor: "#c4d7f2"
+      # secondaryTextColor: "#ff0000"
+      backgroundColor: "#181818"
+      # secondaryBackgroundColor: "#ff0000"
+      primaryColor: "#eea243"
+      # secondaryColor: "#f0f7ee"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -120,9 +120,26 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Abel Soares Siqueira."
-    subtitle: "Optimizer and Software Developer"
-    content: "Research Software Engineer, Julia Smooth Optimizers maintainer, YouTuber"
+    title: "Abel Soares Siqueira"
+    # subtitle: ""
+    content: |
+      I'm a Research Software Engineer at the Netherlands eScience Center since 2021.
+      My current main interests are Code Quality, the Julia Programming Language, and Mathematical Optimization.
+      I had a chance to work with Typescript/Vue for frontend, a bit of
+      C++ tooling, Graph neural networks in Python, Kubernetes, and modeling
+      electricity markets with Julia/JuMP.
+
+      I am a [YouTuber](https://youtube.com/AbelSiqueira) and [streamer](https://twitch.tv/abelsiqueira).
+      Since 2020, I talk about software development, mostly using the Julia programming language.
+      Some of my videos are purely about teaching Julia, but some are related to some mathematical field, usually optimization. 
+
+      I have PhD in nonlinear optimization and was a professor from 2014 to 2021 at the Federal University of Paraná (Brazil).
+      I taught multivariate calculus, numerical methods, optimization, and data science.
+      I was involved in the Data Science & Big Data specialization.
+      I was co-creator of [CiDAMO](https://cidamo.com.br), a Data Science, Machine Learning, and Optimization group.
+      My research revolved mainly around numerical optimization in the Julia language.
+      I am co-creator of the [Julia Smooth Optimizers](https://jso.dev) organization, which holds more than 50 Julia packages related to optimization and Linear Algebra.
+
     image: /images/me.jpg
     bottomImage:
       enable: true
@@ -151,9 +168,8 @@ params:
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
-    image: "/images/me.jpg"
     content: |-
       I am a software developer. I am a research software engineer since 2021
       at the Netherlands eScience Center (NLeSC). I joined the NLeSC with the
@@ -226,7 +242,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Research Software Engineer"
@@ -289,7 +305,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -335,20 +351,45 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Important links"
     items:
+      - title: Blog
+        content: Read my opinion on things.
+        image: /banners/blog.jpg
+        featured:
+          name: Read blog
+          link: /blog
+
+      - title: BestieTemplate.jl
+        content: |
+          Template for Julia packages focused on Best Practices for Package Development
+        image: /banners/bestie.jpg
+        # badges:
+        #   - "Julia"
+        #   - "Template"
+        featured:
+          name: Announcement blog post
+          link: /blog/2023-10-07-copiertemplate
+        links:
+          - icon: fab fa-github
+            url: https://github.com/abelsiqueira/BestieTemplate.jl
+
+      - title: YouTube
+        content: Mostly videos about the Julia Programming Language and Numerical Methods
+        image: /banners/youtube.jpg
+        links:
+          - icon: fab fa-youtube
+            url: https://youtube.com/AbelSiqueira
+
       - title: Julia Smooth Optimizers
         content: |
-          JSO is an organization that I co-created with Dominique Orban around
-          2015 to host our optimization and linear algebra packages.
-          The main idea of our packages is to enable high-quality development
-          of optimization solvers. It contains over 50 registered
-          packages.
+          I co-created with Dominique Orban around 2015 to host our optimization and linear algebra packages.
+          I'd been actively involved until 2021, and then less involved until 2024.
         image: /banners/jso.jpg
-        badges:
-          - "Julia"
-          - "Optimization"
-          - "Linear Algebra"
+        # badges:
+        #   - "Julia"
+        #   - "Optimization"
+        #   - "Linear Algebra"
         featured:
           name: Website
           link: https://jso.dev
@@ -358,38 +399,15 @@ params:
 
       - title: Jill - Julia Installer for Linux Light
         content: |
-          Command line installer for the Julia programming languague.
-
-          The objectives of Jill are
-
-          - One line installation of any Julia version;
-          - Easy to maintain/update when a new Julia version is released;
-          - Lightweight.
+          Bash command line installer for the Julia programming language started in 2017.
+          Now obsolete by juliaup.
         image: /banners/jill.jpg
-        badges:
-          - "Bash"
-          - "Julia"
+        # badges:
+        #   - "Bash"
+        #   - "Julia"
         links:
           - icon: fab fa-github
             url: https://github.com/abelsiqueira/jill
-
-      - title: COPIERTemplate.jl
-        content: |
-          Template for Julia packages using the copier package.
-          It is an opinionated template, using various configuration files that I find useful.
-          It includes a GitHub workflow to automatically check for updates in
-          the template, so I can easily distribute new ideas, fixes, and
-          updates to the template.
-        image: /banners/copiertemplate.jpg
-        badges:
-          - "Julia"
-          - "Template"
-        featured:
-          name: Blog post
-          link: /blog/2023-10-07-copiertemplate
-        links:
-          - icon: fab fa-github
-            url: https://github.com/abelsiqueira/COPIERTemplate.jl
 
       - title: perprof-py
         content: |
@@ -401,7 +419,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/abelsiqueira/perprof-py
-
 
       - title: CiDAMO group
         content: |
@@ -415,29 +432,41 @@ params:
         image: /banners/cidamo.jpg
         featured:
           name: Website
-          link: https://cidamo.com.br
-        badges:
-          - "Data Science"
-          - "Machine Learning"
-          - "Optimization"
-
-      - title: Think Julia Portuguese Translation
+          link: https://cidamo.github.io
+        # badges:
+        #   - "Data Science"
+        #   - "Machine Learning"
+        #   - "Optimization"
+          #
+      - title: Professional links
         content: |
-          I helped with the translation of the open source ThinkJulia book to
-          Portuguese. I helped manage the translation team and reviewed the
-          submitted chapters.
-        image: /banners/thinkjulia.jpg
+          If you want to hire me or just know my professional carrer, check my LinkedIn.
+          If you want my full curriculum, check the CV link.
+        image: /banners/cv.jpg
+        links:
+          - icon: fab fa-linkedin
+            url: https://linkedin.com/in/abel-siqueira
         featured:
-          name: Website
-          link: https://juliaintro.github.io/JuliaIntroBR.jl
-        badges:
-          - "Python"
-          - "Book"
-          - "Translation"
+          name: Curriculum
+          link: /cv
+
+      # - title: Think Julia Portuguese Translation
+      #   content: |
+      #     I helped with the translation of the open source ThinkJulia book to
+      #     Portuguese. I helped manage the translation team and reviewed the
+      #     submitted chapters.
+      #   image: /banners/thinkjulia.jpg
+      #   featured:
+      #     name: Website
+      #     link: https://juliaintro.github.io/JuliaIntroBR.jl
+      #   badges:
+      #     - "Python"
+      #     - "Book"
+      #     - "Translation"
 
   #Contact
   contact:
-    enable: true
+    enable: false
     # title: "Custom Name"
     content: Feel free to send me an e-mail. I will try to get back to you as soon as possible.
     email: abel.s.siqueira@gmail.com
@@ -451,9 +480,9 @@ params:
   footer:
     recentPosts:
       path: "blog"
-      count: 3
+      count: 10
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
 
   # List pages like blogs and posts
