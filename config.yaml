@@ -29,6 +29,11 @@ Menus:
       title: Blog posts
       url: /blog
       weight: 1
+    - identifier: tags
+      name: Tags
+      title: Tags
+      url: /tags
+      weight: 2
     # - identifier: cv
     #   name: Curriculum
     #   title: Curriculum
@@ -351,19 +356,21 @@ params:
   # projects
   projects:
     enable: true
-    title: "Important links"
+    title: "Selected links"
     items:
       - title: Blog
         content: Read my opinion on things.
         image: /banners/blog.jpg
+        imagelink: /blog
         featured:
-          name: Read blog
+          name: Read me!
           link: /blog
 
       - title: BestieTemplate.jl
         content: |
           Template for Julia packages focused on Best Practices for Package Development
         image: /banners/bestie.jpg
+        imagelink: https://github.com/abelsiqueira/BestieTemplate.jl
         # badges:
         #   - "Julia"
         #   - "Template"
@@ -377,6 +384,7 @@ params:
       - title: YouTube
         content: Mostly videos about the Julia Programming Language and Numerical Methods
         image: /banners/youtube.jpg
+        imagelink: https://youtube.com/AbelSiqueira
         links:
           - icon: fab fa-youtube
             url: https://youtube.com/AbelSiqueira
@@ -386,6 +394,7 @@ params:
           I co-created with Dominique Orban around 2015 to host our optimization and linear algebra packages.
           I'd been actively involved until 2021, and then less involved until 2024.
         image: /banners/jso.jpg
+        imagelink: https://jso.dev
         # badges:
         #   - "Julia"
         #   - "Optimization"
@@ -402,6 +411,7 @@ params:
           Bash command line installer for the Julia programming language started in 2017.
           Now obsolete by juliaup.
         image: /banners/jill.jpg
+        imagelink: https://github.com/abelsiqueira/jill
         # badges:
         #   - "Bash"
         #   - "Julia"
@@ -413,6 +423,7 @@ params:
         content: |
           Python Package to generate mathematical Performance Profiles.
         image: /banners/perprof-py.jpg
+        imagelink: https://github.com/abelsiqueira/perprof-py
         badges:
           - "Python"
           - "Optimization"
@@ -430,6 +441,7 @@ params:
           week-long event called CiDWeek with over 300 participants, with
           presentation from companies, professors, and students.
         image: /banners/cidamo.jpg
+        imagelink: https://cidamo.github.io
         featured:
           name: Website
           link: https://cidamo.github.io

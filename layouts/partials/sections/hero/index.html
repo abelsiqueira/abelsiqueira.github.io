@@ -19,9 +19,9 @@
                     <div class="col-auto h-100">
                         {{ if .Site.Params.hero.button.enable }}
                         <a href="{{ .Site.Params.hero.button.url }}" class="btn" {{ cond .Site.Params.hero.button.download "download" "" }}
-			  {{ if .Site.Params.hero.button.newPage | default true }}
-                          target="_blank"
-                          {{ end }}>
+                            {{ if .Site.Params.hero.button.newPage | default true }}
+                            target="_blank"
+                            {{ end }}>
                             {{ .Site.Params.hero.button.name }}
                         </a>
                         {{ end }}
