@@ -1,6 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>workshop on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/workshop/</link><description>Recent content in workshop on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/workshop/index.xml" rel="self" type="application/rss+xml"/><item><title>Oficina de Ferramentas Computacionais na UFPR, 01 de Agosto de 2016</title><link>https://abelsiqueira.com/blog/2016-08-07-oficina-de-ferramentas-computacionais-na-ufpr-01-de-agosto-de-2016/</link><pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-08-07-oficina-de-ferramentas-computacionais-na-ufpr-01-de-agosto-de-2016/</guid><description>Nesta semana que passou, dos dias 01 a 03 de Agosto, aconteceu uma Oficina de Ferramentas Computacionais na UFPR. Essa oficina seguiu os moldes das oficinas do Software Carpentry e Data Carpentry. Esta foi a segunda oficina neste padrão que organizei, a primeira foi há um pouco mais de um ano, e foi apenas um dia. Nesta tivemos 3 dias de atividades, e vários participantes.
-A oficina teve 28 participantes, porém nem todos vieram a todos os tutoriais.</description></item><item><title>VIII Simpósio de Análise Numérica e Otimização - Minicurso de Julia</title><link>https://abelsiqueira.com/blog/2016-02-14-viii-simposio-de-analise-numerica/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-14-viii-simposio-de-analise-numerica/</guid><description>Nos dias 22 a 24 de Fevereiro de 2016 acontecerá o VIII Simpósio de Análise Numérica e Otimização. É uma ótima oportunidade para interagir com colegas e conhecer alguns assuntos novos de pesquisa.
-Em particular, nesse simpósio apresentarei um minicurso sobre Julia com foco em Otimização. O minicurso é voltado para pessoas que conhecem um pouco de MatLab ou alguma outra linguagem. Serão três dias, com uma introdução à linguagem, alguns exemplos, o CUTEst.</description></item><item><title>Resultado da Oficina de Ferramentas Computacionais Para Pesquisadores</title><link>https://abelsiqueira.com/blog/2015-05-30-resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/</link><pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-05-30-resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/</guid><description>Hoje aconteceu a Oficina de Ferramentas Computacionais para Pesquisadores. Como era esperado, tivemos um pouco de atrasado, mas não tanto. Conseguimos começar uns 5 minutos depois do esperado, mas não conseguimos fazer chamada. O período da manhã teve por volta de 20 participantes, sendo que alguns eram meus alunos que vieram pelo Julia. Algumas pessoas foram embora durante o almoço, e a oficina acabou com 15 participantes.
-Veja também o post do Raniere sobre a oficina.</description></item><item><title>Workshop de Ferramentas Computacionais - Maio de 2015</title><link>https://abelsiqueira.com/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</link><pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</guid><description>Sobre No dia 30 de Maio de 2015 acontecerá uma Oficina de Ferramentas Computacionais para Pesquisadores. Essa oficina será focada em três ferramentas básicas para desenvolvimento de software:
-Bash Git Julia O Bash é o terminal tradicinal dos sistemas GNU/Linux (a tela preta). As possibilidades de uso são ilimitadas, mas vamos focar no básico, tentando chegar até a criação de um script simples.
-O Git é uma ferramenta para controlar versões de softwares e outros arquivos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workshop on Abel Soares Siqueira</title><link>/tags/workshop/</link><description>Recent content in Workshop on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 07 Aug 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml"/><item><title>Oficina de Ferramentas Computacionais na UFPR, 01 de Agosto de 2016</title><link>/blog/2016-08-07-oficina-de-ferramentas-computacionais-na-ufpr-01-de-agosto-de-2016/</link><pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate><guid>/blog/2016-08-07-oficina-de-ferramentas-computacionais-na-ufpr-01-de-agosto-de-2016/</guid><description>&lt;p>Nesta semana que passou, dos dias 01 a 03 de Agosto, aconteceu uma Oficina de
+Ferramentas Computacionais na UFPR. Essa oficina seguiu os moldes das oficinas
+do &lt;a href="http://software-carpentry.org/">Software Carpentry&lt;/a> e
+&lt;a href="http://datacarpentry.org/">Data Carpentry&lt;/a>.
+Esta foi a segunda oficina neste padrão que organizei, a
+&lt;a href="/blog/2015-05-30-resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/">primeira&lt;/a>
+foi há um pouco mais de um ano, e foi apenas um dia.
+Nesta tivemos 3 dias de atividades, e vários participantes.&lt;/p>
+&lt;p>A oficina teve 28 participantes, porém nem todos vieram a todos os tutoriais.
+O maior número de pessoas num mesmo tutorial foi 23 e o menor foi 15.
+Tivemos aulas de Shell, Julia, R, LaTeX, Git e RMarkdown.&lt;/p></description></item><item><title>VIII Simpósio de Análise Numérica e Otimização - Minicurso de Julia</title><link>/blog/2016-02-14-viii-simposio-de-analise-numerica/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-14-viii-simposio-de-analise-numerica/</guid><description>&lt;p>Nos dias 22 a 24 de Fevereiro de 2016 acontecerá o &lt;a href="http://www.mat.ufpr.br/verao/2016/m4_otimiza.html">VIII Simpósio de Análise
+Numérica e Otimização&lt;/a>.
+É uma ótima oportunidade para interagir com colegas e conhecer alguns assuntos
+novos de pesquisa.&lt;/p>
+&lt;p>Em particular, nesse simpósio apresentarei um minicurso sobre Julia com foco em
+Otimização. O minicurso é voltado para pessoas que conhecem um pouco de MatLab
+ou alguma outra linguagem. Serão três dias, com uma introdução à linguagem,
+alguns exemplos, o &lt;a href="http://github.com/JuliaOptimizers/CUTEst.jl">CUTEst.jl&lt;/a>,
+e um workflow para criar um pacote de otimização com transição para C e Fortran.&lt;/p></description></item><item><title>Resultado da Oficina de Ferramentas Computacionais Para Pesquisadores</title><link>/blog/2015-05-30-resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/</link><pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate><guid>/blog/2015-05-30-resultado-da-oficina-de-ferramentas-computacionais-para-pesquisadores/</guid><description>&lt;p>Hoje aconteceu a Oficina de Ferramentas Computacionais para
+Pesquisadores.
+Como era esperado, tivemos um pouco de atrasado, mas não tanto.
+Conseguimos começar uns 5 minutos depois do esperado, mas não conseguimos fazer
+chamada. O período da manhã teve por volta de 20 participantes, sendo que alguns
+eram meus alunos que vieram pelo Julia. Algumas pessoas foram embora durante o
+almoço, e a oficina acabou com 15 participantes.&lt;/p>
+&lt;p>Veja também o &lt;a href="http://blog.rgaiacs.com/2015/05/31/ufpr.html">post do Raniere&lt;/a>
+sobre a oficina.&lt;/p></description></item><item><title>Workshop de Ferramentas Computacionais - Maio de 2015</title><link>/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</link><pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate><guid>/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</guid><description>&lt;h2 id="sobre">Sobre&lt;/h2>
+&lt;p>No dia 30 de Maio de 2015 acontecerá uma Oficina de Ferramentas Computacionais
+para Pesquisadores.
+Essa oficina será focada em três ferramentas básicas para desenvolvimento de
+software:&lt;/p>
+&lt;ul>
+&lt;li>Bash&lt;/li>
+&lt;li>Git&lt;/li>
+&lt;li>Julia&lt;/li>
+&lt;/ul>
+&lt;p>O Bash é o terminal tradicinal dos sistemas GNU/Linux (a tela preta).
+As possibilidades de uso são ilimitadas, mas vamos focar no básico,
+tentando chegar até a criação de um script simples.&lt;/p>
+&lt;p>O Git é uma ferramenta para controlar versões de softwares e outros arquivos.
+Você consegue guardar versões anteriores dos seus arquivos, assim como versões
+alternativas, com uma estrutura escondida que melhora a organização e o design.
+Ela é usada principalmente para controle de versões de software, permitindo que
+cada programador saiba o que foi feito por quem e quando, mas também pode ser
+utilizado para controle de versões de artigos, teses e apresentações.
+O &lt;a href="https://github.com/lpoo/modelo_tese_imecc">modelo de tese do IMECC - UNICAMP&lt;/a>
+usa o Git, e este site está &lt;a href="https://github.com/abelsiqueira/abelsiqueira.github.io">armazenado usando o
+Git&lt;/a>.
+É uma das ferramentas principais para gerenciamento de versões, e &lt;a href="https://git.wiki.kernel.org/index.php/GitProjects">muitos
+projetos importantes o usam&lt;/a>.
+O Git pode ser usado apenas em seu computador, mas o uso comum envolve algum
+servidor remoto (principalmente para colaboração). A oficina tentará mostrar um
+pouco de cada.&lt;/p></description></item></channel></rss>

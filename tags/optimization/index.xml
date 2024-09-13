@@ -1,17 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>optimization on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/optimization/</link><description>Recent content in optimization on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Julia 2023 retrospective</title><link>https://abelsiqueira.com/blog/2024-01-04-personal-julia-2023-retrospective/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2024-01-04-personal-julia-2023-retrospective/</guid><description>2023 was a very interest year for me, regarding the use and promotion of the Julia Programming Language. Here are the three main reasons why.
-First, I gave no less than 4 talks (not counting anything in-company).
-On 19/January at the JuliaLang Eindhoven Meetup. I talked about the difficulties of maintaining a large ecosystems of packages. It was the first time I went to Eindhoven, and I met some great people there.</description></item><item><title>Demand of your art</title><link>https://abelsiqueira.com/blog/2023-06-28-demand-of-your-art/</link><pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-06-28-demand-of-your-art/</guid><description>On a previous video/blog post, I talked about production planning using an example of selling art on the beach. One simplification of that model was the assumption that everything that we build can be sold.
-You can check the pluto notebook html or download the notebook.
-I have an excert down here, but for more details, check the video.
-If you just want, you can just skip to questions.
-As we saw on last episode, Javier is creating and selling his art on the beach.</description></item><item><title>Selling art on the beach</title><link>https://abelsiqueira.com/blog/2023-06-14-selling-art-on-the-beach/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-06-14-selling-art-on-the-beach/</guid><description>I just released a video about using mathematical modeling to solve a production planning with the thematic of selling your art on the beach.
-You can check the pluto notebook html here or download the notebook here.
-I have an excert down here, but for more details, check the video.
-In Brazil, a common joke between undergrad students (usually during exams) is that &amp;ldquo;maybe I should give up and go sell my art on the beach&amp;rdquo;.</description></item><item><title>Optimizing the Dollar Game from Numberphile</title><link>https://abelsiqueira.com/blog/2018-09-04-the-dollar-game-from-numberphile/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-09-04-the-dollar-game-from-numberphile/</guid><description>I just watched The Dollar Game - Numberphile, in which a game involving graphs is presented. I recommend you watch the video for complete information.
-The game involves a graph with integer values on its nodes, positive and negative. For instance, the following graph:
-Each node corresponds to a person, the node value is the amount of money that person has, the edges are the people that person can give or take money from.</description></item><item><title>My experience in the JuMP-dev annual workshop</title><link>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>Last week I had the pleasure of being invited to the Second annual JuMP-dev workshop, which happened in June 27-29, 2018 at Bordeaux, France. I&amp;rsquo;ve presented the packages from the Julia Smooth Optimizers organization, and had a very good time meeting with the JuMP developers.
-For those still unaware, JuMP is a modelling language for Mathematical Programming written in Julia. It provides access to a few different solvers for many kinds of problems, and it works inside of Julia, so one can enjoy the advantages of having a robust language if there is a need for advanced usage.</description></item><item><title>Introduction to Performance Profile</title><link>https://abelsiqueira.com/blog/2017-05-09-introduction-to-performance-profile/</link><pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-05-09-introduction-to-performance-profile/</guid><description>The comparison of algorithms is an active area of work. When we start learning algorithms, or more advanced programming, we learn of different ways of doing the same complex task. The most usual first example is sorting, which introduces a series of different ways to sort a single array, such as selection sort, insertion sort, quick sort, merge sort, etc. When comparing these algorithms, we take into account a few things: how fast it is, how much memory it needs, what are the best/worst/average-case complexities, and so on.</description></item><item><title>NLPModels.jl and CUTEst.jl: Constrained optimization</title><link>https://abelsiqueira.com/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</link><pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</guid><description>This is a continuation of this post. And again, you can follow the commands of this post in the asciinema.
-If you followed along last post, you should know the basics of our NLPModels API, including CUTEst access.
-One thing I didn&amp;rsquo;t explore, though, was constrained problems. It&amp;rsquo;d complicate too much.
-However, now that we know how to handle the basics, we can move to the advanced.
-Nonlinear Programming format</description></item><item><title>NLPModels.jl, CUTEst.jl and other Nonlinear Optimization Packages on Julia</title><link>https://abelsiqueira.com/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</link><pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</guid><description>A couple of weeks ago me and Professor Dominique Orban have finally made a release of CUTEst.jl, a wrapper for the CUTEst repository of problems for nonlinear optimization (which I&amp;rsquo;ve mentioned before). Along with this release, we&amp;rsquo;ve done a release of NLPModels.jl, the underlying package. I think it&amp;rsquo;s time I explain a little about these packages, others, and how to use them together. If you want to see the output of the commands, you can open this ASCIInema side by side.</description></item><item><title>Minicurso de Julia para Otimização</title><link>https://abelsiqueira.com/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</guid><description>Semana passada, nos dias 22 a 24 de Fevereiro aconteceu o VIII Simpósio de Análise Numérica e Otimização. Nesse evento, eu apresentei um minicurso de Julia com foco em Otimização não Linear. Entre 10 e 15 pessoas participaram no total, entre alunos de graduação, de pós-graduação, e professores. O objetivo principal era apresentar a linguagem e alguns detalhes importante para otimização não linear, o que foi obtido. Por outro lado, as aulas foram mais longas do que deveriam, e o conteúdo ficou muito esparso, pois tive que variar entre o básico e uma aplicação mais avançada.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Optimization on Abel Soares Siqueira</title><link>/tags/optimization/</link><description>Recent content in Optimization on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/optimization/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Julia 2023 retrospective</title><link>/blog/2024-01-04-personal-julia-2023-retrospective/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024-01-04-personal-julia-2023-retrospective/</guid><description>&lt;p>2023 was a very interest year for me, regarding the use and promotion of the Julia Programming Language.
+Here are the three main reasons why.&lt;/p>
+&lt;p>&lt;strong>First, I gave no less than 4 talks (not counting anything in-company).&lt;/strong>&lt;/p>
+&lt;p>On 19/January at the &lt;a href="https://www.meetup.com/nl-NL/julialang-eindhoven/">&lt;strong>JuliaLang Eindhoven Meetup&lt;/strong>&lt;/a>.
+I talked about the difficulties of maintaining a large ecosystems of packages.
+It was the first time I went to Eindhoven, and I met some great people there.
+These meetups are still happening around every 2 months.&lt;/p></description></item><item><title>Demand of your art</title><link>/blog/2023-06-28-demand-of-your-art/</link><pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023-06-28-demand-of-your-art/</guid><description>&lt;p>On a previous video/blog post, I talked about production planning using an example of selling art on the beach.
+One simplification of that model was the assumption that everything that we build can be sold.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/0HRAYGYrkIc">&lt;img src="/blog/2023-06-28/banner.jpg" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;p>You can check the &lt;a href="/blog/2023-06-28/demand-of-your-art.html">pluto notebook html&lt;/a> or &lt;a href="https://github.com/abelsiqueira/youtube/blob/main/demand-of-your-art.jl">download the notebook&lt;/a>.&lt;/p>
+&lt;p>I have an excert down here, but for more details, check the video.&lt;/p>
+&lt;p>&lt;strong>If you just want, you can just skip to &lt;a href="#questions">questions&lt;/a>.&lt;/strong>&lt;/p></description></item><item><title>Selling art on the beach</title><link>/blog/2023-06-14-selling-art-on-the-beach/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023-06-14-selling-art-on-the-beach/</guid><description>&lt;p>I just released a video about using mathematical modeling to solve a production planning with the thematic of selling your art on the beach.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/IOUi1juD5HQ">&lt;img src="/blog/2023-06-14/banner.jpg" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;p>You can check the pluto notebook html &lt;a href="/blog/2023-06-14/selling-art-on-the-beach.html">here&lt;/a> or download the notebook &lt;a href="https://github.com/abelsiqueira/youtube/blob/main/selling-art-on-the-beach.jl">here&lt;/a>.&lt;/p>
+&lt;p>I have an excert down here, but for more details, check the video.&lt;/p>
+&lt;hr>
+&lt;p>In Brazil, a common joke between undergrad students (usually during exams) is that &amp;ldquo;maybe I should give up and go sell my art on the beach&amp;rdquo;.&lt;/p></description></item><item><title>Optimizing the Dollar Game from Numberphile</title><link>/blog/2018-09-04-the-dollar-game-from-numberphile/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>/blog/2018-09-04-the-dollar-game-from-numberphile/</guid><description>&lt;p>I just watched &lt;a href="https://www.youtube.com/watch?v=U33dsEcKgeQ">The Dollar Game -
+Numberphile&lt;/a>, in which a game involving graphs is presented.
+I recommend you watch the video for complete information.&lt;/p>
+&lt;p>The game involves a graph with integer values on its nodes, positive and
+negative. For instance, the following graph:&lt;/p>
+&lt;p>&lt;img src="/blog/2018-09-04/example.png" alt="">&lt;/p>
+&lt;p>Each &lt;strong>node&lt;/strong> corresponds to a person, the &lt;strong>node value&lt;/strong> is the amount of
+money that person has, the &lt;strong>edges&lt;/strong> are the people that person can give or
+take money from.
+The objective of the game is to have everyone have a non-negative amount of money.
+In each &lt;strong>move&lt;/strong> of the game, one person decides to give or take money,
+&lt;strong>however&lt;/strong>, that person either takes 1 dollar from each of their connections,
+or gives 1 dollar to each one.&lt;/p></description></item><item><title>My experience in the JuMP-dev annual workshop</title><link>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>&lt;p>Last week I had the pleasure of being invited to the &lt;a href="http://www.juliaopt.org/meetings/bordeaux2018/">Second annual JuMP-dev
+workshop&lt;/a>, which happened in June 27-29,
+2018 at Bordeaux, France.
+I&amp;rsquo;ve presented the packages from the &lt;a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth
+Optimizers&lt;/a> organization, and had a very good
+time meeting with the JuMP developers.&lt;/p>
+&lt;p>For those still unaware, &lt;a href="https://github.com/JuliaOpt/JuMP.jl">JuMP&lt;/a> is a modelling
+language for Mathematical Programming written in Julia. It provides access to a few
+different solvers for many kinds of problems, and it works inside of Julia, so one can
+enjoy the advantages of having a robust language if there is a need for advanced usage.&lt;/p></description></item><item><title>Introduction to Performance Profile</title><link>/blog/2017-05-09-introduction-to-performance-profile/</link><pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate><guid>/blog/2017-05-09-introduction-to-performance-profile/</guid><description>&lt;p>The comparison of algorithms is an active area of work.
+When we start learning algorithms, or more advanced programming,
+we learn of different ways of doing the same complex task.
+The most usual first example is sorting, which introduces a series of
+different ways to sort a single array, such as selection sort, insertion sort,
+quick sort, merge sort, etc.
+When comparing these algorithms, we take into account a few things:
+how fast it is, how much memory it needs, what are the best/worst/average-case
+complexities, and so on.&lt;/p></description></item><item><title>NLPModels.jl and CUTEst.jl: Constrained optimization</title><link>/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</link><pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</guid><description>&lt;p>This is a continuation of &lt;a href="https://abelsiqueira.github.io%7B%7Blocal_prefix%7D%7Dnlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/">this
+post&lt;/a>.
+And again, you can follow the commands of this post in the
+&lt;a href="https://asciinema.org/a/103654">asciinema&lt;/a>.&lt;/p>
+&lt;p>If you followed along last post, you should know the basics of our
+NLPModels API, including CUTEst access.&lt;/p>
+&lt;p>One thing I didn&amp;rsquo;t explore, though, was constrained problems.
+It&amp;rsquo;d complicate too much.&lt;/p>
+&lt;p>However, now that we know how to handle the basics, we can move to the
+advanced.&lt;/p>
+&lt;p>&lt;strong>Nonlinear Programming format&lt;/strong>&lt;/p>
+&lt;p>The NLPModels internal structure is based on the CUTEst way of storing a
+problem.
+We use the following form for the optimization problem:&lt;/p></description></item><item><title>NLPModels.jl, CUTEst.jl and other Nonlinear Optimization Packages on Julia</title><link>/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</link><pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</guid><description>&lt;p>A couple of weeks ago me and Professor &lt;a href="https://dpo.github.io">Dominique Orban&lt;/a> have finally made a release of
+CUTEst.jl, a wrapper for the CUTEst repository of problems for nonlinear
+optimization (which I&amp;rsquo;ve mentioned before).
+Along with this release, we&amp;rsquo;ve done a release of NLPModels.jl, the underlying
+package. I think it&amp;rsquo;s time I explain a little about these packages, others,
+and how to use them together.
+If you want to see the output of the commands, you can open
+&lt;a href="https://asciinema.org/a/102371">this ASCIInema&lt;/a>
+side by side.&lt;/p></description></item><item><title>Minicurso de Julia para Otimização</title><link>/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</guid><description>&lt;p>Semana passada, nos dias 22 a 24 de Fevereiro aconteceu o VIII Simpósio de
+Análise Numérica e Otimização.
+Nesse evento, eu apresentei um minicurso de Julia com foco em Otimização não
+Linear.
+Entre 10 e 15 pessoas participaram no total, entre alunos de graduação, de
+pós-graduação, e professores.
+O objetivo principal era apresentar a linguagem e alguns detalhes importante
+para otimização não linear, o que foi obtido.
+Por outro lado, as aulas foram mais longas do que deveriam, e o conteúdo ficou
+muito esparso, pois tive que variar entre o básico e uma aplicação mais
+avançada.
+Para o próximo workshop, provavelmente focarei na introdução, que foi a primeira
+aula.&lt;/p></description></item></channel></rss>

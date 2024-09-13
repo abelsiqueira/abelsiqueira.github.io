@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gurobi on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/gurobi/</link><description>Recent content in gurobi on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/gurobi/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Gurobi 7 on Linux</title><link>https://abelsiqueira.com/blog/2017-03-13-installing-gurobi-7-on-linux/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-03-13-installing-gurobi-7-on-linux/</guid><description>Disclaimer: What I did here might work on Windows or OSX, but I give no guarantee.
-Request by Clóvis Gonzaga.
-First, create an account here and login.
-Secondly, download the appropriate Gurobi version clicking on Gurobi Optimizer. In my case, it is Linux 64 bits. Where to download this is optional, but you have to remember, as we&amp;rsquo;ll use later. I use a folder packages on my home folder.
-Third, unpack the file.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gurobi on Abel Soares Siqueira</title><link>/tags/gurobi/</link><description>Recent content in Gurobi on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/gurobi/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Gurobi 7 on Linux</title><link>/blog/2017-03-13-installing-gurobi-7-on-linux/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>/blog/2017-03-13-installing-gurobi-7-on-linux/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> What I did here might work on Windows or OSX, but I give no
+guarantee.&lt;/p>
+&lt;p>&lt;em>Request by Clóvis Gonzaga.&lt;/em>&lt;/p>
+&lt;p>First, create an account &lt;a href="http://www.gurobi.com/">here&lt;/a> and login.&lt;/p>
+&lt;p>Secondly, download the appropriate Gurobi version clicking on &lt;a href="http://www.gurobi.com/downloads/user/gurobi-optimizer">&lt;em>Gurobi
+Optimizer&lt;/em>&lt;/a>.
+In my case, it is Linux 64 bits. Where to download this is optional, but you
+have to remember, as we&amp;rsquo;ll use later. I use a folder &lt;code>packages&lt;/code> on my home
+folder.&lt;/p>
+&lt;p>Third, unpack the file. For linux, you might have a &lt;em>file-roller&lt;/em> that allows
+clicking and unpacking trivially, but I&amp;rsquo;ll use the command line.
+Open a terminal and navigate to the folder where you downloaded the file.&lt;/p></description></item></channel></rss>

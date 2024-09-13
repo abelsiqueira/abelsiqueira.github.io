@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jump on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/jump/</link><description>Recent content in jump on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/jump/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing the Dollar Game from Numberphile</title><link>https://abelsiqueira.com/blog/2018-09-04-the-dollar-game-from-numberphile/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-09-04-the-dollar-game-from-numberphile/</guid><description>I just watched The Dollar Game - Numberphile, in which a game involving graphs is presented. I recommend you watch the video for complete information.
-The game involves a graph with integer values on its nodes, positive and negative. For instance, the following graph:
-Each node corresponds to a person, the node value is the amount of money that person has, the edges are the people that person can give or take money from.</description></item><item><title>My experience in the JuMP-dev annual workshop</title><link>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>Last week I had the pleasure of being invited to the Second annual JuMP-dev workshop, which happened in June 27-29, 2018 at Bordeaux, France. I&amp;rsquo;ve presented the packages from the Julia Smooth Optimizers organization, and had a very good time meeting with the JuMP developers.
-For those still unaware, JuMP is a modelling language for Mathematical Programming written in Julia. It provides access to a few different solvers for many kinds of problems, and it works inside of Julia, so one can enjoy the advantages of having a robust language if there is a need for advanced usage.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jump on Abel Soares Siqueira</title><link>/tags/jump/</link><description>Recent content in Jump on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/jump/index.xml" rel="self" type="application/rss+xml"/><item><title>Optimizing the Dollar Game from Numberphile</title><link>/blog/2018-09-04-the-dollar-game-from-numberphile/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>/blog/2018-09-04-the-dollar-game-from-numberphile/</guid><description>&lt;p>I just watched &lt;a href="https://www.youtube.com/watch?v=U33dsEcKgeQ">The Dollar Game -
+Numberphile&lt;/a>, in which a game involving graphs is presented.
+I recommend you watch the video for complete information.&lt;/p>
+&lt;p>The game involves a graph with integer values on its nodes, positive and
+negative. For instance, the following graph:&lt;/p>
+&lt;p>&lt;img src="/blog/2018-09-04/example.png" alt="">&lt;/p>
+&lt;p>Each &lt;strong>node&lt;/strong> corresponds to a person, the &lt;strong>node value&lt;/strong> is the amount of
+money that person has, the &lt;strong>edges&lt;/strong> are the people that person can give or
+take money from.
+The objective of the game is to have everyone have a non-negative amount of money.
+In each &lt;strong>move&lt;/strong> of the game, one person decides to give or take money,
+&lt;strong>however&lt;/strong>, that person either takes 1 dollar from each of their connections,
+or gives 1 dollar to each one.&lt;/p></description></item><item><title>My experience in the JuMP-dev annual workshop</title><link>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>&lt;p>Last week I had the pleasure of being invited to the &lt;a href="http://www.juliaopt.org/meetings/bordeaux2018/">Second annual JuMP-dev
+workshop&lt;/a>, which happened in June 27-29,
+2018 at Bordeaux, France.
+I&amp;rsquo;ve presented the packages from the &lt;a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth
+Optimizers&lt;/a> organization, and had a very good
+time meeting with the JuMP developers.&lt;/p>
+&lt;p>For those still unaware, &lt;a href="https://github.com/JuliaOpt/JuMP.jl">JuMP&lt;/a> is a modelling
+language for Mathematical Programming written in Julia. It provides access to a few
+different solvers for many kinds of problems, and it works inside of Julia, so one can
+enjoy the advantages of having a robust language if there is a need for advanced usage.&lt;/p></description></item></channel></rss>

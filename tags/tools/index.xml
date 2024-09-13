@@ -1,3 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tools on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/tools/</link><description>Recent content in tools on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Apresentação no VII Simpósio de Análise Numérica e Otimização - UFPR</title><link>https://abelsiqueira.com/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</link><pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</guid><description>No dia 24 de Fevereiro de 2015 aconteceu o (primeiro dia do) VII Simpósio de Análise Numérica e Otimização. Participei deste congresso fazendo uma apresentação sobre Ferramentas Computacionais para Pesquisadores (ver código).
-Nesta apresentação, introduzo algumas ferramentas que considero bastante importantes para pesquisadores, principalmente da área de matemática computacional. Um resumo do que apresento é
-Aprenda outras linguagens. Recomendo, por exemplo, conhecer Python ou Ruby, Shell e Makefile. Com essas ferramentas já é possível automatizar testes e fazer scripts com uso variado.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on Abel Soares Siqueira</title><link>/tags/tools/</link><description>Recent content in Tools on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 25 Feb 2015 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Apresentação no VII Simpósio de Análise Numérica e Otimização - UFPR</title><link>/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</link><pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate><guid>/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</guid><description>&lt;p>No dia 24 de Fevereiro de 2015 aconteceu o (primeiro dia do) VII Simpósio de
+Análise Numérica e Otimização.
+Participei deste congresso fazendo uma apresentação sobre
+&lt;a href="/blog/2015-02-25-vii-simposio.pdf">Ferramentas Computacionais para
+Pesquisadores&lt;/a>
+(ver &lt;a href="http://github.com/abelsiqueira/pres-ferramentas-computacionais">código&lt;/a>).&lt;/p>
+&lt;p>Nesta apresentação, introduzo algumas ferramentas que considero bastante
+importantes para pesquisadores, principalmente da área de matemática
+computacional.
+Um resumo do que apresento é&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Aprenda outras linguagens. Recomendo, por exemplo, conhecer Python ou Ruby,
+Shell e Makefile. Com essas ferramentas já é possível automatizar testes e
+fazer scripts com uso variado. Makefile, por exemplo, é uma das maneiras
+mais usadas de se instalar programas (no Unix).&lt;/p></description></item></channel></rss>

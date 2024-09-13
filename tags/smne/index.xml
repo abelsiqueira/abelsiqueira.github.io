@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>smne on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/smne/</link><description>Recent content in smne on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/smne/index.xml" rel="self" type="application/rss+xml"/><item><title>Apresentação de Julia no SMNE</title><link>https://abelsiqueira.com/blog/2016-11-29-smne-2016-julia/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-11-29-smne-2016-julia/</guid><description>Nos dias 30 de Novembro à 2 de Dezembro de 2016 acontece o primeiro Simpósio de Métodos Numéricos em Engenharia. Neste simpósio darei um minicurso sobre Julia.
-Deixo aqui o material preliminar para os alunos do minicurso, ou interessados.
-Notebook (necessário) exemplo.jl (necessário) HTML estático do notebook - para quem não conseguiu instalar Também deixo aqui o link do Etherpad para usarmos na aula.
-Quem não conseguiu instalar até agora, pode tentar usar o JuliaBox, que roda Julia online.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smne on Abel Soares Siqueira</title><link>/tags/smne/</link><description>Recent content in Smne on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/smne/index.xml" rel="self" type="application/rss+xml"/><item><title>Apresentação de Julia no SMNE</title><link>/blog/2016-11-29-smne-2016-julia/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>/blog/2016-11-29-smne-2016-julia/</guid><description>&lt;p>Nos dias 30 de Novembro à 2 de Dezembro de 2016 acontece o &lt;a href="http://eventos.ufpr.br/smne/SMNE1">primeiro Simpósio
+de Métodos Numéricos em Engenharia&lt;/a>.
+Neste simpósio darei um minicurso sobre Julia.&lt;/p>
+&lt;p>Deixo aqui o material preliminar para os alunos do minicurso, ou interessados.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="/blog/smne-julia.ipynb">Notebook (necessário)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/exemplo.jl">exemplo.jl (necessário)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/smne-julia.html">HTML estático do notebook - para quem não conseguiu
+instalar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Também deixo &lt;a href="https://pad.riseup.net/p/aCXYqUjz3cCS">aqui&lt;/a> o link do Etherpad
+para usarmos na aula.&lt;/p>
+&lt;p>Quem não conseguiu instalar até agora, pode tentar usar o
+&lt;a href="https://juliabox.com/">JuliaBox&lt;/a>, que roda Julia online. &lt;strong>Não sei se teremos
+internet boa o suficiente no evento&lt;/strong>.&lt;/p></description></item></channel></rss>

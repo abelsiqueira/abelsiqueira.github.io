@@ -1,58 +1,295 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>julia on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/julia/</link><description>Recent content in julia on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/julia/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Julia 2023 retrospective</title><link>https://abelsiqueira.com/blog/2024-01-04-personal-julia-2023-retrospective/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2024-01-04-personal-julia-2023-retrospective/</guid><description>2023 was a very interest year for me, regarding the use and promotion of the Julia Programming Language. Here are the three main reasons why.
-First, I gave no less than 4 talks (not counting anything in-company).
-On 19/January at the JuliaLang Eindhoven Meetup. I talked about the difficulties of maintaining a large ecosystems of packages. It was the first time I went to Eindhoven, and I met some great people there.</description></item><item><title>COPIERTemplate.jl: A new template for Julia using copier</title><link>https://abelsiqueira.com/blog/2023-10-07-copiertemplate/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-10-07-copiertemplate/</guid><description>I help manage over 50 packages in the Julia Smooth Optimizers organization, and sometimes we have to make a small update to all of these packages. For instance, one of the workflows was updated, or something new is introduced, or the LTS version of Julia changes.
-In these situations, our usual approach is to create some script that downloads all of these packages, then apply the change, then creates a pull request with the modifications.</description></item><item><title>Best Frenemies: Julia and Python</title><link>https://abelsiqueira.com/blog/2023-09-05-best-frenemies-julia-and-python/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-09-05-best-frenemies-julia-and-python/</guid><description>Julia and Python are often seen as competitors, but in this video I want to show the integration between them. Using the PythonCall and the JuliaCall packages we can call Julia from Python and Python from Julia. Check the video out or check edited transcript below.
-Don&amp;rsquo;t forget to like and subscribe.
-Download the python-from-julia.jl Pluto notebook.
-Download the julia-from-python.ipynb Jupyter notebook.
-There are currently two ways to integrate Python in Julia and Julia in Python.</description></item><item><title>Julia Language Can't Even Handle Simple Math</title><link>https://abelsiqueira.com/blog/2023-08-30-julia-language-cannot-handle-simple-math/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-08-30-julia-language-cannot-handle-simple-math/</guid><description>I have a new video up about how Julia cannot even handle simple math! Check the video out or check an edited written version below.
-Don&amp;rsquo;t forget to like and subscribe
-Introduction Julia is supposed to be a great programming language, but it can&amp;rsquo;t even do simple math correctly. Take a look at this:
-julia&amp;gt; 0.1 + 0.2 - 0.3 5.551115123125783e-17 It should be zero, but it&amp;rsquo;s actually not. The notation means</description></item><item><title>Demand of your art</title><link>https://abelsiqueira.com/blog/2023-06-28-demand-of-your-art/</link><pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-06-28-demand-of-your-art/</guid><description>On a previous video/blog post, I talked about production planning using an example of selling art on the beach. One simplification of that model was the assumption that everything that we build can be sold.
-You can check the pluto notebook html or download the notebook.
-I have an excert down here, but for more details, check the video.
-If you just want, you can just skip to questions.
-As we saw on last episode, Javier is creating and selling his art on the beach.</description></item><item><title>Selling art on the beach</title><link>https://abelsiqueira.com/blog/2023-06-14-selling-art-on-the-beach/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-06-14-selling-art-on-the-beach/</guid><description>I just released a video about using mathematical modeling to solve a production planning with the thematic of selling your art on the beach.
-You can check the pluto notebook html here or download the notebook here.
-I have an excert down here, but for more details, check the video.
-In Brazil, a common joke between undergrad students (usually during exams) is that &amp;ldquo;maybe I should give up and go sell my art on the beach&amp;rdquo;.</description></item><item><title>Solving an RPG puzzle with Julia</title><link>https://abelsiqueira.com/blog/2023-04-27-solving-an-rpg-puzzle-with-julia/</link><pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2023-04-27-solving-an-rpg-puzzle-with-julia/</guid><description>I have a new video out where I talk about solving an RPG puzzle using Julia:
-You can check the pluto notebook html here or download the notebook here.
-Here&amp;rsquo;s a more fantastic setup than I used in the video:
-You walk into a large room with a 3 pointed star painted on the floor. Three triangular stones sit on top of the points of the star. One of the points of the triangle complement the point of the star, indicating that there is a correct orientation for it.</description></item><item><title>10 examples of embedding Julia in C/C++</title><link>https://abelsiqueira.com/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</guid><description>I worked on this blog post working for the Netherlands eScience Center.
-Check the blog post here.</description></item><item><title>Can Python with Julia be faster than low-level code?</title><link>https://abelsiqueira.com/blog/2022-02-11-python-and-julia-3/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2022-02-11-python-and-julia-3/</guid><description>I worked on this blog post working for eScience Center. This is the third and last part of a three-part series. Co-authored by Faruk Diblen.
-Check the blog post here.</description></item><item><title>Speed up your Python code using Julia</title><link>https://abelsiqueira.com/blog/2022-01-26-python-and-julia-2/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2022-01-26-python-and-julia-2/</guid><description>I worked on this blog post working for the Netherlands eScience Center. This is the second part of a three-part series. Co-authored by Faruk Diblen.
-Check the blog post here.</description></item><item><title>How to call Julia code from Python</title><link>https://abelsiqueira.com/blog/2022-01-19-python-and-julia-1/</link><pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2022-01-19-python-and-julia-1/</guid><description>I worked on this blog post working for the Netherlands eScience Center. This is the first part of a three-part series. Co-authored by Faruk Diblen.
-Check the blog post here.</description></item><item><title>Migração do site para Franklin.jl</title><link>https://abelsiqueira.com/blog/2021-06-28-migracao-franklin/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2021-06-28-migracao-franklin/</guid><description>Update 2022-12-30: Já não uso mais Franklin.jl.
-Há algum tempo o Jekyll tem me dado trabalho. Como não sou usuário de Ruby, volta e meia falta alguma coisa na minha instalação e eu passo horas tentando corrigir o problema pra fazer meu site rodar localmente. Para o CiDAMO, eu considerei o Hugo, já que tem mais suporte e eu não seria a única pessoa a cuidar do site. Já para meu site pessoal, e o site do Julia Smooth Optimizers, resolvi usar Franklin, já que eu quero mais é usar Julia mesmo.</description></item><item><title>Koch snowflakes for the holidays</title><link>https://abelsiqueira.com/blog/2018-12-12-koch-snowflakes-for-the-holidays/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-12-12-koch-snowflakes-for-the-holidays/</guid><description>Code for these images.
-I hope you&amp;rsquo;re familiar with the Koch curve fractal or snowflake. It essentially consists taking a line segment, splitting it in three, and substituting the middle part by two segments that form an equilateral triangle without the base. From one segment you obtain four. For each new segment, repeat the process.
-Images:
-The most important aspect of the koch line is that it looks awesome. Furthermore, you can do it for any image that is a collection of segments.</description></item><item><title>Package Development in Julia 1.0 using the REPL</title><link>https://abelsiqueira.com/blog/2018-12-05-package-development-on-julia-10/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-12-05-package-development-on-julia-10/</guid><description>This is a quick post on package development in Julia 1.0. Let me know if you&amp;rsquo;re interested in more, and what.
-Suppose you&amp;rsquo;re developing a package - say, MyPackage.jl - whether from scratch, or updating from Julia 0.6. First, and foremost, you need to be able to run and test it. On Julia 1.0, this is one possible way, while using the REPL.
-Choose a folder to develop it and create the necessary files</description></item><item><title>Optimizing the Dollar Game from Numberphile</title><link>https://abelsiqueira.com/blog/2018-09-04-the-dollar-game-from-numberphile/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-09-04-the-dollar-game-from-numberphile/</guid><description>I just watched The Dollar Game - Numberphile, in which a game involving graphs is presented. I recommend you watch the video for complete information.
-The game involves a graph with integer values on its nodes, positive and negative. For instance, the following graph:
-Each node corresponds to a person, the node value is the amount of money that person has, the edges are the people that person can give or take money from.</description></item><item><title>My experience in the JuMP-dev annual workshop</title><link>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>Last week I had the pleasure of being invited to the Second annual JuMP-dev workshop, which happened in June 27-29, 2018 at Bordeaux, France. I&amp;rsquo;ve presented the packages from the Julia Smooth Optimizers organization, and had a very good time meeting with the JuMP developers.
-For those still unaware, JuMP is a modelling language for Mathematical Programming written in Julia. It provides access to a few different solvers for many kinds of problems, and it works inside of Julia, so one can enjoy the advantages of having a robust language if there is a need for advanced usage.</description></item><item><title>Minicurso de Julia no IX Simpósio de Análise Numérica e Otimização da UFPR</title><link>https://abelsiqueira.com/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</link><pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</guid><description>Hoje ministrarei mais um minicurso de Julia na UFPR. Desta vez será no IX Simpósio de Análise Numérica e Otimização da UFPR.
-Por enquanto, deixo esta página apenas com o link para o notebook que utilizarei: aqui.</description></item><item><title>NLPModels.jl and CUTEst.jl: Constrained optimization</title><link>https://abelsiqueira.com/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</link><pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</guid><description>This is a continuation of this post. And again, you can follow the commands of this post in the asciinema.
-If you followed along last post, you should know the basics of our NLPModels API, including CUTEst access.
-One thing I didn&amp;rsquo;t explore, though, was constrained problems. It&amp;rsquo;d complicate too much.
-However, now that we know how to handle the basics, we can move to the advanced.
-Nonlinear Programming format</description></item><item><title>NLPModels.jl, CUTEst.jl and other Nonlinear Optimization Packages on Julia</title><link>https://abelsiqueira.com/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</link><pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</guid><description>A couple of weeks ago me and Professor Dominique Orban have finally made a release of CUTEst.jl, a wrapper for the CUTEst repository of problems for nonlinear optimization (which I&amp;rsquo;ve mentioned before). Along with this release, we&amp;rsquo;ve done a release of NLPModels.jl, the underlying package. I think it&amp;rsquo;s time I explain a little about these packages, others, and how to use them together. If you want to see the output of the commands, you can open this ASCIInema side by side.</description></item><item><title>Julia Fractal on Julia</title><link>https://abelsiqueira.com/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-01-15-julia-fractal-on-julia/</guid><description>I wanted a background that would update automatically in some interesting way, instead of just random images. After some thought, I decided to use some Julia fractals.
-I made a code to create the Julia fractals in the Julia language, and then some code to run it for a random point.
-The code is here, including some explaining on how to use and install it.
-Here are some examples:</description></item><item><title>Advent of Code 2016 in Julia</title><link>https://abelsiqueira.com/blog/2016-12-18-advent-of-code-2016-in-julia/</link><pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-12-18-advent-of-code-2016-in-julia/</guid><description>Last year I discovered by chance a code competition that happens in the month of December: The Advent of Code. This event consists of small puzzles release every day of December, up to the 25th. Which amounts to 25 problems! (I can do math).
-Last year I tried doing some on Bash, and latter switched to Julia, but never got to finish them. This year I decided to use Julia, because I want to test it for these general problems.</description></item><item><title>Apresentação de Julia no SMNE</title><link>https://abelsiqueira.com/blog/2016-11-29-smne-2016-julia/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-11-29-smne-2016-julia/</guid><description>Nos dias 30 de Novembro à 2 de Dezembro de 2016 acontece o primeiro Simpósio de Métodos Numéricos em Engenharia. Neste simpósio darei um minicurso sobre Julia.
-Deixo aqui o material preliminar para os alunos do minicurso, ou interessados.
-Notebook (necessário) exemplo.jl (necessário) HTML estático do notebook - para quem não conseguiu instalar Também deixo aqui o link do Etherpad para usarmos na aula.
-Quem não conseguiu instalar até agora, pode tentar usar o JuliaBox, que roda Julia online.</description></item><item><title>Test Driven Development in Julia</title><link>https://abelsiqueira.com/blog/2016-03-13-test-driven-development-in-julia/</link><pubDate>Sun, 13 Mar 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-03-13-test-driven-development-in-julia/</guid><description>First, what is Test Driven Development (TDD)? Well, I&amp;rsquo;m not an expert, so don&amp;rsquo;t quote me, but in practice it means that you develop your code to fulfill tests that you define prior to beginning your work. You do not define all your tests first, though. You define a single test, and produce code to pass it. Then you define another code, and produce code to pass both. And so forth until you complete your specification.</description></item><item><title>Minicurso de Julia para Otimização</title><link>https://abelsiqueira.com/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</guid><description>Semana passada, nos dias 22 a 24 de Fevereiro aconteceu o VIII Simpósio de Análise Numérica e Otimização. Nesse evento, eu apresentei um minicurso de Julia com foco em Otimização não Linear. Entre 10 e 15 pessoas participaram no total, entre alunos de graduação, de pós-graduação, e professores. O objetivo principal era apresentar a linguagem e alguns detalhes importante para otimização não linear, o que foi obtido. Por outro lado, as aulas foram mais longas do que deveriam, e o conteúdo ficou muito esparso, pois tive que variar entre o básico e uma aplicação mais avançada.</description></item><item><title>Automated testing</title><link>https://abelsiqueira.com/blog/2016-02-21-automated-testing/</link><pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-21-automated-testing/</guid><description>We&amp;rsquo;re gonna learn how to make a test for your Julia code that runs whenever you publish it online. We&amp;rsquo;re gonna use
-GitHub to store the code; Travis CI to run your tests; Coveralls.io to verify which lines of code your test are missing. Alternatively, for a open source alternative, see GitLab, which I don&amp;rsquo;t know enough yet.
-Let&amp;rsquo;s make a litte code to solve a linear system, paying attention to the problems it may arise, like incorrect dimensions, underdetermined and overdetermined systems, singular matrices, etc.</description></item><item><title>VIII Simpósio de Análise Numérica e Otimização - Minicurso de Julia</title><link>https://abelsiqueira.com/blog/2016-02-14-viii-simposio-de-analise-numerica/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-14-viii-simposio-de-analise-numerica/</guid><description>Nos dias 22 a 24 de Fevereiro de 2016 acontecerá o VIII Simpósio de Análise Numérica e Otimização. É uma ótima oportunidade para interagir com colegas e conhecer alguns assuntos novos de pesquisa.
-Em particular, nesse simpósio apresentarei um minicurso sobre Julia com foco em Otimização. O minicurso é voltado para pessoas que conhecem um pouco de MatLab ou alguma outra linguagem. Serão três dias, com uma introdução à linguagem, alguns exemplos, o CUTEst.</description></item><item><title>Installing CUTEst and CUTEst.jl</title><link>https://abelsiqueira.com/blog/2015-10-01-installing-cutest-and-cutestjl/</link><pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-10-01-installing-cutest-and-cutestjl/</guid><description>This post will tell you how to install CUTEst using a different tool that makes it much easier. Also, I&amp;rsquo;ll install CUTEst.jl, the CUTEst interface for Julia.
-Edit: Now, CUTEst.jl install CUTEst by itself. Check this post. Also, for Linux, I&amp;rsquo;ve created this CUTEst installer, which should be easier to use. February, 11, 2017.
-Edit: Some corrections were made on February, 15, 2016.
-Edit: Some corrections were made on November, 11, 2015.</description></item><item><title>Workshop de Ferramentas Computacionais - Maio de 2015</title><link>https://abelsiqueira.com/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</link><pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</guid><description>Sobre No dia 30 de Maio de 2015 acontecerá uma Oficina de Ferramentas Computacionais para Pesquisadores. Essa oficina será focada em três ferramentas básicas para desenvolvimento de software:
-Bash Git Julia O Bash é o terminal tradicinal dos sistemas GNU/Linux (a tela preta). As possibilidades de uso são ilimitadas, mas vamos focar no básico, tentando chegar até a criação de um script simples.
-O Git é uma ferramenta para controlar versões de softwares e outros arquivos.</description></item><item><title>Apresentação no VII Simpósio de Análise Numérica e Otimização - UFPR</title><link>https://abelsiqueira.com/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</link><pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</guid><description>No dia 24 de Fevereiro de 2015 aconteceu o (primeiro dia do) VII Simpósio de Análise Numérica e Otimização. Participei deste congresso fazendo uma apresentação sobre Ferramentas Computacionais para Pesquisadores (ver código).
-Nesta apresentação, introduzo algumas ferramentas que considero bastante importantes para pesquisadores, principalmente da área de matemática computacional. Um resumo do que apresento é
-Aprenda outras linguagens. Recomendo, por exemplo, conhecer Python ou Ruby, Shell e Makefile. Com essas ferramentas já é possível automatizar testes e fazer scripts com uso variado.</description></item><item><title>CUTEst.jl</title><link>https://abelsiqueira.com/blog/2015-02-06-cutestjl/</link><pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-02-06-cutestjl/</guid><description>About an year ago, Raniere started working on a interface for CUTEst. He decided to create ugly, a repository for CUTEst, but following the Unix procedure for building packages (./configure, make, make install). Also with ugly, he wanted to enable building a shared library to be used with Julia. This approach worked, but maintaining it is troublesome, since it would require updating and testing of ugly for every update of CUTEst.</description></item><item><title>A Study in Julia</title><link>https://abelsiqueira.com/blog/2015-01-22-a-study-in-julia/</link><pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-01-22-a-study-in-julia/</guid><description>Today I begin a study in Julia. This fantastic tool has syntax similar to that of Octave/Matlab, but is much faster. Furthermore, the interface with functions made in C and Fortran is much easier to accomplish, and since most things in computational mathematics are on these languages, this feature is wonderful.
-My intented work is
-make a simple julia and C interface, with auto-compiling and test on GitHub and Travis CI; develop a nonlinear optimization tool completely in Julia, then improve the slow bits by using C and/or Fortran; implement/improve the CUTEst interface [1], [2], possibly creating a SIF converter.</description></item><item><title>The End of Fortran</title><link>https://abelsiqueira.com/blog/2014-11-22-the-end-of-fortran/</link><pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2014-11-22-the-end-of-fortran/</guid><description>One of my main interest is the end of Fortran as the only programming language used by mathematicias. If you&amp;rsquo;re not in the area of mathematical programming, you probably find it strange for me to be talking about Fortran, so I explain. Fortran is considered the fastest programming language in mathematics, and most things made are in this language. Other often used languages such as MatLab/Octave and Mathematica are high-level, which means they are slower and are not considered for serious applications.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Julia on Abel Soares Siqueira</title><link>/tags/julia/</link><description>Recent content in Julia on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/julia/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Julia 2023 retrospective</title><link>/blog/2024-01-04-personal-julia-2023-retrospective/</link><pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate><guid>/blog/2024-01-04-personal-julia-2023-retrospective/</guid><description>&lt;p>2023 was a very interest year for me, regarding the use and promotion of the Julia Programming Language.
+Here are the three main reasons why.&lt;/p>
+&lt;p>&lt;strong>First, I gave no less than 4 talks (not counting anything in-company).&lt;/strong>&lt;/p>
+&lt;p>On 19/January at the &lt;a href="https://www.meetup.com/nl-NL/julialang-eindhoven/">&lt;strong>JuliaLang Eindhoven Meetup&lt;/strong>&lt;/a>.
+I talked about the difficulties of maintaining a large ecosystems of packages.
+It was the first time I went to Eindhoven, and I met some great people there.
+These meetups are still happening around every 2 months.&lt;/p></description></item><item><title>COPIERTemplate.jl: A new template for Julia using copier</title><link>/blog/2023-10-07-copiertemplate/</link><pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate><guid>/blog/2023-10-07-copiertemplate/</guid><description>&lt;p>I help manage over 50 packages in the &lt;a href="https://jso.dev">Julia Smooth Optimizers&lt;/a> organization, and sometimes we have to make a small update to all of these packages.
+For instance, one of the workflows was updated, or something new is introduced, or the LTS version of Julia changes.&lt;/p>
+&lt;p>In these situations, our usual approach is to create some script that downloads all of these packages, then apply the change, then creates a pull request with the modifications.&lt;/p></description></item><item><title>Best Frenemies: Julia and Python</title><link>/blog/2023-09-05-best-frenemies-julia-and-python/</link><pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate><guid>/blog/2023-09-05-best-frenemies-julia-and-python/</guid><description>&lt;p>Julia and Python are often seen as competitors, but in this video I want to show the integration between them. Using the PythonCall and the JuliaCall packages we can call Julia from Python and Python from Julia.
+&lt;a href="https://youtu.be/8huiBpkMFwE">Check the video out&lt;/a> or check edited transcript below.&lt;/p>
+&lt;p>Don&amp;rsquo;t forget to like and subscribe.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/8huiBpkMFwE">&lt;img src="/blog/2023-09-05/banner.gif" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;p>Download the &lt;a href="/blog/2023-09-05/python-from-julia.jl">python-from-julia.jl Pluto notebook&lt;/a>.&lt;/p>
+&lt;p>Download the &lt;a href="/blog/2023-09-05/julia-from-python.ipynb">julia-from-python.ipynb Jupyter notebook&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>There are currently two ways to integrate Python in Julia and Julia in Python. These two main packages are PyCall and PythonCall and their corresponding Python package.
+I have talked about PyCall in a series of blog posts in the past, comparing &lt;a href="/blog/2022-01-19-python-and-julia-1/">Python being improved by C++ and Python being improved by Julia&lt;/a> up to the point that we actually made the Julia code faster than the C++ code in this specific instance.
+Now I&amp;rsquo;m going to talk about the PythonCall package and the corresponding JuliaCall package which are newer.&lt;/p></description></item><item><title>Julia Language Can't Even Handle Simple Math</title><link>/blog/2023-08-30-julia-language-cannot-handle-simple-math/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><guid>/blog/2023-08-30-julia-language-cannot-handle-simple-math/</guid><description>&lt;p>I have a new video up about how Julia cannot even handle simple math! &lt;a href="https://youtu.be/siCWLWHSrvo">Check the video out&lt;/a> or check an edited written version below.&lt;/p>
+&lt;p>Don&amp;rsquo;t forget to like and subscribe&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/siCWLWHSrvo">&lt;img src="/blog/2023-08-30/banner.gif" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Julia is supposed to be a great programming language, but it can&amp;rsquo;t even do simple math correctly.
+Take a look at this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-julia" data-lang="julia">&lt;span style="display:flex;">&lt;span>julia&lt;span style="color:#f92672">&amp;gt;&lt;/span> &lt;span style="color:#ae81ff">0.1&lt;/span> &lt;span style="color:#f92672">+&lt;/span> &lt;span style="color:#ae81ff">0.2&lt;/span> &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">0.3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">5.551115123125783e-17&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It should be zero, but it&amp;rsquo;s actually not.
+The notation means&lt;/p></description></item><item><title>Demand of your art</title><link>/blog/2023-06-28-demand-of-your-art/</link><pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023-06-28-demand-of-your-art/</guid><description>&lt;p>On a previous video/blog post, I talked about production planning using an example of selling art on the beach.
+One simplification of that model was the assumption that everything that we build can be sold.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/0HRAYGYrkIc">&lt;img src="/blog/2023-06-28/banner.jpg" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;p>You can check the &lt;a href="/blog/2023-06-28/demand-of-your-art.html">pluto notebook html&lt;/a> or &lt;a href="https://github.com/abelsiqueira/youtube/blob/main/demand-of-your-art.jl">download the notebook&lt;/a>.&lt;/p>
+&lt;p>I have an excert down here, but for more details, check the video.&lt;/p>
+&lt;p>&lt;strong>If you just want, you can just skip to &lt;a href="#questions">questions&lt;/a>.&lt;/strong>&lt;/p></description></item><item><title>Selling art on the beach</title><link>/blog/2023-06-14-selling-art-on-the-beach/</link><pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate><guid>/blog/2023-06-14-selling-art-on-the-beach/</guid><description>&lt;p>I just released a video about using mathematical modeling to solve a production planning with the thematic of selling your art on the beach.&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/IOUi1juD5HQ">&lt;img src="/blog/2023-06-14/banner.jpg" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;p>You can check the pluto notebook html &lt;a href="/blog/2023-06-14/selling-art-on-the-beach.html">here&lt;/a> or download the notebook &lt;a href="https://github.com/abelsiqueira/youtube/blob/main/selling-art-on-the-beach.jl">here&lt;/a>.&lt;/p>
+&lt;p>I have an excert down here, but for more details, check the video.&lt;/p>
+&lt;hr>
+&lt;p>In Brazil, a common joke between undergrad students (usually during exams) is that &amp;ldquo;maybe I should give up and go sell my art on the beach&amp;rdquo;.&lt;/p></description></item><item><title>Solving an RPG puzzle with Julia</title><link>/blog/2023-04-27-solving-an-rpg-puzzle-with-julia/</link><pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate><guid>/blog/2023-04-27-solving-an-rpg-puzzle-with-julia/</guid><description>&lt;p>I have a new video out where I talk about solving an RPG puzzle using Julia:&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/L4QgBuiMmUk">&lt;img src="/blog/2023-04-27/banner.jpg" alt="Banner for youtube video">&lt;/a>&lt;/p>
+&lt;p>You can check the pluto notebook html &lt;a href="/blog/2023-04-27/rpg-puzzle.html">here&lt;/a> or download the notebook &lt;a href="/blog/2023-04-27/rpg-puzzle.jl">here&lt;/a>.&lt;/p>
+&lt;p>Here&amp;rsquo;s a more fantastic setup than I used in the video:&lt;/p>
+&lt;blockquote>
+&lt;p>You walk into a large room with a 3 pointed star painted on the floor.
+Three triangular stones sit on top of the points of the star.
+One of the points of the triangle complement the point of the star, indicating that there is a correct orientation for it.
+Around the star, 3 circular stone platforms stand with a circular crank in the middle.
+The crank can be turned clockwise or counter-clockwise, but it only stops at three positions: the initial position, a third of a full rotation, or two thirds of a full rotation.
+Moving the cranks make the triangles move as well (I will not explain here how, see the gif below or the video).
+You have to find the configuration that aligns the triangle with the star.&lt;/p></description></item><item><title>10 examples of embedding Julia in C/C++</title><link>/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</guid><description>&lt;p>I worked on this blog post working for the Netherlands eScience Center.&lt;/p>
+&lt;p>Check the blog post &lt;a href="https://blog.esciencecenter.nl/10-examples-of-embedding-julia-in-c-c-66282477e62c">here&lt;/a>.&lt;/p></description></item><item><title>Can Python with Julia be faster than low-level code?</title><link>/blog/2022-02-11-python-and-julia-3/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022-02-11-python-and-julia-3/</guid><description>&lt;p>I worked on this blog post working for eScience Center.
+This is the third and last part of a three-part series.
+Co-authored by Faruk Diblen.&lt;/p>
+&lt;p>Check the blog post &lt;a href="https://blog.esciencecenter.nl/can-python-with-julia-be-faster-than-low-level-code-cd71a72fbcf4">here&lt;/a>.&lt;/p></description></item><item><title>Speed up your Python code using Julia</title><link>/blog/2022-01-26-python-and-julia-2/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022-01-26-python-and-julia-2/</guid><description>&lt;p>I worked on this blog post working for the Netherlands eScience Center.
+This is the second part of a three-part series.
+Co-authored by Faruk Diblen.&lt;/p>
+&lt;p>Check the blog post &lt;a href="https://blog.esciencecenter.nl/speed-up-your-python-code-using-julia-f97a6c155630">here&lt;/a>.&lt;/p></description></item><item><title>How to call Julia code from Python</title><link>/blog/2022-01-19-python-and-julia-1/</link><pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate><guid>/blog/2022-01-19-python-and-julia-1/</guid><description>&lt;p>I worked on this blog post working for the Netherlands eScience Center.
+This is the first part of a three-part series.
+Co-authored by Faruk Diblen.&lt;/p>
+&lt;p>Check the blog post &lt;a href="https://blog.esciencecenter.nl/how-to-call-julia-code-from-python-8589a56a98f2">here&lt;/a>.&lt;/p></description></item><item><title>Migração do site para Franklin.jl</title><link>/blog/2021-06-28-migracao-franklin/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>/blog/2021-06-28-migracao-franklin/</guid><description>&lt;p>&lt;em>Update 2022-12-30: Já não uso mais Franklin.jl&lt;/em>.&lt;/p>
+&lt;p>Há algum tempo o Jekyll tem me dado trabalho.
+Como não sou usuário de Ruby, volta e meia falta alguma coisa na minha instalação e eu passo horas tentando corrigir o problema pra fazer meu site rodar localmente.
+Para o CiDAMO, eu considerei o Hugo, já que tem mais suporte e eu não seria a única pessoa a cuidar do site.
+Já para meu site pessoal, e o site do &lt;a href="https://juliasmoothoptimizers.github.io">Julia Smooth Optimizers&lt;/a>, resolvi usar Franklin, já que eu quero mais é usar Julia mesmo.&lt;/p></description></item><item><title>Koch snowflakes for the holidays</title><link>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</guid><description>&lt;p>&lt;a href="https://github.com/abelsiqueira/koch-holidays">Code for these images&lt;/a>.&lt;/p>
+&lt;p>I hope you&amp;rsquo;re familiar with the &lt;a href="https://en.wikipedia.org/wiki/Koch_snowflake">Koch curve
+fractal or snowflake&lt;/a>.
+It essentially consists taking a line segment, splitting it in three, and substituting
+the middle part by two segments that form an equilateral triangle without the base.
+From one segment you obtain four. For each new segment, repeat the process.&lt;/p>
+&lt;p>Images:&lt;/p>
+&lt;p>&lt;img src="/blog/koch/line-koch-0.png" alt="">&lt;/p>
+&lt;p>&lt;img src="/blog/koch/line-koch-1.png" alt="">
+&lt;img src="/blog/koch/line-koch-2.png" alt="">
+&lt;img src="/blog/koch/line-koch-3.png" alt="">
+&lt;img src="/blog/koch/line-koch-4.png" alt="">
+&lt;img src="/blog/koch/line-koch-5.png" alt="">
+&lt;img src="/blog/koch/line-koch-6.png" alt="">
+&lt;img src="/blog/koch/line-koch-7.png" alt="">&lt;/p>
+&lt;p>The most important aspect of the koch line is that it looks awesome. Furthermore, you
+can do it for any image that is a collection of segments. In particular, regular
+polygons, both outward and inward.&lt;/p></description></item><item><title>Package Development in Julia 1.0 using the REPL</title><link>/blog/2018-12-05-package-development-on-julia-10/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-05-package-development-on-julia-10/</guid><description>&lt;p>This is a quick post on package development in Julia 1.0. Let me know if you&amp;rsquo;re
+interested in more, and what.&lt;/p>
+&lt;p>Suppose you&amp;rsquo;re developing a package - say, &lt;code>MyPackage.jl&lt;/code> - whether from scratch, or
+updating from Julia 0.6.
+First, and foremost, you need to be able to run and test it.
+On Julia 1.0, this is one possible way, while using the REPL.&lt;/p>
+&lt;p>&lt;strong>Choose a folder to develop it and create the necessary files&lt;/strong>&lt;/p></description></item><item><title>Optimizing the Dollar Game from Numberphile</title><link>/blog/2018-09-04-the-dollar-game-from-numberphile/</link><pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate><guid>/blog/2018-09-04-the-dollar-game-from-numberphile/</guid><description>&lt;p>I just watched &lt;a href="https://www.youtube.com/watch?v=U33dsEcKgeQ">The Dollar Game -
+Numberphile&lt;/a>, in which a game involving graphs is presented.
+I recommend you watch the video for complete information.&lt;/p>
+&lt;p>The game involves a graph with integer values on its nodes, positive and
+negative. For instance, the following graph:&lt;/p>
+&lt;p>&lt;img src="/blog/2018-09-04/example.png" alt="">&lt;/p>
+&lt;p>Each &lt;strong>node&lt;/strong> corresponds to a person, the &lt;strong>node value&lt;/strong> is the amount of
+money that person has, the &lt;strong>edges&lt;/strong> are the people that person can give or
+take money from.
+The objective of the game is to have everyone have a non-negative amount of money.
+In each &lt;strong>move&lt;/strong> of the game, one person decides to give or take money,
+&lt;strong>however&lt;/strong>, that person either takes 1 dollar from each of their connections,
+or gives 1 dollar to each one.&lt;/p></description></item><item><title>My experience in the JuMP-dev annual workshop</title><link>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>&lt;p>Last week I had the pleasure of being invited to the &lt;a href="http://www.juliaopt.org/meetings/bordeaux2018/">Second annual JuMP-dev
+workshop&lt;/a>, which happened in June 27-29,
+2018 at Bordeaux, France.
+I&amp;rsquo;ve presented the packages from the &lt;a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth
+Optimizers&lt;/a> organization, and had a very good
+time meeting with the JuMP developers.&lt;/p>
+&lt;p>For those still unaware, &lt;a href="https://github.com/JuliaOpt/JuMP.jl">JuMP&lt;/a> is a modelling
+language for Mathematical Programming written in Julia. It provides access to a few
+different solvers for many kinds of problems, and it works inside of Julia, so one can
+enjoy the advantages of having a robust language if there is a need for advanced usage.&lt;/p></description></item><item><title>Minicurso de Julia no IX Simpósio de Análise Numérica e Otimização da UFPR</title><link>/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</link><pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</guid><description>&lt;p>Hoje ministrarei mais um minicurso de Julia na UFPR.
+Desta vez será no IX Simpósio de Análise Numérica e Otimização da UFPR.&lt;/p>
+&lt;p>Por enquanto, deixo esta página apenas com o link para o notebook que utilizarei:
+&lt;a href="https://github.com/abelsiqueira/julia-simposio2017">aqui&lt;/a>.&lt;/p></description></item><item><title>NLPModels.jl and CUTEst.jl: Constrained optimization</title><link>/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</link><pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</guid><description>&lt;p>This is a continuation of &lt;a href="https://abelsiqueira.github.io%7B%7Blocal_prefix%7D%7Dnlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/">this
+post&lt;/a>.
+And again, you can follow the commands of this post in the
+&lt;a href="https://asciinema.org/a/103654">asciinema&lt;/a>.&lt;/p>
+&lt;p>If you followed along last post, you should know the basics of our
+NLPModels API, including CUTEst access.&lt;/p>
+&lt;p>One thing I didn&amp;rsquo;t explore, though, was constrained problems.
+It&amp;rsquo;d complicate too much.&lt;/p>
+&lt;p>However, now that we know how to handle the basics, we can move to the
+advanced.&lt;/p>
+&lt;p>&lt;strong>Nonlinear Programming format&lt;/strong>&lt;/p>
+&lt;p>The NLPModels internal structure is based on the CUTEst way of storing a
+problem.
+We use the following form for the optimization problem:&lt;/p></description></item><item><title>NLPModels.jl, CUTEst.jl and other Nonlinear Optimization Packages on Julia</title><link>/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</link><pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</guid><description>&lt;p>A couple of weeks ago me and Professor &lt;a href="https://dpo.github.io">Dominique Orban&lt;/a> have finally made a release of
+CUTEst.jl, a wrapper for the CUTEst repository of problems for nonlinear
+optimization (which I&amp;rsquo;ve mentioned before).
+Along with this release, we&amp;rsquo;ve done a release of NLPModels.jl, the underlying
+package. I think it&amp;rsquo;s time I explain a little about these packages, others,
+and how to use them together.
+If you want to see the output of the commands, you can open
+&lt;a href="https://asciinema.org/a/102371">this ASCIInema&lt;/a>
+side by side.&lt;/p></description></item><item><title>Julia Fractal on Julia</title><link>/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>/blog/2017-01-15-julia-fractal-on-julia/</guid><description>&lt;p>I wanted a background that would update automatically in some
+interesting way, instead of just random images.
+After some thought, I decided to use some &lt;a href="https://en.wikipedia.org/wiki/Julia_set">Julia
+fractals&lt;/a>.&lt;/p>
+&lt;p>I made a code to create the Julia fractals in the &lt;a href="https://julialang.org">Julia
+language&lt;/a>, and then some code to run it for a random
+point.&lt;/p>
+&lt;p>The code is &lt;a href="https://github.com/abelsiqueira/juliabg">here&lt;/a>, including some
+explaining on how to use and install it.&lt;/p>
+&lt;p>Here are some examples:&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex1.png" alt="">
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex2.png" alt="">
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex3.png" alt="">
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex4.png" alt="">&lt;/p></description></item><item><title>Advent of Code 2016 in Julia</title><link>/blog/2016-12-18-advent-of-code-2016-in-julia/</link><pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate><guid>/blog/2016-12-18-advent-of-code-2016-in-julia/</guid><description>&lt;p>Last year I discovered by chance a code competition that happens in the month
+of December: The &lt;a href="http://adventofcode.com">Advent of Code&lt;/a>.
+This event consists of small puzzles release every day of December, up to the
+25th. Which amounts to 25 problems! (I can do math).&lt;/p>
+&lt;p>Last year I tried doing some on Bash, and latter switched to Julia, but never
+got to finish them.
+This year I decided to use &lt;a href="https://julialang.org">Julia&lt;/a>, because I want to
+test it for these general problems. Some problems are very hard, and I want
+to have the packages at my disposal.&lt;/p></description></item><item><title>Apresentação de Julia no SMNE</title><link>/blog/2016-11-29-smne-2016-julia/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>/blog/2016-11-29-smne-2016-julia/</guid><description>&lt;p>Nos dias 30 de Novembro à 2 de Dezembro de 2016 acontece o &lt;a href="http://eventos.ufpr.br/smne/SMNE1">primeiro Simpósio
+de Métodos Numéricos em Engenharia&lt;/a>.
+Neste simpósio darei um minicurso sobre Julia.&lt;/p>
+&lt;p>Deixo aqui o material preliminar para os alunos do minicurso, ou interessados.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="/blog/smne-julia.ipynb">Notebook (necessário)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/exemplo.jl">exemplo.jl (necessário)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/smne-julia.html">HTML estático do notebook - para quem não conseguiu
+instalar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Também deixo &lt;a href="https://pad.riseup.net/p/aCXYqUjz3cCS">aqui&lt;/a> o link do Etherpad
+para usarmos na aula.&lt;/p>
+&lt;p>Quem não conseguiu instalar até agora, pode tentar usar o
+&lt;a href="https://juliabox.com/">JuliaBox&lt;/a>, que roda Julia online. &lt;strong>Não sei se teremos
+internet boa o suficiente no evento&lt;/strong>.&lt;/p></description></item><item><title>Test Driven Development in Julia</title><link>/blog/2016-03-13-test-driven-development-in-julia/</link><pubDate>Sun, 13 Mar 2016 00:00:00 +0000</pubDate><guid>/blog/2016-03-13-test-driven-development-in-julia/</guid><description>&lt;p>First, what is Test Driven Development (TDD)?
+Well, I&amp;rsquo;m not an expert, so don&amp;rsquo;t quote me, but in practice it means that you
+develop your code to fulfill tests that you define prior to beginning your work.
+You do not define &lt;strong>all&lt;/strong> your tests first, though. You define a single test,
+and produce code to pass it. Then you define another code, and produce code to
+pass both. And so forth until you complete your specification.&lt;/p></description></item><item><title>Minicurso de Julia para Otimização</title><link>/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</guid><description>&lt;p>Semana passada, nos dias 22 a 24 de Fevereiro aconteceu o VIII Simpósio de
+Análise Numérica e Otimização.
+Nesse evento, eu apresentei um minicurso de Julia com foco em Otimização não
+Linear.
+Entre 10 e 15 pessoas participaram no total, entre alunos de graduação, de
+pós-graduação, e professores.
+O objetivo principal era apresentar a linguagem e alguns detalhes importante
+para otimização não linear, o que foi obtido.
+Por outro lado, as aulas foram mais longas do que deveriam, e o conteúdo ficou
+muito esparso, pois tive que variar entre o básico e uma aplicação mais
+avançada.
+Para o próximo workshop, provavelmente focarei na introdução, que foi a primeira
+aula.&lt;/p></description></item><item><title>Automated testing</title><link>/blog/2016-02-21-automated-testing/</link><pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-21-automated-testing/</guid><description>&lt;p>We&amp;rsquo;re gonna learn how to make a test for your Julia code that runs whenever you
+publish it online. We&amp;rsquo;re gonna use&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://github.com">GitHub&lt;/a> to store the code;&lt;/li>
+&lt;li>&lt;a href="http://travis-ci.com">Travis CI&lt;/a> to run your tests;&lt;/li>
+&lt;li>&lt;a href="http://coveralls.io">Coveralls.io&lt;/a> to verify which lines of code your test are missing.&lt;/li>
+&lt;/ul>
+&lt;p>Alternatively, for a open source alternative, see &lt;a href="http://gitlab.com">GitLab&lt;/a>,
+which I don&amp;rsquo;t know enough yet.&lt;/p>
+&lt;hr>
+&lt;p>Let&amp;rsquo;s make a litte code to solve a linear system, paying attention to the
+problems it may arise, like incorrect dimensions, underdetermined and
+overdetermined systems, singular matrices, etc.
+And we&amp;rsquo;ll be using the factorizations, but not &lt;code>\&lt;/code>.&lt;/p></description></item><item><title>VIII Simpósio de Análise Numérica e Otimização - Minicurso de Julia</title><link>/blog/2016-02-14-viii-simposio-de-analise-numerica/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-14-viii-simposio-de-analise-numerica/</guid><description>&lt;p>Nos dias 22 a 24 de Fevereiro de 2016 acontecerá o &lt;a href="http://www.mat.ufpr.br/verao/2016/m4_otimiza.html">VIII Simpósio de Análise
+Numérica e Otimização&lt;/a>.
+É uma ótima oportunidade para interagir com colegas e conhecer alguns assuntos
+novos de pesquisa.&lt;/p>
+&lt;p>Em particular, nesse simpósio apresentarei um minicurso sobre Julia com foco em
+Otimização. O minicurso é voltado para pessoas que conhecem um pouco de MatLab
+ou alguma outra linguagem. Serão três dias, com uma introdução à linguagem,
+alguns exemplos, o &lt;a href="http://github.com/JuliaOptimizers/CUTEst.jl">CUTEst.jl&lt;/a>,
+e um workflow para criar um pacote de otimização com transição para C e Fortran.&lt;/p></description></item><item><title>Installing CUTEst and CUTEst.jl</title><link>/blog/2015-10-01-installing-cutest-and-cutestjl/</link><pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate><guid>/blog/2015-10-01-installing-cutest-and-cutestjl/</guid><description>&lt;p>This post will tell you how to install CUTEst using a different tool that makes
+it much easier. Also, I&amp;rsquo;ll install CUTEst.jl, the CUTEst interface for Julia.&lt;/p>
+&lt;p>&lt;strong>Edit:&lt;/strong> &lt;em>Now, CUTEst.jl install CUTEst by itself. Check &lt;a href="https://abelsiqueira.com/blog/nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/">this
+post&lt;/a>.
+Also, for Linux, I&amp;rsquo;ve created &lt;a href="https://github.com/abelsiqueira/linux-cutest">this CUTEst
+installer&lt;/a>, which should be
+easier to use. February, 11, 2017&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Edit:&lt;/strong> &lt;em>Some corrections were made on February, 15, 2016&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Edit:&lt;/strong> &lt;em>Some corrections were made on November, 11, 2015&lt;/em>.&lt;/p></description></item><item><title>Workshop de Ferramentas Computacionais - Maio de 2015</title><link>/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</link><pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate><guid>/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</guid><description>&lt;h2 id="sobre">Sobre&lt;/h2>
+&lt;p>No dia 30 de Maio de 2015 acontecerá uma Oficina de Ferramentas Computacionais
+para Pesquisadores.
+Essa oficina será focada em três ferramentas básicas para desenvolvimento de
+software:&lt;/p>
+&lt;ul>
+&lt;li>Bash&lt;/li>
+&lt;li>Git&lt;/li>
+&lt;li>Julia&lt;/li>
+&lt;/ul>
+&lt;p>O Bash é o terminal tradicinal dos sistemas GNU/Linux (a tela preta).
+As possibilidades de uso são ilimitadas, mas vamos focar no básico,
+tentando chegar até a criação de um script simples.&lt;/p>
+&lt;p>O Git é uma ferramenta para controlar versões de softwares e outros arquivos.
+Você consegue guardar versões anteriores dos seus arquivos, assim como versões
+alternativas, com uma estrutura escondida que melhora a organização e o design.
+Ela é usada principalmente para controle de versões de software, permitindo que
+cada programador saiba o que foi feito por quem e quando, mas também pode ser
+utilizado para controle de versões de artigos, teses e apresentações.
+O &lt;a href="https://github.com/lpoo/modelo_tese_imecc">modelo de tese do IMECC - UNICAMP&lt;/a>
+usa o Git, e este site está &lt;a href="https://github.com/abelsiqueira/abelsiqueira.github.io">armazenado usando o
+Git&lt;/a>.
+É uma das ferramentas principais para gerenciamento de versões, e &lt;a href="https://git.wiki.kernel.org/index.php/GitProjects">muitos
+projetos importantes o usam&lt;/a>.
+O Git pode ser usado apenas em seu computador, mas o uso comum envolve algum
+servidor remoto (principalmente para colaboração). A oficina tentará mostrar um
+pouco de cada.&lt;/p></description></item><item><title>Apresentação no VII Simpósio de Análise Numérica e Otimização - UFPR</title><link>/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</link><pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate><guid>/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</guid><description>&lt;p>No dia 24 de Fevereiro de 2015 aconteceu o (primeiro dia do) VII Simpósio de
+Análise Numérica e Otimização.
+Participei deste congresso fazendo uma apresentação sobre
+&lt;a href="/blog/2015-02-25-vii-simposio.pdf">Ferramentas Computacionais para
+Pesquisadores&lt;/a>
+(ver &lt;a href="http://github.com/abelsiqueira/pres-ferramentas-computacionais">código&lt;/a>).&lt;/p>
+&lt;p>Nesta apresentação, introduzo algumas ferramentas que considero bastante
+importantes para pesquisadores, principalmente da área de matemática
+computacional.
+Um resumo do que apresento é&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Aprenda outras linguagens. Recomendo, por exemplo, conhecer Python ou Ruby,
+Shell e Makefile. Com essas ferramentas já é possível automatizar testes e
+fazer scripts com uso variado. Makefile, por exemplo, é uma das maneiras
+mais usadas de se instalar programas (no Unix).&lt;/p></description></item><item><title>CUTEst.jl</title><link>/blog/2015-02-06-cutestjl/</link><pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate><guid>/blog/2015-02-06-cutestjl/</guid><description>&lt;p>About an year ago,
+&lt;a href="http://rgaiacs.com/">Raniere&lt;/a>
+started working on a interface for
+&lt;a href="http://ccpforge.cse.rl.ac.uk/gf/project/cutest/wiki/">CUTEst&lt;/a>.
+He decided to create &lt;a href="https://github.com/lpoo/ugly">ugly&lt;/a>,
+a repository for CUTEst, but following the Unix procedure for
+building packages (&lt;code>./configure, make, make install&lt;/code>).
+Also with ugly, he wanted to enable building a shared library
+to be used with Julia.
+This approach worked, but maintaining it is troublesome,
+since it would require updating and testing of ugly for every
+update of CUTEst.&lt;/p>
+&lt;p>What I decided to do was find a way to create a shared library
+from a working CUTEst installation.
+This focuses on another principle: passing the blame, er,
+I mean, modularity.
+My package would simply take a working CUTEst and make a
+working shared library from it.
+It also served of downloading and installing a new CUTEst
+installation, since this would be required for testing.
+The work can be found at
+&lt;a href="http://github.com/abelsiqueira/cutest-julia-installer">cutest-julia-installer&lt;/a>.&lt;/p></description></item><item><title>A Study in Julia</title><link>/blog/2015-01-22-a-study-in-julia/</link><pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate><guid>/blog/2015-01-22-a-study-in-julia/</guid><description>&lt;p>Today I begin a study in &lt;a href="http://julialang.org/">Julia&lt;/a>.
+This fantastic tool has syntax similar to that of Octave/Matlab,
+but is much faster. Furthermore, the interface with functions
+made in C and Fortran is much easier to accomplish, and since
+most things in computational mathematics are on these languages,
+this feature is wonderful.&lt;/p>
+&lt;p>My intented work is&lt;/p>
+&lt;ul>
+&lt;li>make a simple julia and C interface, with auto-compiling and test on GitHub and Travis CI;&lt;/li>
+&lt;li>develop a nonlinear optimization tool completely in Julia, then improve the slow bits by using C and/or Fortran;&lt;/li>
+&lt;li>implement/improve the CUTEst interface &lt;a href="https://github.com/abelsiqueira/ugly">[1]&lt;/a>, &lt;a href="https://github.com/abelsiqueira/CUTEst.jl">[2]&lt;/a>, possibly creating a SIF converter.&lt;/li>
+&lt;li>if things work out, submit to &lt;a href="http://www.juliaopt.org/">JuliaOpt&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>My work starts with the &lt;a href="https://github.com/abelsiqueira/julia-c-sample.git">Julia-C
+Samples&lt;/a>.
+If you need me, I might be on &lt;code>#julia&lt;/code> on IRC/freenode.&lt;/p></description></item><item><title>The End of Fortran</title><link>/blog/2014-11-22-the-end-of-fortran/</link><pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate><guid>/blog/2014-11-22-the-end-of-fortran/</guid><description>&lt;p>One of my main interest is the end of Fortran &lt;strong>as the only programming language
+used by mathematicias&lt;/strong>. If you&amp;rsquo;re not in the area of mathematical programming,
+you probably find it strange for me to be talking about Fortran, so I explain.
+Fortran is considered the fastest programming language in mathematics, and most
+things made are in this language. Other often used languages such as
+MatLab/Octave and Mathematica are high-level, which means they are slower and
+are not considered for serious applications.&lt;/p></description></item></channel></rss>

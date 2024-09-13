@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>c on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/c/</link><description>Recent content in c on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/c/index.xml" rel="self" type="application/rss+xml"/><item><title>10 examples of embedding Julia in C/C++</title><link>https://abelsiqueira.com/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</guid><description>I worked on this blog post working for the Netherlands eScience Center.
-Check the blog post here.</description></item><item><title>A Study in Julia</title><link>https://abelsiqueira.com/blog/2015-01-22-a-study-in-julia/</link><pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-01-22-a-study-in-julia/</guid><description>Today I begin a study in Julia. This fantastic tool has syntax similar to that of Octave/Matlab, but is much faster. Furthermore, the interface with functions made in C and Fortran is much easier to accomplish, and since most things in computational mathematics are on these languages, this feature is wonderful.
-My intented work is
-make a simple julia and C interface, with auto-compiling and test on GitHub and Travis CI; develop a nonlinear optimization tool completely in Julia, then improve the slow bits by using C and/or Fortran; implement/improve the CUTEst interface [1], [2], possibly creating a SIF converter.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>C on Abel Soares Siqueira</title><link>/tags/c/</link><description>Recent content in C on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/c/index.xml" rel="self" type="application/rss+xml"/><item><title>10 examples of embedding Julia in C/C++</title><link>/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</link><pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate><guid>/blog/2022-11-03-10-examples-of-embedding-julia-in-c-cpp/</guid><description>&lt;p>I worked on this blog post working for the Netherlands eScience Center.&lt;/p>
+&lt;p>Check the blog post &lt;a href="https://blog.esciencecenter.nl/10-examples-of-embedding-julia-in-c-c-66282477e62c">here&lt;/a>.&lt;/p></description></item><item><title>A Study in Julia</title><link>/blog/2015-01-22-a-study-in-julia/</link><pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate><guid>/blog/2015-01-22-a-study-in-julia/</guid><description>&lt;p>Today I begin a study in &lt;a href="http://julialang.org/">Julia&lt;/a>.
+This fantastic tool has syntax similar to that of Octave/Matlab,
+but is much faster. Furthermore, the interface with functions
+made in C and Fortran is much easier to accomplish, and since
+most things in computational mathematics are on these languages,
+this feature is wonderful.&lt;/p>
+&lt;p>My intented work is&lt;/p>
+&lt;ul>
+&lt;li>make a simple julia and C interface, with auto-compiling and test on GitHub and Travis CI;&lt;/li>
+&lt;li>develop a nonlinear optimization tool completely in Julia, then improve the slow bits by using C and/or Fortran;&lt;/li>
+&lt;li>implement/improve the CUTEst interface &lt;a href="https://github.com/abelsiqueira/ugly">[1]&lt;/a>, &lt;a href="https://github.com/abelsiqueira/CUTEst.jl">[2]&lt;/a>, possibly creating a SIF converter.&lt;/li>
+&lt;li>if things work out, submit to &lt;a href="http://www.juliaopt.org/">JuliaOpt&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>My work starts with the &lt;a href="https://github.com/abelsiqueira/julia-c-sample.git">Julia-C
+Samples&lt;/a>.
+If you need me, I might be on &lt;code>#julia&lt;/code> on IRC/freenode.&lt;/p></description></item></channel></rss>

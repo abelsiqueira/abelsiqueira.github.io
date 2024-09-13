@@ -1,2 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>jekyll on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/jekyll/</link><description>Recent content in jekyll on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 13 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/jekyll/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional site and blog for researchers, professors and students</title><link>https://abelsiqueira.com/blog/2016-02-13-professional-site-and-blog-for-researchers-professores-and-students/</link><pubDate>Sat, 13 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-13-professional-site-and-blog-for-researchers-professores-and-students/</guid><description>TL; DR: Make a professional web page, like mine, and/or a blog, like mine. Use Jekyll and my links: work page, blog page.
-Summary: Summary: Introduction General Information Using my site as a starting point Work page - Easy way Work page - Hard way Blog page - Easy way Blog page - Hard way Both - Hard way Introduction We live in the age of information. It is easier than ever to find someone from another site of the planet, and contact them.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jekyll on Abel Soares Siqueira</title><link>/tags/jekyll/</link><description>Recent content in Jekyll on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 13 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/jekyll/index.xml" rel="self" type="application/rss+xml"/><item><title>Professional site and blog for researchers, professors and students</title><link>/blog/2016-02-13-professional-site-and-blog-for-researchers-professores-and-students/</link><pubDate>Sat, 13 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-13-professional-site-and-blog-for-researchers-professores-and-students/</guid><description>&lt;p>TL; DR: Make a professional web page, like &lt;a href="%7B%7Blocal_prefix%7D%7D/../">mine&lt;/a>,
+and/or a blog, like &lt;a href="%7B%7Blocal_prefix%7D%7D">mine&lt;/a>. Use
+&lt;a href="https://jekyllrb.com/">Jekyll&lt;/a> and my links:
+&lt;a href="http://github.com/abelsiqueira/abelsiqueira.github.io">work page&lt;/a>,
+&lt;a href="http://github.com/abelsiqueira/blog">blog page&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="summary">Summary:&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#summary">Summary:&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#introduction">Introduction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#general-information">General Information&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#using-my-site-as-a-starting-point">Using my site as a starting point&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#work-page---easy-way">Work page - Easy way&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#work-page---hard-way">Work page - Hard way&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#blog-page---easy-way">Blog page - Easy way&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#blog-page---hard-way">Blog page - Hard way&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#both---hard-way">Both - Hard way&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="introduction">Introduction&lt;/h3>
+&lt;p>We live in the age of information.
+It is easier than ever to find someone from another site of the planet, and
+contact them.
+That said, that is only possible if you are online.&lt;/p></description></item></channel></rss>

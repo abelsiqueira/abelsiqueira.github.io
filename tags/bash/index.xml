@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bash on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/bash/</link><description>Recent content in bash on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshop de Ferramentas Computacionais - Maio de 2015</title><link>https://abelsiqueira.com/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</link><pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</guid><description>Sobre No dia 30 de Maio de 2015 acontecerá uma Oficina de Ferramentas Computacionais para Pesquisadores. Essa oficina será focada em três ferramentas básicas para desenvolvimento de software:
-Bash Git Julia O Bash é o terminal tradicinal dos sistemas GNU/Linux (a tela preta). As possibilidades de uso são ilimitadas, mas vamos focar no básico, tentando chegar até a criação de um script simples.
-O Git é uma ferramenta para controlar versões de softwares e outros arquivos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on Abel Soares Siqueira</title><link>/tags/bash/</link><description>Recent content in Bash on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Workshop de Ferramentas Computacionais - Maio de 2015</title><link>/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</link><pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate><guid>/blog/2015-04-13-workshop-de-ferramentas-computacionais-maio-de-2015/</guid><description>&lt;h2 id="sobre">Sobre&lt;/h2>
+&lt;p>No dia 30 de Maio de 2015 acontecerá uma Oficina de Ferramentas Computacionais
+para Pesquisadores.
+Essa oficina será focada em três ferramentas básicas para desenvolvimento de
+software:&lt;/p>
+&lt;ul>
+&lt;li>Bash&lt;/li>
+&lt;li>Git&lt;/li>
+&lt;li>Julia&lt;/li>
+&lt;/ul>
+&lt;p>O Bash é o terminal tradicinal dos sistemas GNU/Linux (a tela preta).
+As possibilidades de uso são ilimitadas, mas vamos focar no básico,
+tentando chegar até a criação de um script simples.&lt;/p>
+&lt;p>O Git é uma ferramenta para controlar versões de softwares e outros arquivos.
+Você consegue guardar versões anteriores dos seus arquivos, assim como versões
+alternativas, com uma estrutura escondida que melhora a organização e o design.
+Ela é usada principalmente para controle de versões de software, permitindo que
+cada programador saiba o que foi feito por quem e quando, mas também pode ser
+utilizado para controle de versões de artigos, teses e apresentações.
+O &lt;a href="https://github.com/lpoo/modelo_tese_imecc">modelo de tese do IMECC - UNICAMP&lt;/a>
+usa o Git, e este site está &lt;a href="https://github.com/abelsiqueira/abelsiqueira.github.io">armazenado usando o
+Git&lt;/a>.
+É uma das ferramentas principais para gerenciamento de versões, e &lt;a href="https://git.wiki.kernel.org/index.php/GitProjects">muitos
+projetos importantes o usam&lt;/a>.
+O Git pode ser usado apenas em seu computador, mas o uso comum envolve algum
+servidor remoto (principalmente para colaboração). A oficina tentará mostrar um
+pouco de cada.&lt;/p></description></item></channel></rss>

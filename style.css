@@ -1,3 +1,24 @@
 #about ul {
   display: block !important;
 }
+
+#hero {
+  min-height: 10px !important;
+}
+
+.black-shade {
+  background-color: #000b;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 7px;
+  background-color: #c4d7f2;
+}
+
+.carousel-indicators .active {
+  background-color: #eea243;
+}
+
+.social-icon {
+  font-size: 2rem;
+}

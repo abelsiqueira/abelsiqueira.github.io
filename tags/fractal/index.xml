@@ -1,7 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fractal on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/fractal/</link><description>Recent content in fractal on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/fractal/index.xml" rel="self" type="application/rss+xml"/><item><title>Koch snowflakes for the holidays</title><link>https://abelsiqueira.com/blog/2018-12-12-koch-snowflakes-for-the-holidays/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-12-12-koch-snowflakes-for-the-holidays/</guid><description>Code for these images.
-I hope you&amp;rsquo;re familiar with the Koch curve fractal or snowflake. It essentially consists taking a line segment, splitting it in three, and substituting the middle part by two segments that form an equilateral triangle without the base. From one segment you obtain four. For each new segment, repeat the process.
-Images:
-The most important aspect of the koch line is that it looks awesome. Furthermore, you can do it for any image that is a collection of segments.</description></item><item><title>Julia Fractal on Julia</title><link>https://abelsiqueira.com/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-01-15-julia-fractal-on-julia/</guid><description>I wanted a background that would update automatically in some interesting way, instead of just random images. After some thought, I decided to use some Julia fractals.
-I made a code to create the Julia fractals in the Julia language, and then some code to run it for a random point.
-The code is here, including some explaining on how to use and install it.
-Here are some examples:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fractal on Abel Soares Siqueira</title><link>/tags/fractal/</link><description>Recent content in Fractal on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fractal/index.xml" rel="self" type="application/rss+xml"/><item><title>Koch snowflakes for the holidays</title><link>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</guid><description>&lt;p>&lt;a href="https://github.com/abelsiqueira/koch-holidays">Code for these images&lt;/a>.&lt;/p>
+&lt;p>I hope you&amp;rsquo;re familiar with the &lt;a href="https://en.wikipedia.org/wiki/Koch_snowflake">Koch curve
+fractal or snowflake&lt;/a>.
+It essentially consists taking a line segment, splitting it in three, and substituting
+the middle part by two segments that form an equilateral triangle without the base.
+From one segment you obtain four. For each new segment, repeat the process.&lt;/p>
+&lt;p>Images:&lt;/p>
+&lt;p>&lt;img src="/blog/koch/line-koch-0.png" alt="">&lt;/p>
+&lt;p>&lt;img src="/blog/koch/line-koch-1.png" alt="">
+&lt;img src="/blog/koch/line-koch-2.png" alt="">
+&lt;img src="/blog/koch/line-koch-3.png" alt="">
+&lt;img src="/blog/koch/line-koch-4.png" alt="">
+&lt;img src="/blog/koch/line-koch-5.png" alt="">
+&lt;img src="/blog/koch/line-koch-6.png" alt="">
+&lt;img src="/blog/koch/line-koch-7.png" alt="">&lt;/p>
+&lt;p>The most important aspect of the koch line is that it looks awesome. Furthermore, you
+can do it for any image that is a collection of segments. In particular, regular
+polygons, both outward and inward.&lt;/p></description></item><item><title>Julia Fractal on Julia</title><link>/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>/blog/2017-01-15-julia-fractal-on-julia/</guid><description>&lt;p>I wanted a background that would update automatically in some
+interesting way, instead of just random images.
+After some thought, I decided to use some &lt;a href="https://en.wikipedia.org/wiki/Julia_set">Julia
+fractals&lt;/a>.&lt;/p>
+&lt;p>I made a code to create the Julia fractals in the &lt;a href="https://julialang.org">Julia
+language&lt;/a>, and then some code to run it for a random
+point.&lt;/p>
+&lt;p>The code is &lt;a href="https://github.com/abelsiqueira/juliabg">here&lt;/a>, including some
+explaining on how to use and install it.&lt;/p>
+&lt;p>Here are some examples:&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex1.png" alt="">
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex2.png" alt="">
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex3.png" alt="">
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex4.png" alt="">&lt;/p></description></item></channel></rss>

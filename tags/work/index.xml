@@ -1,32 +1,235 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>work on Abel Soares Siqueira</title><link>https://abelsiqueira.com/tags/work/</link><description>Recent content in work on Abel Soares Siqueira</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://abelsiqueira.com/tags/work/index.xml" rel="self" type="application/rss+xml"/><item><title>My experience in the JuMP-dev annual workshop</title><link>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>Last week I had the pleasure of being invited to the Second annual JuMP-dev workshop, which happened in June 27-29, 2018 at Bordeaux, France. I&amp;rsquo;ve presented the packages from the Julia Smooth Optimizers organization, and had a very good time meeting with the JuMP developers.
-For those still unaware, JuMP is a modelling language for Mathematical Programming written in Julia. It provides access to a few different solvers for many kinds of problems, and it works inside of Julia, so one can enjoy the advantages of having a robust language if there is a need for advanced usage.</description></item><item><title>Introduction to Performance Profile</title><link>https://abelsiqueira.com/blog/2017-05-09-introduction-to-performance-profile/</link><pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-05-09-introduction-to-performance-profile/</guid><description>The comparison of algorithms is an active area of work. When we start learning algorithms, or more advanced programming, we learn of different ways of doing the same complex task. The most usual first example is sorting, which introduces a series of different ways to sort a single array, such as selection sort, insertion sort, quick sort, merge sort, etc. When comparing these algorithms, we take into account a few things: how fast it is, how much memory it needs, what are the best/worst/average-case complexities, and so on.</description></item><item><title>Installing Gurobi 7 on Linux</title><link>https://abelsiqueira.com/blog/2017-03-13-installing-gurobi-7-on-linux/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-03-13-installing-gurobi-7-on-linux/</guid><description>Disclaimer: What I did here might work on Windows or OSX, but I give no guarantee.
-Request by Clóvis Gonzaga.
-First, create an account here and login.
-Secondly, download the appropriate Gurobi version clicking on Gurobi Optimizer. In my case, it is Linux 64 bits. Where to download this is optional, but you have to remember, as we&amp;rsquo;ll use later. I use a folder packages on my home folder.
-Third, unpack the file.</description></item><item><title>Minicurso de Julia no IX Simpósio de Análise Numérica e Otimização da UFPR</title><link>https://abelsiqueira.com/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</link><pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</guid><description>Hoje ministrarei mais um minicurso de Julia na UFPR. Desta vez será no IX Simpósio de Análise Numérica e Otimização da UFPR.
-Por enquanto, deixo esta página apenas com o link para o notebook que utilizarei: aqui.</description></item><item><title>NLPModels.jl and CUTEst.jl: Constrained optimization</title><link>https://abelsiqueira.com/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</link><pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</guid><description>This is a continuation of this post. And again, you can follow the commands of this post in the asciinema.
-If you followed along last post, you should know the basics of our NLPModels API, including CUTEst access.
-One thing I didn&amp;rsquo;t explore, though, was constrained problems. It&amp;rsquo;d complicate too much.
-However, now that we know how to handle the basics, we can move to the advanced.
-Nonlinear Programming format</description></item><item><title>NLPModels.jl, CUTEst.jl and other Nonlinear Optimization Packages on Julia</title><link>https://abelsiqueira.com/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</link><pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</guid><description>A couple of weeks ago me and Professor Dominique Orban have finally made a release of CUTEst.jl, a wrapper for the CUTEst repository of problems for nonlinear optimization (which I&amp;rsquo;ve mentioned before). Along with this release, we&amp;rsquo;ve done a release of NLPModels.jl, the underlying package. I think it&amp;rsquo;s time I explain a little about these packages, others, and how to use them together. If you want to see the output of the commands, you can open this ASCIInema side by side.</description></item><item><title>Apresentação de Julia no SMNE</title><link>https://abelsiqueira.com/blog/2016-11-29-smne-2016-julia/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-11-29-smne-2016-julia/</guid><description>Nos dias 30 de Novembro à 2 de Dezembro de 2016 acontece o primeiro Simpósio de Métodos Numéricos em Engenharia. Neste simpósio darei um minicurso sobre Julia.
-Deixo aqui o material preliminar para os alunos do minicurso, ou interessados.
-Notebook (necessário) exemplo.jl (necessário) HTML estático do notebook - para quem não conseguiu instalar Também deixo aqui o link do Etherpad para usarmos na aula.
-Quem não conseguiu instalar até agora, pode tentar usar o JuliaBox, que roda Julia online.</description></item><item><title>A quasi-solution to my bib problem</title><link>https://abelsiqueira.com/blog/2016-08-21-a-quasi-solution-to-my-bib-problem/</link><pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-08-21-a-quasi-solution-to-my-bib-problem/</guid><description>For some time, one of my concerns is bibliography management. See my projects page if you have interest on working with something like that.
-In the past, what we had was simply writing all your bibliographies directly on a .tex file. Then, if you needed to write again, you would copy-paste it somewhere. If you made a mistake, you would have to fix it by hand. If the journal changed styles, you would have to change everything by hand.</description></item><item><title>Minicurso de Julia para Otimização</title><link>https://abelsiqueira.com/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</guid><description>Semana passada, nos dias 22 a 24 de Fevereiro aconteceu o VIII Simpósio de Análise Numérica e Otimização. Nesse evento, eu apresentei um minicurso de Julia com foco em Otimização não Linear. Entre 10 e 15 pessoas participaram no total, entre alunos de graduação, de pós-graduação, e professores. O objetivo principal era apresentar a linguagem e alguns detalhes importante para otimização não linear, o que foi obtido. Por outro lado, as aulas foram mais longas do que deveriam, e o conteúdo ficou muito esparso, pois tive que variar entre o básico e uma aplicação mais avançada.</description></item><item><title>Ubuntu graphic interface stopped working</title><link>https://abelsiqueira.com/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</link><pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</guid><description>Some time ago, I helped a colleague install Ubuntu in a Sony Vaio, which ended up having SSD problems. Today, his computer started without the bar and menu from Unity. Only the desktop and icons were appearing, and the keyboards shortcuts were also not working.
-To fix, I found this askubuntu question, that worked like a charm.
-The steps were simply:
-Enter the terminal mode with Ctrl+Shift+F2 (or other number); Login; Enter the commands export DISPLAY=:0 sudo dconf reset -f /org/compiz/ setsid unity Reboot with sudo reboot Verify everything is working now.</description></item><item><title>VIII Simpósio de Análise Numérica e Otimização - Minicurso de Julia</title><link>https://abelsiqueira.com/blog/2016-02-14-viii-simposio-de-analise-numerica/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2016-02-14-viii-simposio-de-analise-numerica/</guid><description>Nos dias 22 a 24 de Fevereiro de 2016 acontecerá o VIII Simpósio de Análise Numérica e Otimização. É uma ótima oportunidade para interagir com colegas e conhecer alguns assuntos novos de pesquisa.
-Em particular, nesse simpósio apresentarei um minicurso sobre Julia com foco em Otimização. O minicurso é voltado para pessoas que conhecem um pouco de MatLab ou alguma outra linguagem. Serão três dias, com uma introdução à linguagem, alguns exemplos, o CUTEst.</description></item><item><title>Apresentação no Poincaré - 2015</title><link>https://abelsiqueira.com/blog/2015-11-20-apresentacao-no-poincare---2015/</link><pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-11-20-apresentacao-no-poincare---2015/</guid><description>Fui convidado a fazer alguma apresentação para os seminários Poincaré do PET Matemática da UFPR. Irei falar sobre o Método de Newton para zeros de funções, sistemas não lineares, e para otimização.
-A apresentação será hoje, dia 20 de Novembro, às 17h40. Os slides você pode pegar aqui ou ver o código no GitHub.</description></item><item><title>New computer at work</title><link>https://abelsiqueira.com/blog/2015-11-16-new-computer-at-work/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-11-16-new-computer-at-work/</guid><description>I just got a new notebook at work. This is a HP computer, with a AMD a10-4600M processor, 4GB of RAM and 320GB of HD space. I have a personal notebook with a similar configuration and my work desktop also has a similar configuration, so this isn&amp;rsquo;t a great improvement. However, we&amp;rsquo;re gonna have an additional monitor, so this is good enough. Also, I&amp;rsquo;ll leave the other one as the always-on screen+irssi computer.</description></item><item><title>Apresentação no VII Simpósio de Análise Numérica e Otimização - UFPR</title><link>https://abelsiqueira.com/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</link><pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</guid><description>No dia 24 de Fevereiro de 2015 aconteceu o (primeiro dia do) VII Simpósio de Análise Numérica e Otimização. Participei deste congresso fazendo uma apresentação sobre Ferramentas Computacionais para Pesquisadores (ver código).
-Nesta apresentação, introduzo algumas ferramentas que considero bastante importantes para pesquisadores, principalmente da área de matemática computacional. Um resumo do que apresento é
-Aprenda outras linguagens. Recomendo, por exemplo, conhecer Python ou Ruby, Shell e Makefile. Com essas ferramentas já é possível automatizar testes e fazer scripts com uso variado.</description></item><item><title>A Study in Julia</title><link>https://abelsiqueira.com/blog/2015-01-22-a-study-in-julia/</link><pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-01-22-a-study-in-julia/</guid><description>Today I begin a study in Julia. This fantastic tool has syntax similar to that of Octave/Matlab, but is much faster. Furthermore, the interface with functions made in C and Fortran is much easier to accomplish, and since most things in computational mathematics are on these languages, this feature is wonderful.
-My intented work is
-make a simple julia and C interface, with auto-compiling and test on GitHub and Travis CI; develop a nonlinear optimization tool completely in Julia, then improve the slow bits by using C and/or Fortran; implement/improve the CUTEst interface [1], [2], possibly creating a SIF converter.</description></item><item><title>Instalando o Ubuntu 14.10 no Sony Vaio (Problemas com o SSD)</title><link>https://abelsiqueira.com/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</link><pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</guid><description>Hoje instalei em dual-boot o Ubuntu 14.10 e o windows 8. Não tive problemas com o UEFI, nem secure boot. Não tenho certeza, mas talvez o windows não seja o que veio de fábrica.
-Eu já tinha um USB com o Ubuntu 14.10, então pluguei-o e bootei o computador. F12-F12-F12-F12&amp;hellip; A tela de seleção de boot não apareceu, mas o usb foi escolhido automaticamente.
-O ubuntu bootou e selecionei instalar. Escolhi o particionamento manual, que é minha escolha usual.</description></item><item><title>Mudando de HD</title><link>https://abelsiqueira.com/blog/2014-12-19-mudando-de-hd/</link><pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2014-12-19-mudando-de-hd/</guid><description>Ontem eu acabei de montar um computador novo. Esse computador é um upgrade do meu, e o meu passaria para a Kally. No entanto, eu não gostaria de perder a minha instalação dor Arch, nem de ficar com o HD antigo, então decidi tentar copiar as partições.
-Nota: Não sei a aplicabilidade destes comandos para outras distribuições.
-Nota: Você também poderia fazer o que fiz, usando o dd, mas eu preferi evitar.</description></item><item><title>Instalação da Impressora no DMAT-UFPR</title><link>https://abelsiqueira.com/blog/2014-12-16-instalacao-da-impressora-no-dmat-ufpr/</link><pubDate>Tue, 16 Dec 2014 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2014-12-16-instalacao-da-impressora-no-dmat-ufpr/</guid><description>Hoje tive que instalar a impressora do DMAT da UFPR no meu archlinux. Infelizmente o suporte técnico da universidade não dá suporte para essa distribuição (só Ubuntu). Existe o suporte ao Windows (aqui), que foi necessário para eu obter algumas informações sobre a impressora. Tive algum trabalho para achar as configurações corretas, mas acho que consegui, e vou deixar explicado aqui caso alguém precise. Infelizmente não refiz os passos a seguir, porque fui costurando até chegar ao ponto em que a impressora funcionou.</description></item><item><title>Academic Path</title><link>https://abelsiqueira.com/blog/2014-11-22-academic-path/</link><pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2014-11-22-academic-path/</guid><description>TL;DR:
-11/2014-present - Professor at UFPR; 12/2013-11/2014 - Postdoctorate at UNICAMP, improving the work of my doctorate; 01/2009-11/2013 - Doctorate at UNICAMP on the field of Applied Mathematics, working with Nonlinear Optimization. My thesis was &amp;#34;Dynamic Control of Infeasibility for Nonlinear Programming&amp;#34; 03/2005-12/2008 - Bachelor of Applied Mathematics; Long version:
-I began working on mathematics on 2005, entering the course 51 of UNICAMP, where you study for one and half year the common classes to Mathematics, Applied Mathematics, Physics, and some other courses.</description></item><item><title>Caminho Acadêmico</title><link>https://abelsiqueira.com/blog/2014-11-22-caminho-academico/</link><pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate><guid>https://abelsiqueira.com/blog/2014-11-22-caminho-academico/</guid><description>Versão curta:
-11/2014-presente - Professor na UFPR; 12/2013-11/2014 - Pós-doutorado na UNICAMP, melhorando o trabalho do meu doutorado; 01/2009-11/2013 - Doutorado na UNICAMP na área de Matemática Aplicada, trabalhando com Otimização Não-Linear. Minha tese foi &amp;#34;Controle Dinâmico da Infactibilidade para Programação Não-Linear&amp;#34;; 03/2005-12/2008 - Bacharel em Matemática Aplicada. Versão Longa:
-Eu comecei a trabalhar com matemática em 2005, entrando no curso 51 da UNICAMP, onde se estuda por um ano e meio as classes comuns aos cursos de Matemática, Matemática Aplicada, Física, e outros cursos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Work on Abel Soares Siqueira</title><link>/tags/work/</link><description>Recent content in Work on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 04 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/work/index.xml" rel="self" type="application/rss+xml"/><item><title>My experience in the JuMP-dev annual workshop</title><link>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</link><pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate><guid>/blog/2018-07-04-my-experience-in-the-jump-dev-annual-workshop/</guid><description>&lt;p>Last week I had the pleasure of being invited to the &lt;a href="http://www.juliaopt.org/meetings/bordeaux2018/">Second annual JuMP-dev
+workshop&lt;/a>, which happened in June 27-29,
+2018 at Bordeaux, France.
+I&amp;rsquo;ve presented the packages from the &lt;a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth
+Optimizers&lt;/a> organization, and had a very good
+time meeting with the JuMP developers.&lt;/p>
+&lt;p>For those still unaware, &lt;a href="https://github.com/JuliaOpt/JuMP.jl">JuMP&lt;/a> is a modelling
+language for Mathematical Programming written in Julia. It provides access to a few
+different solvers for many kinds of problems, and it works inside of Julia, so one can
+enjoy the advantages of having a robust language if there is a need for advanced usage.&lt;/p></description></item><item><title>Introduction to Performance Profile</title><link>/blog/2017-05-09-introduction-to-performance-profile/</link><pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate><guid>/blog/2017-05-09-introduction-to-performance-profile/</guid><description>&lt;p>The comparison of algorithms is an active area of work.
+When we start learning algorithms, or more advanced programming,
+we learn of different ways of doing the same complex task.
+The most usual first example is sorting, which introduces a series of
+different ways to sort a single array, such as selection sort, insertion sort,
+quick sort, merge sort, etc.
+When comparing these algorithms, we take into account a few things:
+how fast it is, how much memory it needs, what are the best/worst/average-case
+complexities, and so on.&lt;/p></description></item><item><title>Installing Gurobi 7 on Linux</title><link>/blog/2017-03-13-installing-gurobi-7-on-linux/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>/blog/2017-03-13-installing-gurobi-7-on-linux/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> What I did here might work on Windows or OSX, but I give no
+guarantee.&lt;/p>
+&lt;p>&lt;em>Request by Clóvis Gonzaga.&lt;/em>&lt;/p>
+&lt;p>First, create an account &lt;a href="http://www.gurobi.com/">here&lt;/a> and login.&lt;/p>
+&lt;p>Secondly, download the appropriate Gurobi version clicking on &lt;a href="http://www.gurobi.com/downloads/user/gurobi-optimizer">&lt;em>Gurobi
+Optimizer&lt;/em>&lt;/a>.
+In my case, it is Linux 64 bits. Where to download this is optional, but you
+have to remember, as we&amp;rsquo;ll use later. I use a folder &lt;code>packages&lt;/code> on my home
+folder.&lt;/p>
+&lt;p>Third, unpack the file. For linux, you might have a &lt;em>file-roller&lt;/em> that allows
+clicking and unpacking trivially, but I&amp;rsquo;ll use the command line.
+Open a terminal and navigate to the folder where you downloaded the file.&lt;/p></description></item><item><title>Minicurso de Julia no IX Simpósio de Análise Numérica e Otimização da UFPR</title><link>/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</link><pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-20-minicurso-de-julia-no-ix-simposio-de-analise-numerica-e-otimizacao-da-ufpr/</guid><description>&lt;p>Hoje ministrarei mais um minicurso de Julia na UFPR.
+Desta vez será no IX Simpósio de Análise Numérica e Otimização da UFPR.&lt;/p>
+&lt;p>Por enquanto, deixo esta página apenas com o link para o notebook que utilizarei:
+&lt;a href="https://github.com/abelsiqueira/julia-simposio2017">aqui&lt;/a>.&lt;/p></description></item><item><title>NLPModels.jl and CUTEst.jl: Constrained optimization</title><link>/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</link><pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-17-nlpmodelsjl-and-cutestjl-constrained-optimization/</guid><description>&lt;p>This is a continuation of &lt;a href="https://abelsiqueira.github.io%7B%7Blocal_prefix%7D%7Dnlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/">this
+post&lt;/a>.
+And again, you can follow the commands of this post in the
+&lt;a href="https://asciinema.org/a/103654">asciinema&lt;/a>.&lt;/p>
+&lt;p>If you followed along last post, you should know the basics of our
+NLPModels API, including CUTEst access.&lt;/p>
+&lt;p>One thing I didn&amp;rsquo;t explore, though, was constrained problems.
+It&amp;rsquo;d complicate too much.&lt;/p>
+&lt;p>However, now that we know how to handle the basics, we can move to the
+advanced.&lt;/p>
+&lt;p>&lt;strong>Nonlinear Programming format&lt;/strong>&lt;/p>
+&lt;p>The NLPModels internal structure is based on the CUTEst way of storing a
+problem.
+We use the following form for the optimization problem:&lt;/p></description></item><item><title>NLPModels.jl, CUTEst.jl and other Nonlinear Optimization Packages on Julia</title><link>/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</link><pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate><guid>/blog/2017-02-07-nlpmodelsjl-cutestjl-and-other-nonlinear-optimization-packages-on-julia/</guid><description>&lt;p>A couple of weeks ago me and Professor &lt;a href="https://dpo.github.io">Dominique Orban&lt;/a> have finally made a release of
+CUTEst.jl, a wrapper for the CUTEst repository of problems for nonlinear
+optimization (which I&amp;rsquo;ve mentioned before).
+Along with this release, we&amp;rsquo;ve done a release of NLPModels.jl, the underlying
+package. I think it&amp;rsquo;s time I explain a little about these packages, others,
+and how to use them together.
+If you want to see the output of the commands, you can open
+&lt;a href="https://asciinema.org/a/102371">this ASCIInema&lt;/a>
+side by side.&lt;/p></description></item><item><title>Apresentação de Julia no SMNE</title><link>/blog/2016-11-29-smne-2016-julia/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>/blog/2016-11-29-smne-2016-julia/</guid><description>&lt;p>Nos dias 30 de Novembro à 2 de Dezembro de 2016 acontece o &lt;a href="http://eventos.ufpr.br/smne/SMNE1">primeiro Simpósio
+de Métodos Numéricos em Engenharia&lt;/a>.
+Neste simpósio darei um minicurso sobre Julia.&lt;/p>
+&lt;p>Deixo aqui o material preliminar para os alunos do minicurso, ou interessados.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="/blog/smne-julia.ipynb">Notebook (necessário)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/exemplo.jl">exemplo.jl (necessário)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/blog/smne-julia.html">HTML estático do notebook - para quem não conseguiu
+instalar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Também deixo &lt;a href="https://pad.riseup.net/p/aCXYqUjz3cCS">aqui&lt;/a> o link do Etherpad
+para usarmos na aula.&lt;/p>
+&lt;p>Quem não conseguiu instalar até agora, pode tentar usar o
+&lt;a href="https://juliabox.com/">JuliaBox&lt;/a>, que roda Julia online. &lt;strong>Não sei se teremos
+internet boa o suficiente no evento&lt;/strong>.&lt;/p></description></item><item><title>A quasi-solution to my bib problem</title><link>/blog/2016-08-21-a-quasi-solution-to-my-bib-problem/</link><pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate><guid>/blog/2016-08-21-a-quasi-solution-to-my-bib-problem/</guid><description>&lt;p>For some time, one of my concerns is bibliography management.
+See my &lt;a href="http://abelsiqueira.github.io/en/projects/">projects page&lt;/a> if you have
+interest on working with something like that.&lt;/p>
+&lt;p>In the past, what we had was simply writing all your bibliographies directly on
+a .tex file. Then, if you needed to write again, you would copy-paste it
+somewhere. If you made a mistake, you would have to fix it by hand. If the
+journal changed styles, you would have to change everything by hand.
+&lt;strong>If you&amp;rsquo;re still doing this. STOP.&lt;/strong>&lt;/p></description></item><item><title>Minicurso de Julia para Otimização</title><link>/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-28-minicurso-de-julia-para-otimizacao/</guid><description>&lt;p>Semana passada, nos dias 22 a 24 de Fevereiro aconteceu o VIII Simpósio de
+Análise Numérica e Otimização.
+Nesse evento, eu apresentei um minicurso de Julia com foco em Otimização não
+Linear.
+Entre 10 e 15 pessoas participaram no total, entre alunos de graduação, de
+pós-graduação, e professores.
+O objetivo principal era apresentar a linguagem e alguns detalhes importante
+para otimização não linear, o que foi obtido.
+Por outro lado, as aulas foram mais longas do que deveriam, e o conteúdo ficou
+muito esparso, pois tive que variar entre o básico e uma aplicação mais
+avançada.
+Para o próximo workshop, provavelmente focarei na introdução, que foi a primeira
+aula.&lt;/p></description></item><item><title>Ubuntu graphic interface stopped working</title><link>/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</link><pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</guid><description>&lt;p>Some time ago, I helped a colleague &lt;a href="%7B%7Blocal_prefix%7D%7D/instalando-o-ubuntu-14.10-no-sony-vaio/">install Ubuntu in a Sony Vaio, which ended
+up having SSD
+problems&lt;/a>.
+Today, his computer started without the bar and menu from Unity.
+Only the desktop and icons were appearing, and the keyboards shortcuts were also
+not working.&lt;/p>
+&lt;p>To fix, I found &lt;a href="http://askubuntu.com/questions/17381/unity-doesnt-load-no-launcher-no-dash-appears">this askubuntu
+question&lt;/a>,
+that worked like a charm.&lt;/p>
+&lt;p>The steps were simply:&lt;/p>
+&lt;ol>
+&lt;li>Enter the terminal mode with Ctrl+Shift+F2 (or other number);&lt;/li>
+&lt;li>Login;&lt;/li>
+&lt;li>Enter the commands&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>export DISPLAY=:0
+sudo dconf reset -f /org/compiz/
+setsid unity
+&lt;/code>&lt;/pre>&lt;ol start="4">
+&lt;li>Reboot with&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>sudo reboot
+&lt;/code>&lt;/pre>&lt;ol start="5">
+&lt;li>Verify everything is working now.&lt;/li>
+&lt;/ol>
+&lt;p>This was enough to fix it.&lt;/p></description></item><item><title>VIII Simpósio de Análise Numérica e Otimização - Minicurso de Julia</title><link>/blog/2016-02-14-viii-simposio-de-analise-numerica/</link><pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-14-viii-simposio-de-analise-numerica/</guid><description>&lt;p>Nos dias 22 a 24 de Fevereiro de 2016 acontecerá o &lt;a href="http://www.mat.ufpr.br/verao/2016/m4_otimiza.html">VIII Simpósio de Análise
+Numérica e Otimização&lt;/a>.
+É uma ótima oportunidade para interagir com colegas e conhecer alguns assuntos
+novos de pesquisa.&lt;/p>
+&lt;p>Em particular, nesse simpósio apresentarei um minicurso sobre Julia com foco em
+Otimização. O minicurso é voltado para pessoas que conhecem um pouco de MatLab
+ou alguma outra linguagem. Serão três dias, com uma introdução à linguagem,
+alguns exemplos, o &lt;a href="http://github.com/JuliaOptimizers/CUTEst.jl">CUTEst.jl&lt;/a>,
+e um workflow para criar um pacote de otimização com transição para C e Fortran.&lt;/p></description></item><item><title>Apresentação no Poincaré - 2015</title><link>/blog/2015-11-20-apresentacao-no-poincare---2015/</link><pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate><guid>/blog/2015-11-20-apresentacao-no-poincare---2015/</guid><description>&lt;p>Fui convidado a fazer alguma apresentação para os seminários Poincaré do PET
+Matemática da UFPR.
+Irei falar sobre o Método de Newton para zeros de funções, sistemas não
+lineares, e para otimização.&lt;/p>
+&lt;p>A apresentação será hoje, dia 20 de Novembro, às 17h40. Os slides você pode
+pegar &lt;a href="/blog/pres-poincare-2015.pdf">aqui&lt;/a> ou ver o código no
+&lt;a href="https://github.com/abelsiqueira/pres-poincare-2015">GitHub&lt;/a>.&lt;/p></description></item><item><title>New computer at work</title><link>/blog/2015-11-16-new-computer-at-work/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate><guid>/blog/2015-11-16-new-computer-at-work/</guid><description>&lt;p>I just got a new notebook at work. This is a HP computer, with a AMD a10-4600M
+processor, 4GB of RAM and 320GB of HD space.
+I have a personal notebook with a similar configuration and my work desktop also
+has a similar configuration, so this isn&amp;rsquo;t a great improvement.
+However, we&amp;rsquo;re gonna have an additional monitor, so this is good enough.
+Also, I&amp;rsquo;ll leave the other one as the always-on screen+irssi computer.
+Let&amp;rsquo;s try to use it. Talk to me again in a week.&lt;/p></description></item><item><title>Apresentação no VII Simpósio de Análise Numérica e Otimização - UFPR</title><link>/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</link><pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate><guid>/blog/2015-02-25-apresentacao-no-vii-simposio-de-analise-numerica-e-otimizacao-ufpr/</guid><description>&lt;p>No dia 24 de Fevereiro de 2015 aconteceu o (primeiro dia do) VII Simpósio de
+Análise Numérica e Otimização.
+Participei deste congresso fazendo uma apresentação sobre
+&lt;a href="/blog/2015-02-25-vii-simposio.pdf">Ferramentas Computacionais para
+Pesquisadores&lt;/a>
+(ver &lt;a href="http://github.com/abelsiqueira/pres-ferramentas-computacionais">código&lt;/a>).&lt;/p>
+&lt;p>Nesta apresentação, introduzo algumas ferramentas que considero bastante
+importantes para pesquisadores, principalmente da área de matemática
+computacional.
+Um resumo do que apresento é&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Aprenda outras linguagens. Recomendo, por exemplo, conhecer Python ou Ruby,
+Shell e Makefile. Com essas ferramentas já é possível automatizar testes e
+fazer scripts com uso variado. Makefile, por exemplo, é uma das maneiras
+mais usadas de se instalar programas (no Unix).&lt;/p></description></item><item><title>A Study in Julia</title><link>/blog/2015-01-22-a-study-in-julia/</link><pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate><guid>/blog/2015-01-22-a-study-in-julia/</guid><description>&lt;p>Today I begin a study in &lt;a href="http://julialang.org/">Julia&lt;/a>.
+This fantastic tool has syntax similar to that of Octave/Matlab,
+but is much faster. Furthermore, the interface with functions
+made in C and Fortran is much easier to accomplish, and since
+most things in computational mathematics are on these languages,
+this feature is wonderful.&lt;/p>
+&lt;p>My intented work is&lt;/p>
+&lt;ul>
+&lt;li>make a simple julia and C interface, with auto-compiling and test on GitHub and Travis CI;&lt;/li>
+&lt;li>develop a nonlinear optimization tool completely in Julia, then improve the slow bits by using C and/or Fortran;&lt;/li>
+&lt;li>implement/improve the CUTEst interface &lt;a href="https://github.com/abelsiqueira/ugly">[1]&lt;/a>, &lt;a href="https://github.com/abelsiqueira/CUTEst.jl">[2]&lt;/a>, possibly creating a SIF converter.&lt;/li>
+&lt;li>if things work out, submit to &lt;a href="http://www.juliaopt.org/">JuliaOpt&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>My work starts with the &lt;a href="https://github.com/abelsiqueira/julia-c-sample.git">Julia-C
+Samples&lt;/a>.
+If you need me, I might be on &lt;code>#julia&lt;/code> on IRC/freenode.&lt;/p></description></item><item><title>Instalando o Ubuntu 14.10 no Sony Vaio (Problemas com o SSD)</title><link>/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</link><pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate><guid>/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</guid><description>&lt;p>Hoje instalei em dual-boot o Ubuntu 14.10 e o windows 8.
+Não tive problemas com o UEFI, nem secure boot.
+Não tenho certeza, mas talvez o windows não seja o que veio
+de fábrica.&lt;/p>
+&lt;p>Eu já tinha um USB com o Ubuntu 14.10, então pluguei-o
+e bootei o computador.
+F12-F12-F12-F12&amp;hellip; A tela de seleção de boot não apareceu,
+mas o usb foi escolhido automaticamente.&lt;/p>
+&lt;p>O ubuntu bootou e selecionei instalar.
+Escolhi o particionamento manual,
+que é minha escolha usual.
+Normalmente faço o particionamento manual,
+porque não gosto quando eles criam (criavam, não sei
+se continuam) apenas o &lt;code>/&lt;/code> e o &lt;code>swap&lt;/code>.
+O windows estava instalado em duas partições num SSD.
+Selecionei a correspondente, redimensionei, criei 3 partições lógicas
+(&lt;code>/&lt;/code>, &lt;code>swap&lt;/code>, e &lt;code>/home&lt;/code>), e mandei instalar.
+A instalação não teve problemas. Aí eu bootei e deu erro.&lt;/p></description></item><item><title>Mudando de HD</title><link>/blog/2014-12-19-mudando-de-hd/</link><pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate><guid>/blog/2014-12-19-mudando-de-hd/</guid><description>&lt;p>Ontem eu acabei de montar um computador novo.
+Esse computador é um upgrade do meu, e o meu passaria para a Kally.
+No entanto, eu não gostaria de perder a minha instalação dor Arch,
+nem de ficar com o HD antigo, então decidi tentar copiar as partições.&lt;/p>
+&lt;p>&lt;strong>Nota: Não sei a aplicabilidade destes comandos para outras distribuições.&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Nota: Você também poderia fazer o que fiz, usando o &lt;code>dd&lt;/code>, mas eu preferi
+evitar.&lt;/strong>&lt;/p></description></item><item><title>Instalação da Impressora no DMAT-UFPR</title><link>/blog/2014-12-16-instalacao-da-impressora-no-dmat-ufpr/</link><pubDate>Tue, 16 Dec 2014 00:00:00 +0000</pubDate><guid>/blog/2014-12-16-instalacao-da-impressora-no-dmat-ufpr/</guid><description>&lt;p>Hoje tive que instalar a impressora do DMAT da UFPR no meu
+&lt;a href="https://www.archlinux.org/">archlinux&lt;/a>. Infelizmente o suporte técnico da
+universidade não dá suporte para essa distribuição (só Ubuntu).
+Existe o suporte ao Windows
+(&lt;a href="http://www.cce.ufpr.br/portal/suporte-a-impressao/">aqui&lt;/a>),
+que foi necessário para eu obter algumas informações sobre a impressora.
+Tive algum trabalho para achar as configurações corretas, mas acho que consegui,
+e vou deixar explicado aqui caso alguém precise.
+Infelizmente não refiz os passos a seguir, porque fui costurando até chegar ao
+ponto em que a impressora funcionou. No entanto, vou explicar o que me parece
+que fez diferença.&lt;/p></description></item><item><title>Academic Path</title><link>/blog/2014-11-22-academic-path/</link><pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate><guid>/blog/2014-11-22-academic-path/</guid><description>&lt;p>TL;DR:&lt;/p>
+&lt;ul>
+&lt;li>11/2014-present - Professor at UFPR;&lt;/li>
+&lt;li>12/2013-11/2014 - Postdoctorate at UNICAMP, improving the work of my doctorate;&lt;/li>
+&lt;li>01/2009-11/2013 - Doctorate at UNICAMP on the field of Applied Mathematics, working&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>with Nonlinear Optimization. My thesis was &amp;#34;Dynamic Control of Infeasibility
+for Nonlinear Programming&amp;#34;
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>03/2005-12/2008 - Bachelor of Applied Mathematics;&lt;/li>
+&lt;/ul>
+&lt;p>Long version:&lt;/p>
+&lt;p>I began working on mathematics on 2005, entering the course 51 of
+&lt;a href="http://www.unicamp.br">UNICAMP&lt;/a>, where you study for one and half year the
+common classes to Mathematics, Applied Mathematics, Physics, and some other
+courses. Initially I planned to follow Pure Mathematics, but after my first
+programming class, I considerer changing to some area of Computations. The
+following semester I studied Numerical Calculus, which led me to the path of
+Applied Mathematics. This felling was reforced by Numerical Analysis and
+Nonlinear Programming, and I soon decided to follow the academic path.&lt;/p></description></item><item><title>Caminho Acadêmico</title><link>/blog/2014-11-22-caminho-academico/</link><pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate><guid>/blog/2014-11-22-caminho-academico/</guid><description>&lt;p>Versão curta:&lt;/p>
+&lt;ul>
+&lt;li>11/2014-presente - Professor na UFPR;&lt;/li>
+&lt;li>12/2013-11/2014 - Pós-doutorado na UNICAMP, melhorando o trabalho do meu&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>doutorado;
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>01/2009-11/2013 - Doutorado na UNICAMP na área de Matemática Aplicada,&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>trabalhando com Otimização Não-Linear. Minha tese foi &amp;#34;Controle Dinâmico da
+Infactibilidade para Programação Não-Linear&amp;#34;;
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>03/2005-12/2008 - Bacharel em Matemática Aplicada.&lt;/li>
+&lt;/ul>
+&lt;p>Versão Longa:&lt;/p>
+&lt;p>Eu comecei a trabalhar com matemática em 2005, entrando no curso 51 da
+&lt;a href="http://www.unicamp.br">UNICAMP&lt;/a>, onde se estuda por um ano e meio as classes
+comuns aos cursos de Matemática, Matemática Aplicada, Física, e outros cursos.
+Inicialmente eu planejava seguir matemática pura, mas depois da primeira
+disciplina de programação, eu considerava mudar para alguma área da computação.
+No semestre seguinte eu estudei Cálculo Numérico, que me levou a escolher
+matemática aplicada. Esse sentimento foi reforçado por Análise Numérica e
+Progração Não-Linear, e logo eu decidi seguir a carreira acadêmica.&lt;/p></description></item></channel></rss>
