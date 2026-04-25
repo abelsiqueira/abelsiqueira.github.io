@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Abel Soares Siqueira</title><link>/tags/linux/</link><description>Recent content in Linux on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Gurobi 7 on Linux</title><link>/blog/2017-03-13-installing-gurobi-7-on-linux/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>/blog/2017-03-13-installing-gurobi-7-on-linux/</guid><description>&lt;p>&lt;em>Disclaimer:&lt;/em> What I did here might work on Windows or OSX, but I give no
-guarantee.&lt;/p>
-&lt;p>&lt;em>Request by Clóvis Gonzaga.&lt;/em>&lt;/p>
-&lt;p>First, create an account &lt;a href="http://www.gurobi.com/">here&lt;/a> and login.&lt;/p>
-&lt;p>Secondly, download the appropriate Gurobi version clicking on &lt;a href="http://www.gurobi.com/downloads/user/gurobi-optimizer">&lt;em>Gurobi
-Optimizer&lt;/em>&lt;/a>.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Abel Soares Siqueira</title><link>/tags/linux/</link><description>Recent content in Linux on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Installing Gurobi 7 on Linux</title><link>/blog/2017-03-13-installing-gurobi-7-on-linux/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>/blog/2017-03-13-installing-gurobi-7-on-linux/</guid><description>&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt; What I did here might work on Windows or OSX, but I give no
+guarantee.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Request by Clóvis Gonzaga.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;First, create an account &lt;a href="http://www.gurobi.com/"&gt;here&lt;/a&gt; and login.&lt;/p&gt;
+&lt;p&gt;Secondly, download the appropriate Gurobi version clicking on &lt;a href="http://www.gurobi.com/downloads/user/gurobi-optimizer"&gt;&lt;em&gt;Gurobi
+Optimizer&lt;/em&gt;&lt;/a&gt;.
 In my case, it is Linux 64 bits. Where to download this is optional, but you
-have to remember, as we&amp;rsquo;ll use later. I use a folder &lt;code>packages&lt;/code> on my home
-folder.&lt;/p>
-&lt;p>Third, unpack the file. For linux, you might have a &lt;em>file-roller&lt;/em> that allows
+have to remember, as we&amp;rsquo;ll use later. I use a folder &lt;code&gt;packages&lt;/code&gt; on my home
+folder.&lt;/p&gt;
+&lt;p&gt;Third, unpack the file. For linux, you might have a &lt;em&gt;file-roller&lt;/em&gt; that allows
 clicking and unpacking trivially, but I&amp;rsquo;ll use the command line.
-Open a terminal and navigate to the folder where you downloaded the file.&lt;/p></description></item><item><title>New computer at work</title><link>/blog/2015-11-16-new-computer-at-work/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate><guid>/blog/2015-11-16-new-computer-at-work/</guid><description>&lt;p>I just got a new notebook at work. This is a HP computer, with a AMD a10-4600M
+Open a terminal and navigate to the folder where you downloaded the file.&lt;/p&gt;</description></item><item><title>New computer at work</title><link>/blog/2015-11-16-new-computer-at-work/</link><pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate><guid>/blog/2015-11-16-new-computer-at-work/</guid><description>&lt;p&gt;I just got a new notebook at work. This is a HP computer, with a AMD a10-4600M
 processor, 4GB of RAM and 320GB of HD space.
 I have a personal notebook with a similar configuration and my work desktop also
 has a similar configuration, so this isn&amp;rsquo;t a great improvement.
 However, we&amp;rsquo;re gonna have an additional monitor, so this is good enough.
 Also, I&amp;rsquo;ll leave the other one as the always-on screen+irssi computer.
-Let&amp;rsquo;s try to use it. Talk to me again in a week.&lt;/p></description></item><item><title>Mudando de HD</title><link>/blog/2014-12-19-mudando-de-hd/</link><pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate><guid>/blog/2014-12-19-mudando-de-hd/</guid><description>&lt;p>Ontem eu acabei de montar um computador novo.
+Let&amp;rsquo;s try to use it. Talk to me again in a week.&lt;/p&gt;</description></item><item><title>Mudando de HD</title><link>/blog/2014-12-19-mudando-de-hd/</link><pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate><guid>/blog/2014-12-19-mudando-de-hd/</guid><description>&lt;p&gt;Ontem eu acabei de montar um computador novo.
 Esse computador é um upgrade do meu, e o meu passaria para a Kally.
 No entanto, eu não gostaria de perder a minha instalação dor Arch,
-nem de ficar com o HD antigo, então decidi tentar copiar as partições.&lt;/p>
-&lt;p>&lt;strong>Nota: Não sei a aplicabilidade destes comandos para outras distribuições.&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Nota: Você também poderia fazer o que fiz, usando o &lt;code>dd&lt;/code>, mas eu preferi
-evitar.&lt;/strong>&lt;/p></description></item></channel></rss>
+nem de ficar com o HD antigo, então decidi tentar copiar as partições.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nota: Não sei a aplicabilidade destes comandos para outras distribuições.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nota: Você também poderia fazer o que fiz, usando o &lt;code&gt;dd&lt;/code&gt;, mas eu preferi
+evitar.&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

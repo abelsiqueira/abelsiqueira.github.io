@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fractal on Abel Soares Siqueira</title><link>/tags/fractal/</link><description>Recent content in Fractal on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fractal/index.xml" rel="self" type="application/rss+xml"/><item><title>Koch snowflakes for the holidays</title><link>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</guid><description>&lt;p>&lt;a href="https://github.com/abelsiqueira/koch-holidays">Code for these images&lt;/a>.&lt;/p>
-&lt;p>I hope you&amp;rsquo;re familiar with the &lt;a href="https://en.wikipedia.org/wiki/Koch_snowflake">Koch curve
-fractal or snowflake&lt;/a>.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fractal on Abel Soares Siqueira</title><link>/tags/fractal/</link><description>Recent content in Fractal on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fractal/index.xml" rel="self" type="application/rss+xml"/><item><title>Koch snowflakes for the holidays</title><link>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-12-koch-snowflakes-for-the-holidays/</guid><description>&lt;p&gt;&lt;a href="https://github.com/abelsiqueira/koch-holidays"&gt;Code for these images&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I hope you&amp;rsquo;re familiar with the &lt;a href="https://en.wikipedia.org/wiki/Koch_snowflake"&gt;Koch curve
+fractal or snowflake&lt;/a&gt;.
 It essentially consists taking a line segment, splitting it in three, and substituting
 the middle part by two segments that form an equilateral triangle without the base.
-From one segment you obtain four. For each new segment, repeat the process.&lt;/p>
-&lt;p>Images:&lt;/p>
-&lt;p>&lt;img src="/blog/koch/line-koch-0.png" alt="">&lt;/p>
-&lt;p>&lt;img src="/blog/koch/line-koch-1.png" alt="">
-&lt;img src="/blog/koch/line-koch-2.png" alt="">
-&lt;img src="/blog/koch/line-koch-3.png" alt="">
-&lt;img src="/blog/koch/line-koch-4.png" alt="">
-&lt;img src="/blog/koch/line-koch-5.png" alt="">
-&lt;img src="/blog/koch/line-koch-6.png" alt="">
-&lt;img src="/blog/koch/line-koch-7.png" alt="">&lt;/p>
-&lt;p>The most important aspect of the koch line is that it looks awesome. Furthermore, you
+From one segment you obtain four. For each new segment, repeat the process.&lt;/p&gt;
+&lt;p&gt;Images:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/koch/line-koch-0.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/blog/koch/line-koch-1.png" alt=""&gt;
+&lt;img src="/blog/koch/line-koch-2.png" alt=""&gt;
+&lt;img src="/blog/koch/line-koch-3.png" alt=""&gt;
+&lt;img src="/blog/koch/line-koch-4.png" alt=""&gt;
+&lt;img src="/blog/koch/line-koch-5.png" alt=""&gt;
+&lt;img src="/blog/koch/line-koch-6.png" alt=""&gt;
+&lt;img src="/blog/koch/line-koch-7.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;The most important aspect of the koch line is that it looks awesome. Furthermore, you
 can do it for any image that is a collection of segments. In particular, regular
-polygons, both outward and inward.&lt;/p></description></item><item><title>Julia Fractal on Julia</title><link>/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>/blog/2017-01-15-julia-fractal-on-julia/</guid><description>&lt;p>I wanted a background that would update automatically in some
+polygons, both outward and inward.&lt;/p&gt;</description></item><item><title>Julia Fractal on Julia</title><link>/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>/blog/2017-01-15-julia-fractal-on-julia/</guid><description>&lt;p&gt;I wanted a background that would update automatically in some
 interesting way, instead of just random images.
-After some thought, I decided to use some &lt;a href="https://en.wikipedia.org/wiki/Julia_set">Julia
-fractals&lt;/a>.&lt;/p>
-&lt;p>I made a code to create the Julia fractals in the &lt;a href="https://julialang.org">Julia
-language&lt;/a>, and then some code to run it for a random
-point.&lt;/p>
-&lt;p>The code is &lt;a href="https://github.com/abelsiqueira/juliabg">here&lt;/a>, including some
-explaining on how to use and install it.&lt;/p>
-&lt;p>Here are some examples:&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex1.png" alt="">
-&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex2.png" alt="">
-&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex3.png" alt="">
-&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex4.png" alt="">&lt;/p></description></item></channel></rss>
+After some thought, I decided to use some &lt;a href="https://en.wikipedia.org/wiki/Julia_set"&gt;Julia
+fractals&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I made a code to create the Julia fractals in the &lt;a href="https://julialang.org"&gt;Julia
+language&lt;/a&gt;, and then some code to run it for a random
+point.&lt;/p&gt;
+&lt;p&gt;The code is &lt;a href="https://github.com/abelsiqueira/juliabg"&gt;here&lt;/a&gt;, including some
+explaining on how to use and install it.&lt;/p&gt;
+&lt;p&gt;Here are some examples:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex1.png" alt=""&gt;
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex2.png" alt=""&gt;
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex3.png" alt=""&gt;
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex4.png" alt=""&gt;&lt;/p&gt;</description></item></channel></rss>

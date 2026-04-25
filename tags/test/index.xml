@@ -1,20 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on Abel Soares Siqueira</title><link>/tags/test/</link><description>Recent content in Test on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Package Development in Julia 1.0 using the REPL</title><link>/blog/2018-12-05-package-development-on-julia-10/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-05-package-development-on-julia-10/</guid><description>&lt;p>This is a quick post on package development in Julia 1.0. Let me know if you&amp;rsquo;re
-interested in more, and what.&lt;/p>
-&lt;p>Suppose you&amp;rsquo;re developing a package - say, &lt;code>MyPackage.jl&lt;/code> - whether from scratch, or
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on Abel Soares Siqueira</title><link>/tags/test/</link><description>Recent content in Test on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>TestItems - Modern Julia testing</title><link>/blog/2026-04-25-testitems-modern-testing-for-julia/</link><pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate><guid>/blog/2026-04-25-testitems-modern-testing-for-julia/</guid><description>&lt;p&gt;This post is the written companion for my video on &lt;a href="https://youtu.be/vr2P9t-EnuU"&gt;TestItems&lt;/a&gt;.
+Liking and subscribing there is appreciated.&lt;/p&gt;
+&lt;p&gt;TestItems is a modern testing framework for Julia allowing parallel testing, isolation, setup steps, and filtering.
+It has a nice VSCode integration, and through TestItemRunner, it can be used with Revise to automatically rerun tests, or by AI agents via julia-mcp to improve iteration speed.
+The official website is &lt;a href="https://julia-testitems.org/"&gt;https://julia-testitems.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This post is aimed at anyone developing packages in Julia.&lt;/p&gt;</description></item><item><title>Package Development in Julia 1.0 using the REPL</title><link>/blog/2018-12-05-package-development-on-julia-10/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>/blog/2018-12-05-package-development-on-julia-10/</guid><description>&lt;p&gt;This is a quick post on package development in Julia 1.0. Let me know if you&amp;rsquo;re
+interested in more, and what.&lt;/p&gt;
+&lt;p&gt;Suppose you&amp;rsquo;re developing a package - say, &lt;code&gt;MyPackage.jl&lt;/code&gt; - whether from scratch, or
 updating from Julia 0.6.
 First, and foremost, you need to be able to run and test it.
-On Julia 1.0, this is one possible way, while using the REPL.&lt;/p>
-&lt;p>&lt;strong>Choose a folder to develop it and create the necessary files&lt;/strong>&lt;/p></description></item><item><title>Automated testing</title><link>/blog/2016-02-21-automated-testing/</link><pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-21-automated-testing/</guid><description>&lt;p>We&amp;rsquo;re gonna learn how to make a test for your Julia code that runs whenever you
-publish it online. We&amp;rsquo;re gonna use&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="http://github.com">GitHub&lt;/a> to store the code;&lt;/li>
-&lt;li>&lt;a href="http://travis-ci.com">Travis CI&lt;/a> to run your tests;&lt;/li>
-&lt;li>&lt;a href="http://coveralls.io">Coveralls.io&lt;/a> to verify which lines of code your test are missing.&lt;/li>
-&lt;/ul>
-&lt;p>Alternatively, for a open source alternative, see &lt;a href="http://gitlab.com">GitLab&lt;/a>,
-which I don&amp;rsquo;t know enough yet.&lt;/p>
-&lt;hr>
-&lt;p>Let&amp;rsquo;s make a litte code to solve a linear system, paying attention to the
+On Julia 1.0, this is one possible way, while using the REPL.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Choose a folder to develop it and create the necessary files&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Automated testing</title><link>/blog/2016-02-21-automated-testing/</link><pubDate>Sun, 21 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-21-automated-testing/</guid><description>&lt;p&gt;We&amp;rsquo;re gonna learn how to make a test for your Julia code that runs whenever you
+publish it online. We&amp;rsquo;re gonna use&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://github.com"&gt;GitHub&lt;/a&gt; to store the code;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://travis-ci.com"&gt;Travis CI&lt;/a&gt; to run your tests;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://coveralls.io"&gt;Coveralls.io&lt;/a&gt; to verify which lines of code your test are missing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alternatively, for a open source alternative, see &lt;a href="http://gitlab.com"&gt;GitLab&lt;/a&gt;,
+which I don&amp;rsquo;t know enough yet.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Let&amp;rsquo;s make a litte code to solve a linear system, paying attention to the
 problems it may arise, like incorrect dimensions, underdetermined and
 overdetermined systems, singular matrices, etc.
-And we&amp;rsquo;ll be using the factorizations, but not &lt;code>\&lt;/code>.&lt;/p></description></item></channel></rss>
+And we&amp;rsquo;ll be using the factorizations, but not &lt;code&gt;\&lt;/code&gt;.&lt;/p&gt;</description></item></channel></rss>

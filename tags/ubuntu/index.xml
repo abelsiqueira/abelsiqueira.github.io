@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on Abel Soares Siqueira</title><link>/tags/ubuntu/</link><description>Recent content in Ubuntu on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 23 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu graphic interface stopped working</title><link>/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</link><pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</guid><description>&lt;p>Some time ago, I helped a colleague &lt;a href="%7B%7Blocal_prefix%7D%7D/instalando-o-ubuntu-14.10-no-sony-vaio/">install Ubuntu in a Sony Vaio, which ended
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on Abel Soares Siqueira</title><link>/tags/ubuntu/</link><description>Recent content in Ubuntu on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 23 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu graphic interface stopped working</title><link>/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</link><pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate><guid>/blog/2016-02-23-ubuntu-graphic-interface-stopped-working/</guid><description>&lt;p&gt;Some time ago, I helped a colleague &lt;a href="%7B%7Blocal_prefix%7D%7D/instalando-o-ubuntu-14.10-no-sony-vaio/"&gt;install Ubuntu in a Sony Vaio, which ended
 up having SSD
-problems&lt;/a>.
+problems&lt;/a&gt;.
 Today, his computer started without the bar and menu from Unity.
 Only the desktop and icons were appearing, and the keyboards shortcuts were also
-not working.&lt;/p>
-&lt;p>To fix, I found &lt;a href="http://askubuntu.com/questions/17381/unity-doesnt-load-no-launcher-no-dash-appears">this askubuntu
-question&lt;/a>,
-that worked like a charm.&lt;/p>
-&lt;p>The steps were simply:&lt;/p>
-&lt;ol>
-&lt;li>Enter the terminal mode with Ctrl+Shift+F2 (or other number);&lt;/li>
-&lt;li>Login;&lt;/li>
-&lt;li>Enter the commands&lt;/li>
-&lt;/ol>
-&lt;pre tabindex="0">&lt;code>export DISPLAY=:0
+not working.&lt;/p&gt;
+&lt;p&gt;To fix, I found &lt;a href="http://askubuntu.com/questions/17381/unity-doesnt-load-no-launcher-no-dash-appears"&gt;this askubuntu
+question&lt;/a&gt;,
+that worked like a charm.&lt;/p&gt;
+&lt;p&gt;The steps were simply:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Enter the terminal mode with Ctrl+Shift+F2 (or other number);&lt;/li&gt;
+&lt;li&gt;Login;&lt;/li&gt;
+&lt;li&gt;Enter the commands&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;export DISPLAY=:0
 sudo dconf reset -f /org/compiz/
 setsid unity
-&lt;/code>&lt;/pre>&lt;ol start="4">
-&lt;li>Reboot with&lt;/li>
-&lt;/ol>
-&lt;pre tabindex="0">&lt;code>sudo reboot
-&lt;/code>&lt;/pre>&lt;ol start="5">
-&lt;li>Verify everything is working now.&lt;/li>
-&lt;/ol>
-&lt;p>This was enough to fix it.&lt;/p></description></item><item><title>Instalando o Ubuntu 14.10 no Sony Vaio (Problemas com o SSD)</title><link>/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</link><pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate><guid>/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</guid><description>&lt;p>Hoje instalei em dual-boot o Ubuntu 14.10 e o windows 8.
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="4"&gt;
+&lt;li&gt;Reboot with&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="5"&gt;
+&lt;li&gt;Verify everything is working now.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This was enough to fix it.&lt;/p&gt;</description></item><item><title>Instalando o Ubuntu 14.10 no Sony Vaio (Problemas com o SSD)</title><link>/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</link><pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate><guid>/blog/2015-01-12-instalando-o-ubuntu-1410-no-sony-vaio/</guid><description>&lt;p&gt;Hoje instalei em dual-boot o Ubuntu 14.10 e o windows 8.
 Não tive problemas com o UEFI, nem secure boot.
 Não tenho certeza, mas talvez o windows não seja o que veio
-de fábrica.&lt;/p>
-&lt;p>Eu já tinha um USB com o Ubuntu 14.10, então pluguei-o
+de fábrica.&lt;/p&gt;
+&lt;p&gt;Eu já tinha um USB com o Ubuntu 14.10, então pluguei-o
 e bootei o computador.
 F12-F12-F12-F12&amp;hellip; A tela de seleção de boot não apareceu,
-mas o usb foi escolhido automaticamente.&lt;/p>
-&lt;p>O ubuntu bootou e selecionei instalar.
+mas o usb foi escolhido automaticamente.&lt;/p&gt;
+&lt;p&gt;O ubuntu bootou e selecionei instalar.
 Escolhi o particionamento manual,
 que é minha escolha usual.
 Normalmente faço o particionamento manual,
 porque não gosto quando eles criam (criavam, não sei
-se continuam) apenas o &lt;code>/&lt;/code> e o &lt;code>swap&lt;/code>.
+se continuam) apenas o &lt;code&gt;/&lt;/code&gt; e o &lt;code&gt;swap&lt;/code&gt;.
 O windows estava instalado em duas partições num SSD.
 Selecionei a correspondente, redimensionei, criei 3 partições lógicas
-(&lt;code>/&lt;/code>, &lt;code>swap&lt;/code>, e &lt;code>/home&lt;/code>), e mandei instalar.
-A instalação não teve problemas. Aí eu bootei e deu erro.&lt;/p></description></item></channel></rss>
+(&lt;code&gt;/&lt;/code&gt;, &lt;code&gt;swap&lt;/code&gt;, e &lt;code&gt;/home&lt;/code&gt;), e mandei instalar.
+A instalação não teve problemas. Aí eu bootei e deu erro.&lt;/p&gt;</description></item></channel></rss>

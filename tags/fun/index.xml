@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun on Abel Soares Siqueira</title><link>/tags/fun/</link><description>Recent content in Fun on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 15 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>Julia Fractal on Julia</title><link>/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>/blog/2017-01-15-julia-fractal-on-julia/</guid><description>&lt;p>I wanted a background that would update automatically in some
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun on Abel Soares Siqueira</title><link>/tags/fun/</link><description>Recent content in Fun on Abel Soares Siqueira</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 15 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>Julia Fractal on Julia</title><link>/blog/2017-01-15-julia-fractal-on-julia/</link><pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate><guid>/blog/2017-01-15-julia-fractal-on-julia/</guid><description>&lt;p&gt;I wanted a background that would update automatically in some
 interesting way, instead of just random images.
-After some thought, I decided to use some &lt;a href="https://en.wikipedia.org/wiki/Julia_set">Julia
-fractals&lt;/a>.&lt;/p>
-&lt;p>I made a code to create the Julia fractals in the &lt;a href="https://julialang.org">Julia
-language&lt;/a>, and then some code to run it for a random
-point.&lt;/p>
-&lt;p>The code is &lt;a href="https://github.com/abelsiqueira/juliabg">here&lt;/a>, including some
-explaining on how to use and install it.&lt;/p>
-&lt;p>Here are some examples:&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex1.png" alt="">
-&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex2.png" alt="">
-&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex3.png" alt="">
-&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex4.png" alt="">&lt;/p></description></item><item><title>Advent of Code 2016 in Julia</title><link>/blog/2016-12-18-advent-of-code-2016-in-julia/</link><pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate><guid>/blog/2016-12-18-advent-of-code-2016-in-julia/</guid><description>&lt;p>Last year I discovered by chance a code competition that happens in the month
-of December: The &lt;a href="http://adventofcode.com">Advent of Code&lt;/a>.
+After some thought, I decided to use some &lt;a href="https://en.wikipedia.org/wiki/Julia_set"&gt;Julia
+fractals&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I made a code to create the Julia fractals in the &lt;a href="https://julialang.org"&gt;Julia
+language&lt;/a&gt;, and then some code to run it for a random
+point.&lt;/p&gt;
+&lt;p&gt;The code is &lt;a href="https://github.com/abelsiqueira/juliabg"&gt;here&lt;/a&gt;, including some
+explaining on how to use and install it.&lt;/p&gt;
+&lt;p&gt;Here are some examples:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex1.png" alt=""&gt;
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex2.png" alt=""&gt;
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex3.png" alt=""&gt;
+&lt;img src="https://raw.githubusercontent.com/abelsiqueira/juliabg/master/ex4.png" alt=""&gt;&lt;/p&gt;</description></item><item><title>Advent of Code 2016 in Julia</title><link>/blog/2016-12-18-advent-of-code-2016-in-julia/</link><pubDate>Sun, 18 Dec 2016 00:00:00 +0000</pubDate><guid>/blog/2016-12-18-advent-of-code-2016-in-julia/</guid><description>&lt;p&gt;Last year I discovered by chance a code competition that happens in the month
+of December: The &lt;a href="http://adventofcode.com"&gt;Advent of Code&lt;/a&gt;.
 This event consists of small puzzles release every day of December, up to the
-25th. Which amounts to 25 problems! (I can do math).&lt;/p>
-&lt;p>Last year I tried doing some on Bash, and latter switched to Julia, but never
+25th. Which amounts to 25 problems! (I can do math).&lt;/p&gt;
+&lt;p&gt;Last year I tried doing some on Bash, and latter switched to Julia, but never
 got to finish them.
-This year I decided to use &lt;a href="https://julialang.org">Julia&lt;/a>, because I want to
+This year I decided to use &lt;a href="https://julialang.org"&gt;Julia&lt;/a&gt;, because I want to
 test it for these general problems. Some problems are very hard, and I want
-to have the packages at my disposal.&lt;/p></description></item><item><title>SiCLIPoD - Um Gerenciador de Podcasts Simples em Linha de Comando</title><link>/blog/2014-12-11-siclipod-um-gerenciador-de-podcasts-simples-em-linha-de-comando/</link><pubDate>Thu, 11 Dec 2014 00:00:00 +0000</pubDate><guid>/blog/2014-12-11-siclipod-um-gerenciador-de-podcasts-simples-em-linha-de-comando/</guid><description>&lt;p>Há algum tempo eu, esporadicamente, eu escuto o podcast do &lt;a href="http://jovemnerd.com.br/categoria/nerdcast/">Jovem
-Nerd&lt;/a>.
+to have the packages at my disposal.&lt;/p&gt;</description></item><item><title>SiCLIPoD - Um Gerenciador de Podcasts Simples em Linha de Comando</title><link>/blog/2014-12-11-siclipod-um-gerenciador-de-podcasts-simples-em-linha-de-comando/</link><pubDate>Thu, 11 Dec 2014 00:00:00 +0000</pubDate><guid>/blog/2014-12-11-siclipod-um-gerenciador-de-podcasts-simples-em-linha-de-comando/</guid><description>&lt;p&gt;Há algum tempo eu, esporadicamente, eu escuto o podcast do &lt;a href="http://jovemnerd.com.br/categoria/nerdcast/"&gt;Jovem
+Nerd&lt;/a&gt;.
 Mas acessar o site é chato, então eu fui procurar um gerenciador de podcasts.
-Não gostei de nenhum (o &lt;a href="http://gpodder.org/">gpodder&lt;/a> quase foi escolhido).
+Não gostei de nenhum (o &lt;a href="http://gpodder.org/"&gt;gpodder&lt;/a&gt; quase foi escolhido).
 Daí, resolvi cria um no estilo que eu gosto.
 Falta MUITO pra ficar bom mas pode ser de alguma utilidade para alguém.
-O código está no &lt;a href="https://github.com/abelsiqueira/siclipod">GitHub&lt;/a>.
-O básico pra funcionar é&lt;/p>
-&lt;pre tabindex="0">&lt;code>siclipod add URL
+O código está no &lt;a href="https://github.com/abelsiqueira/siclipod"&gt;GitHub&lt;/a&gt;.
+O básico pra funcionar é&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;siclipod add URL
 siclipod list
 siclipod list NAME
 siclipod search NAME STUFF
 siclipod download NAME STUFF
 siclipod play NAME STUFF
-&lt;/code>&lt;/pre>&lt;p>O normal é tocar com o &lt;code>smplayer&lt;/code>,
-mas você pode editar &lt;code>$HOME/.siclipod/.config&lt;/code> para colocar o que quiser.
-Nem o README eu completei ainda.&lt;/p></description></item><item><title>Jogos de Tabuleiro</title><link>/blog/2014-06-04-jogos-de-tabuleiro/</link><pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate><guid>/blog/2014-06-04-jogos-de-tabuleiro/</guid><description>&lt;p>Eu (não tão) recementemente me interessei em jogos de tabuleiro. Para
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;O normal é tocar com o &lt;code&gt;smplayer&lt;/code&gt;,
+mas você pode editar &lt;code&gt;$HOME/.siclipod/.config&lt;/code&gt; para colocar o que quiser.
+Nem o README eu completei ainda.&lt;/p&gt;</description></item><item><title>Jogos de Tabuleiro</title><link>/blog/2014-06-04-jogos-de-tabuleiro/</link><pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate><guid>/blog/2014-06-04-jogos-de-tabuleiro/</guid><description>&lt;p&gt;Eu (não tão) recementemente me interessei em jogos de tabuleiro. Para
 clarificar, não estou me referindo aos jogos de tabuleiro &amp;ldquo;clássicos&amp;rdquo;, como War,
 Banco Imobiliário, etc.. Estou me referindo aos jogos de tabuleiro com mecânica
 avançada. Isso não significa que todos eles são complexos, mas que eles são (em
@@ -43,5 +43,5 @@ sua maioria) bem pensados e balanceados.
 Esse jogos de tabuleiro juntaram uma legião de seguidores, a maioria geeks e
 nerds, que está interessada em algum hobby legal. Note que RPG e jogos digitais
 normalmente são parte desses hobbies.
-Mais informações podem ser obtidas no ótimo site &lt;a href="http://www.boardgamegeek.com">board game
-geek&lt;/a>.&lt;/p></description></item></channel></rss>
+Mais informações podem ser obtidas no ótimo site &lt;a href="http://www.boardgamegeek.com"&gt;board game
+geek&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
